@@ -1,6 +1,6 @@
 # Jira AI Analytics Agent - Complete Documentation
 
-**Author:** Mark + AI  
+**Author:** mj3b + AI  
 **Version:** 1.0  
 **Date:** June 2025
 
