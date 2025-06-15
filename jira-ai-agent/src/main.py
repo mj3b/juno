@@ -1,6 +1,15 @@
+"""
+JUNO - Jira AI Analytics Agent
+Main Flask application entry point.
+
+This module initializes the Flask application and configures all routes,
+database connections, and middleware for the JUNO AI analytics system.
+"""
+
 import os
 import sys
-# DON'T CHANGE THIS !!!
+
+# Add the src directory to the Python path for imports
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 from flask import Flask, send_from_directory
@@ -18,7 +27,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 app = Flask(__name__, static_folder=os.path.join(os.path.dirname(__file__), 'static'))
-app.config['SECRET_KEY'] = 'asdf#FGSgvasgf$5$WGT'
+app.config["SECRET_KEY"] = os.environ.get("FLASK_SECRET_KEY", "a_very_secret_key_fallback_for_dev")
 
 # Enable CORS for all routes
 CORS(app)
