@@ -71,20 +71,20 @@ JUNO transforms reactive AI assistants into proactive agentic workflow orchestra
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    JUNO Enterprise Platform                 │
+│                  JUNO Enterprise Platform                   │
 ├─────────────────────────────────────────────────────────────┤
-│  API Gateway (FastAPI) + Load Balancer                     │
+│           API Gateway (FastAPI) + Load Balancer             │
 ├─────────────────┬─────────────────┬─────────────────────────┤
 │   Phase 2       │   Phase 3       │   Phase 4               │
 │   Agentic AI    │   Multi-Agent   │   AI-Native Ops         │
 ├─────────────────┼─────────────────┼─────────────────────────┤
-│ • Memory Layer  │ • Orchestrator  │ • RL Optimizer         │
-│ • Reasoning     │ • Consensus     │ • Threat Detection     │
-│ • Risk Forecast │ • Coordination  │ • Self-Healing         │
-│ • Governance    │ • Discovery     │ • Predictive Scaling   │
+│ • Memory Layer  │ • Orchestrator  │ • RL Optimizer          │
+│ • Reasoning     │ • Consensus     │ • Threat Detection      │
+│ • Risk Forecast │ • Coordination  │ • Self-Healing          │
+│ • Governance    │ • Discovery     │ • Predictive Scaling    │
 ├─────────────────┴─────────────────┴─────────────────────────┤
-│              Shared Infrastructure                          │
-│  • PostgreSQL  • Redis  • Elasticsearch  • Monitoring     │
+│                  Shared Infrastructure                      │
+│    • PostgreSQL  • Redis  • Elasticsearch  • Monitoring     │
 └─────────────────────────────────────────────────────────────┘
 ```
 
