@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 class GPTProvider(Enum):
     """Enumeration of supported GPT providers"""
     OPENAI = "openai"
-    TMOBILE = "tmobile"
+    ENTERPRISE = "enterprise"
     AZURE_OPENAI = "azure_openai"
     CUSTOM = "custom"
 
@@ -106,13 +106,11 @@ class OpenAIConnector(BaseGPTConnector):
             "usage": data.get("usage", {}),
             "model": data.get("model"),
             "provider": self.config.provider.value
-        }
-
-class TMobileGPTConnector(BaseGPTConnector):
-    """T-Mobile Enterprise GPT connector"""
+     class EnterpriseGPTConnector(BaseGPTConnector):
+    """Enterprise GPT connector"""
     
     def _setup_authentication(self):
-        """Setup T-Mobile GPT authentication"""
+        """Setup Enterprise GPT authentication"""
         if self.config.auth_type == "bearer":
             self.session.headers.update({
                 "Authorization": f"Bearer {self.config.api_key}",
@@ -129,47 +127,46 @@ class TMobileGPTConnector(BaseGPTConnector):
                 "Content-Type": "application/json"
             })
         
+        # Add any custom headers
         if self.config.headers:
             self.session.headers.update(self.config.headers)
     
     def _format_request(self, messages: List[Dict[str, str]], **kwargs) -> Dict[str, Any]:
-        """Format request for T-Mobile GPT API"""
-        # T-Mobile's IntentCX might have a different request format
+        """Format request for Enterprise GPT API"""
+        # Enterprise GPT might have a different request format
         return {
-            "model": self.config.model_name,
             "messages": messages,
-            "max_tokens": kwargs.get("max_tokens", self.config.max_tokens),
-            "temperature": kwargs.get("temperature", self.config.temperature),
-            "intent_analysis": kwargs.get("intent_analysis", True),
-            "real_time_context": kwargs.get("real_time_context", True)
+            "model": self.config.model_name,
+            "max_tokens": self.config.max_tokens,
+            "temperature": self.config.temperature,
+            **kwargs
         }
     
-    def _parse_response(self, response: requests.Response) -> Dict[str, Any]:
-        """Parse T-Mobile GPT response"""
-        data = response.json()
+    def _parse_response(self, response_data: Dict[str, Any]) -> Dict[str, Any]:
+        """Parse Enterprise GPT response"""
         
-        # Handle T-Mobile's IntentCX response format
-        if "intent" in data:
+        # Handle Enterprise GPT response format
+        if "response" in response_data:
+            # Direct response format
             return {
-                "content": data.get("response", data.get("content", "")),
-                "intent": data.get("intent"),
-                "confidence": data.get("confidence"),
-                "suggested_actions": data.get("suggested_actions", []),
-                "usage": data.get("usage", {}),
-                "model": data.get("model"),
-                "provider": self.config.provider.value
+                "content": response_data["response"],
+                "intent": response_data.get("intent"),
+                "confidence": response_data.get("confidence"),
+                "suggested_actions": response_data.get("suggested_actions", []),
+                "usage": response_data.get("usage", {}),
+                "model": response_data.get("model", self.config.model_name)
+            }
+        elif "choices" in response_data and len(response_data["choices"]) > 0:
+            # OpenAI-compatible format
+            choice = response_data["choices"][0]
+            message = choice.get("message", {})
+            return {
+                "content": message.get("content", ""),
+                "usage": response_data.get("usage", {}),
+                "model": response_data.get("model", self.config.model_name)
             }
         else:
-            # Fallback to standard format
-            return {
-                "content": data.get("choices", [{}])[0].get("message", {}).get("content", ""),
-                "usage": data.get("usage", {}),
-                "model": data.get("model"),
-                "provider": self.config.provider.value
-            }
-
-class AzureOpenAIConnector(BaseGPTConnector):
-    """Azure OpenAI GPT connector"""
+            raise ValueError(f"Unexpected response format: {response_data}")nAI GPT connector"""
     
     def _setup_authentication(self):
         """Setup Azure OpenAI authentication"""
@@ -263,7 +260,7 @@ class EnterpriseGPTManager:
         """Add a GPT provider"""
         connector_map = {
             GPTProvider.OPENAI: OpenAIConnector,
-            GPTProvider.TMOBILE: TMobileGPTConnector,
+            GPTProvider.ENTERPRISE: EnterpriseGPTConnector,
             GPTProvider.AZURE_OPENAI: AzureOpenAIConnector,
             GPTProvider.CUSTOM: CustomGPTConnector
         }
@@ -312,17 +309,17 @@ def create_gpt_config_from_env() -> Dict[str, GPTConfig]:
             temperature=float(os.getenv("OPENAI_TEMPERATURE", "0.7"))
         )
     
-    # T-Mobile Configuration
-    if os.getenv("TMOBILE_GPT_API_KEY"):
-        configs["tmobile"] = GPTConfig(
-            provider=GPTProvider.TMOBILE,
-            api_endpoint=os.getenv("TMOBILE_GPT_ENDPOINT", "https://api.tmobile-gpt.com/v1/chat/completions"),
-            api_key=os.getenv("TMOBILE_GPT_API_KEY"),
-            model_name=os.getenv("TMOBILE_GPT_MODEL", "intentcx-1"),
-            max_tokens=int(os.getenv("TMOBILE_GPT_MAX_TOKENS", "1000")),
-            temperature=float(os.getenv("TMOBILE_GPT_TEMPERATURE", "0.7")),
-            auth_type=os.getenv("TMOBILE_GPT_AUTH_TYPE", "bearer"),
-            custom_auth_header=os.getenv("TMOBILE_GPT_AUTH_HEADER")
+    # Enterprise GPT Configuration
+    if os.getenv("ENTERPRISE_GPT_API_KEY"):
+        configs["enterprise"] = GPTConfig(
+            provider=GPTProvider.ENTERPRISE,
+            api_endpoint=os.getenv("ENTERPRISE_GPT_ENDPOINT", "https://api.enterprise-gpt.com/v1/chat/completions"),
+            api_key=os.getenv("ENTERPRISE_GPT_API_KEY"),
+            model_name=os.getenv("ENTERPRISE_GPT_MODEL", "enterprise-intent-engine"),
+            max_tokens=int(os.getenv("ENTERPRISE_GPT_MAX_TOKENS", "1000")),
+            temperature=float(os.getenv("ENTERPRISE_GPT_TEMPERATURE", "0.7")),
+            auth_type=os.getenv("ENTERPRISE_GPT_AUTH_TYPE", "bearer"),
+            custom_auth_header=os.getenv("ENTERPRISE_GPT_AUTH_HEADER")
         )
     
     # Azure OpenAI Configuration

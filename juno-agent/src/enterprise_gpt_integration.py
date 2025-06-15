@@ -8,7 +8,7 @@ from .enterprise_gpt_connector import EnterpriseGPTManager, create_gpt_config_fr
 
 class EnterpriseGPTIntegration:
     """
-    Enterprise GPT integration supporting multiple providers (OpenAI, T-Mobile, Azure, Custom)
+    Enterprise GPT integration supporting multiple providers (OpenAI, Enterprise, Azure, Custom)
     for enhanced natural language processing in the JUNO.
     """
     

@@ -7,7 +7,7 @@ import time
 class EnhancedNLPProcessor:
     """
     Enhanced NLP processor that combines local pattern matching
-    with Enterprise GPT capabilities (OpenAI, T-Mobile, Azure, Custom) 
+    with Enterprise GPT capabilities (OpenAI, Enterprise, Azure, Custom) 
     for superior query understanding.
     """
     
@@ -27,7 +27,7 @@ class EnhancedNLPProcessor:
         
         # Provider-specific configurations
         self.provider_preferences = {
-            'tmobile': {
+            'enterprise': {
                 'use_for_intent_analysis': True,
                 'use_for_real_time_context': True,
                 'confidence_boost': 0.1
@@ -139,8 +139,8 @@ class EnhancedNLPProcessor:
         if self._requires_context_resolution(query, context):
             return "gpt_enhanced", selected_provider
         
-        # T-Mobile specific: Use for intent analysis
-        if selected_provider == "tmobile" and self._benefits_from_intent_analysis(query):
+        # Enterprise GPT specific: Use for intent analysis
+        if selected_provider == "enterprise" and self._benefits_from_intent_analysis(query):
             return "gpt_enhanced", selected_provider
         
         # Medium confidence - use hybrid approach
@@ -162,12 +162,12 @@ class EnhancedNLPProcessor:
         if preferred_provider and preferred_provider in available_providers:
             return preferred_provider
         
-        # T-Mobile IntentCX for intent-heavy queries
-        if "tmobile" in available_providers:
+        # Enterprise GPT Enterprise Intent Engine for intent-heavy queries
+        if "enterprise" in available_providers:
             if self._benefits_from_intent_analysis(query):
-                return "tmobile"
+                return "enterprise"
             if self._is_real_time_query(query):
-                return "tmobile"
+                return "enterprise"
         
         # OpenAI for complex analytical queries
         if "openai" in available_providers:
@@ -183,7 +183,7 @@ class EnhancedNLPProcessor:
         return available_providers[0]
     
     def _benefits_from_intent_analysis(self, query: str) -> bool:
-        """Check if query would benefit from T-Mobile's intent analysis."""
+        """Check if query would benefit from Enterprise GPT's intent analysis."""
         intent_keywords = [
             'want', 'need', 'should', 'could', 'would like',
             'help', 'show', 'find', 'get', 'tell me'
@@ -239,9 +239,9 @@ class EnhancedNLPProcessor:
             merged_result['processing_method'] = 'gpt_enhanced'
             merged_result['provider_used'] = provider or 'unknown'
             
-            # Handle T-Mobile specific features
-            if provider == "tmobile":
-                merged_result = self._handle_tmobile_features(merged_result, enhanced_result)
+            # Handle Enterprise GPT specific features
+            if provider == "enterprise":
+                merged_result = self._handle_enterprise_features(merged_result, enhanced_result)
             
             # Generate intelligent suggestions
             suggestions = self.enterprise_gpt.generate_intelligent_suggestions(
@@ -255,22 +255,22 @@ class EnhancedNLPProcessor:
             self.logger.error(f"Error in GPT enhancement: {str(e)}")
             return self._fallback_to_local(local_result)
     
-    def _handle_tmobile_features(self, merged_result: Dict, enhanced_result: Dict) -> Dict[str, Any]:
-        """Handle T-Mobile IntentCX specific features."""
-        # Extract T-Mobile specific fields
+    def _handle_enterprise_features(self, merged_result: Dict, enhanced_result: Dict) -> Dict[str, Any]:
+        """Handle Enterprise GPT Enterprise Intent Engine specific features."""
+        # Extract Enterprise GPT specific fields
         if 'intent' in enhanced_result:
-            merged_result['tmobile_intent'] = enhanced_result['intent']
+            merged_result['enterprise_intent'] = enhanced_result['intent']
         
         if 'confidence' in enhanced_result:
-            # Apply T-Mobile confidence boost
-            boost = self.provider_preferences.get('tmobile', {}).get('confidence_boost', 0.1)
+            # Apply Enterprise GPT confidence boost
+            boost = self.provider_preferences.get('enterprise', {}).get('confidence_boost', 0.1)
             merged_result['confidence'] = min(enhanced_result['confidence'] + boost, 1.0)
         
         if 'suggested_actions' in enhanced_result:
             merged_result['suggested_actions'] = enhanced_result['suggested_actions']
         
-        # Mark as T-Mobile enhanced
-        merged_result['tmobile_enhanced'] = True
+        # Mark as Enterprise GPT enhanced
+        merged_result['enterprise_enhanced'] = True
         
         return merged_result
     
@@ -345,7 +345,7 @@ class EnhancedNLPProcessor:
         capabilities = {}
         
         for provider in self.enterprise_gpt.get_available_providers():
-            if provider == "tmobile":
+            if provider == "enterprise":
                 capabilities[provider] = {
                     "intent_analysis": True,
                     "real_time_context": True,
