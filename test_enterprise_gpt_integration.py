@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Test script for T-Mobile Enterprise GPT integration with JUNO.
-This script tests the adapted system with mock T-Mobile GPT endpoints.
+Test script for Enterprise GPT integration with JUNO.
+This script tests the adapted system with mock Enterprise GPT endpoints.
 """
 
 import os
@@ -18,20 +18,20 @@ from enterprise_gpt_connector import EnterpriseGPTManager, GPTConfig, GPTProvide
 from enterprise_gpt_integration import EnterpriseGPTIntegration
 from enhanced_nlp_processor_v2 import EnhancedNLPProcessor
 
-def create_mock_tmobile_config():
-    """Create mock T-Mobile GPT configuration."""
+def create_mock_enterprise_config():
+    """Create mock Enterprise GPT configuration."""
     return GPTConfig(
-        provider=GPTProvider.TMOBILE,
-        api_endpoint="https://mock-tmobile-gpt.com/v1/chat/completions",
-        api_key="tmob_mock_key_12345",
-        model_name="intentcx-test",
+        provider=GPTProvider.ENTERPRISE,
+        api_endpoint="https://mock-enterprise-gpt.com/v1/chat/completions",
+        api_key="ent_mock_key_12345",
+        model_name="enterprise-intent-engine",
         max_tokens=1000,
         temperature=0.7,
         auth_type="bearer"
     )
 
-def create_mock_tmobile_response():
-    """Create mock T-Mobile IntentCX response."""
+def create_mock_enterprise_response():
+    """Create mock Enterprise GPT response."""
     return {
         "response": "Based on the query analysis, you're asking about ticket assignments for John Doe in the DEMO project.",
         "intent": "assignee_count",
@@ -46,26 +46,26 @@ def create_mock_tmobile_response():
             "completion_tokens": 28,
             "total_tokens": 73
         },
-        "model": "intentcx-test"
+        "model": "enterprise-intent-engine"
     }
 
-def test_tmobile_connector():
-    """Test T-Mobile GPT connector functionality."""
-    print("🧪 Testing T-Mobile GPT Connector...")
+def test_enterprise_connector():
+    """Test Enterprise GPT connector functionality."""
+    print("🧪 Testing Enterprise GPT Connector...")
     
-    config = create_mock_tmobile_config()
+    config = create_mock_enterprise_config()
     
     with requests_mock.Mocker() as m:
-        # Mock the T-Mobile API endpoint
+        # Mock the Enterprise API endpoint
         m.post(
             config.api_endpoint,
-            json=create_mock_tmobile_response(),
+            json=create_mock_enterprise_response(),
             status_code=200
         )
         
         # Test the connector
-        from enterprise_gpt_connector import TMobileGPTConnector
-        connector = TMobileGPTConnector(config)
+        from enterprise_gpt_connector import EnterpriseGPTConnector
+        connector = EnterpriseGPTConnector(config)
         
         test_messages = [
             {"role": "user", "content": "How many tickets are assigned to John Doe in project DEMO?"}
@@ -74,7 +74,7 @@ def test_tmobile_connector():
         try:
             result = connector.generate_completion(test_messages)
             
-            print("✅ T-Mobile connector test successful!")
+            print("✅ Enterprise connector test successful!")
             print(f"   Response: {result['content'][:100]}...")
             print(f"   Intent: {result.get('intent', 'N/A')}")
             print(f"   Confidence: {result.get('confidence', 'N/A')}")
@@ -83,7 +83,7 @@ def test_tmobile_connector():
             return True
             
         except Exception as e:
-            print(f"❌ T-Mobile connector test failed: {e}")
+            print(f"❌ Enterprise connector test failed: {e}")
             return False
 
 def test_enterprise_gpt_manager():
@@ -92,14 +92,14 @@ def test_enterprise_gpt_manager():
     
     manager = EnterpriseGPTManager()
     
-    # Add mock T-Mobile provider
-    tmobile_config = create_mock_tmobile_config()
+    # Add mock Enterprise provider
+    enterprise_config = create_mock_enterprise_config()
     
     with requests_mock.Mocker() as m:
-        # Mock T-Mobile endpoint
+        # Mock Enterprise endpoint
         m.post(
-            tmobile_config.api_endpoint,
-            json=create_mock_tmobile_response(),
+            enterprise_config.api_endpoint,
+            json=create_mock_enterprise_response(),
             status_code=200
         )
         
@@ -120,23 +120,23 @@ def test_enterprise_gpt_manager():
         )
         
         try:
-            # Add T-Mobile provider
-            manager.add_provider("tmobile", tmobile_config)
+            # Add Enterprise provider
+            manager.add_provider("enterprise", enterprise_config)
             
             # Test provider availability
             providers = manager.get_available_providers()
             print(f"✅ Available providers: {providers}")
             
-            # Test completion with T-Mobile
-            if "tmobile" in providers:
-                manager.set_default_provider("tmobile")
+            # Test completion with Enterprise GPT
+            if "enterprise" in providers:
+                manager.set_default_provider("enterprise")
                 
                 test_messages = [
                     {"role": "user", "content": "Show me defect analysis for last sprint"}
                 ]
                 
                 result = manager.generate_completion(test_messages)
-                print(f"✅ T-Mobile completion successful!")
+                print(f"✅ Enterprise completion successful!")
                 print(f"   Provider: {result.get('provider', 'unknown')}")
                 print(f"   Intent: {result.get('intent', 'N/A')}")
                 
@@ -152,17 +152,17 @@ def test_enterprise_gpt_integration():
     
     # Mock environment variables
     with patch.dict(os.environ, {
-        'TMOBILE_GPT_API_KEY': 'tmob_mock_key_12345',
-        'TMOBILE_GPT_ENDPOINT': 'https://mock-tmobile-gpt.com/v1/chat/completions',
-        'TMOBILE_GPT_MODEL': 'intentcx-test',
-        'GPT_PREFERRED_PROVIDER': 'tmobile'
+        'ENTERPRISE_GPT_API_KEY': 'ent_mock_key_12345',
+        'ENTERPRISE_GPT_ENDPOINT': 'https://mock-enterprise-gpt.com/v1/chat/completions',
+        'ENTERPRISE_GPT_MODEL': 'enterprise-intent-engine',
+        'GPT_PREFERRED_PROVIDER': 'enterprise'
     }):
         
         with requests_mock.Mocker() as m:
-            # Mock T-Mobile endpoint
+            # Mock Enterprise endpoint
             m.post(
-                "https://mock-tmobile-gpt.com/v1/chat/completions",
-                json=create_mock_tmobile_response(),
+                "https://mock-enterprise-gpt.com/v1/chat/completions",
+                json=create_mock_enterprise_response(),
                 status_code=200
             )
             
@@ -177,7 +177,7 @@ def test_enterprise_gpt_integration():
                     result = integration.enhance_query_understanding(
                         "What's the velocity trend for our team?",
                         context={"project": "DEMO"},
-                        provider="tmobile"
+                        provider="enterprise"
                     )
                     
                     print(f"✅ Query enhancement successful!")
@@ -187,7 +187,7 @@ def test_enterprise_gpt_integration():
                     suggestions = integration.generate_intelligent_suggestions(
                         "Show me bug reports",
                         {"project": "DEMO", "sprint": "current"},
-                        provider="tmobile"
+                        provider="enterprise"
                     )
                     
                     print(f"✅ Suggestions generated: {len(suggestions)} suggestions")
@@ -202,21 +202,21 @@ def test_enterprise_gpt_integration():
                 return False
 
 def test_enhanced_nlp_processor():
-    """Test Enhanced NLP Processor with T-Mobile integration."""
+    """Test Enhanced NLP Processor with Enterprise GPT integration."""
     print("\n🧪 Testing Enhanced NLP Processor...")
     
     # Mock environment variables
     with patch.dict(os.environ, {
-        'TMOBILE_GPT_API_KEY': 'tmob_mock_key_12345',
-        'TMOBILE_GPT_ENDPOINT': 'https://mock-tmobile-gpt.com/v1/chat/completions',
-        'TMOBILE_GPT_MODEL': 'intentcx-test',
-        'GPT_PREFERRED_PROVIDER': 'tmobile'
+        'ENTERPRISE_GPT_API_KEY': 'ent_mock_key_12345',
+        'ENTERPRISE_GPT_ENDPOINT': 'https://mock-enterprise-gpt.com/v1/chat/completions',
+        'ENTERPRISE_GPT_MODEL': 'enterprise-intent-engine',
+        'GPT_PREFERRED_PROVIDER': 'enterprise'
     }):
         
         with requests_mock.Mocker() as m:
-            # Mock T-Mobile endpoint
+            # Mock Enterprise endpoint
             m.post(
-                "https://mock-tmobile-gpt.com/v1/chat/completions",
+                "https://mock-enterprise-gpt.com/v1/chat/completions",
                 json={
                     "response": '{"intent": "velocity_report", "confidence": 0.95, "entities": {"timeframe": "last quarter", "team": "our team"}, "enhanced_query": "Generate velocity analysis report for the team covering the last quarter period"}',
                     "intent": "velocity_report",
@@ -227,7 +227,7 @@ def test_enhanced_nlp_processor():
                         "Identify velocity blockers"
                     ],
                     "usage": {"total_tokens": 85},
-                    "model": "intentcx-test"
+                    "model": "enterprise-intent-engine"
                 },
                 status_code=200
             )
@@ -235,7 +235,7 @@ def test_enhanced_nlp_processor():
             try:
                 processor = EnhancedNLPProcessor()
                 
-                # Test query processing with T-Mobile
+                # Test query processing with Enterprise GPT
                 test_queries = [
                     "What's the velocity trend for our team last quarter?",
                     "Show me current sprint burndown",
@@ -249,7 +249,7 @@ def test_enhanced_nlp_processor():
                     result = processor.process_query(
                         query,
                         context={"project": "DEMO"},
-                        preferred_provider="tmobile"
+                        preferred_provider="enterprise"
                     )
                     
                     print(f"   ✅ Processing method: {result.get('processing_method', 'unknown')}")
@@ -257,8 +257,8 @@ def test_enhanced_nlp_processor():
                     print(f"   ✅ Intent: {result.get('intent', 'unknown')}")
                     print(f"   ✅ Confidence: {result.get('confidence', 0):.2f}")
                     
-                    if result.get('tmobile_enhanced'):
-                        print(f"   ✅ T-Mobile enhanced features active")
+                    if result.get('enterprise_enhanced'):
+                        print(f"   ✅ Enterprise enhanced features active")
                         if result.get('suggested_actions'):
                             print(f"   ✅ Suggested actions: {len(result['suggested_actions'])}")
                 
@@ -267,8 +267,8 @@ def test_enhanced_nlp_processor():
                 print(f"\n✅ Provider capabilities loaded: {list(capabilities.keys())}")
                 
                 # Test provider switching
-                if processor.switch_provider("tmobile"):
-                    print("✅ Successfully switched to T-Mobile provider")
+                if processor.switch_provider("enterprise"):
+                    print("✅ Successfully switched to Enterprise provider")
                 
                 return True
                 
@@ -282,18 +282,18 @@ def test_configuration_scenarios():
     
     scenarios = [
         {
-            "name": "T-Mobile Only",
+            "name": "Enterprise Only",
             "env": {
-                'TMOBILE_GPT_API_KEY': 'tmob_key',
-                'GPT_PREFERRED_PROVIDER': 'tmobile'
+                'ENTERPRISE_GPT_API_KEY': 'ent_key',
+                'GPT_PREFERRED_PROVIDER': 'enterprise'
             }
         },
         {
             "name": "Multi-Provider",
             "env": {
-                'TMOBILE_GPT_API_KEY': 'tmob_key',
+                'ENTERPRISE_GPT_API_KEY': 'ent_key',
                 'OPENAI_API_KEY': 'sk-openai_key',
-                'GPT_PREFERRED_PROVIDER': 'tmobile'
+                'GPT_PREFERRED_PROVIDER': 'enterprise'
             }
         },
         {
@@ -301,6 +301,14 @@ def test_configuration_scenarios():
             "env": {
                 'OPENAI_API_KEY': 'sk-openai_key',
                 'GPT_PREFERRED_PROVIDER': 'openai'
+            }
+        },
+        {
+            "name": "Azure Enterprise",
+            "env": {
+                'AZURE_OPENAI_API_KEY': 'azure_key',
+                'AZURE_OPENAI_ENDPOINT': 'https://your-resource.openai.azure.com/',
+                'GPT_PREFERRED_PROVIDER': 'azure'
             }
         }
     ]
@@ -321,16 +329,68 @@ def test_configuration_scenarios():
     
     return True
 
+def test_provider_fallback():
+    """Test provider fallback mechanisms."""
+    print("\n🧪 Testing Provider Fallback...")
+    
+    with patch.dict(os.environ, {
+        'ENTERPRISE_GPT_API_KEY': 'ent_key',
+        'OPENAI_API_KEY': 'sk-openai_key',
+        'GPT_PREFERRED_PROVIDER': 'enterprise'
+    }):
+        
+        with requests_mock.Mocker() as m:
+            # Mock Enterprise endpoint failure
+            m.post(
+                "https://mock-enterprise-gpt.com/v1/chat/completions",
+                status_code=503  # Service unavailable
+            )
+            
+            # Mock OpenAI endpoint success
+            m.post(
+                "https://api.openai.com/v1/chat/completions",
+                json={
+                    "choices": [
+                        {
+                            "message": {
+                                "content": "Fallback response from OpenAI"
+                            }
+                        }
+                    ],
+                    "usage": {"total_tokens": 25}
+                },
+                status_code=200
+            )
+            
+            try:
+                integration = EnterpriseGPTIntegration()
+                
+                # Test fallback behavior
+                result = integration.enhance_query_understanding(
+                    "Test fallback query",
+                    context={"project": "DEMO"}
+                )
+                
+                print("✅ Fallback mechanism working correctly")
+                print(f"   Fallback provider used: {result.get('provider_used', 'unknown')}")
+                
+                return True
+                
+            except Exception as e:
+                print(f"❌ Fallback test failed: {e}")
+                return False
+
 def run_all_tests():
-    """Run all T-Mobile GPT integration tests."""
-    print("🚀 Starting T-Mobile Enterprise GPT Integration Tests for JUNO\n")
+    """Run all Enterprise GPT integration tests."""
+    print("🚀 Starting Enterprise GPT Integration Tests for JUNO\n")
     
     tests = [
-        ("T-Mobile Connector", test_tmobile_connector),
+        ("Enterprise GPT Connector", test_enterprise_connector),
         ("Enterprise GPT Manager", test_enterprise_gpt_manager),
         ("Enterprise GPT Integration", test_enterprise_gpt_integration),
         ("Enhanced NLP Processor", test_enhanced_nlp_processor),
-        ("Configuration Scenarios", test_configuration_scenarios)
+        ("Configuration Scenarios", test_configuration_scenarios),
+        ("Provider Fallback", test_provider_fallback)
     ]
     
     results = []
@@ -362,7 +422,7 @@ def run_all_tests():
     print(f"\nOverall: {passed}/{total} tests passed")
     
     if passed == total:
-        print("🎉 All tests passed! T-Mobile GPT integration is ready.")
+        print("🎉 All tests passed! Enterprise GPT integration is ready.")
     else:
         print("⚠️  Some tests failed. Review the output above.")
     
