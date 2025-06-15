@@ -1,16 +1,16 @@
 # JUNO - Complete Documentation
 
 **Author:** mj3b + AI  
-**Version:** 1.0  
+**Version:** 2.0  
 **Date:** June 2025
 
 ## Executive Summary
 
-The JUNO represents a revolutionary approach to enterprise software engineering reporting and analytics. This comprehensive solution addresses the critical limitation of accessing specific reporting data in Jira by providing a sophisticated AI-powered interface that transforms natural language queries into actionable insights. The system enhances reporting capabilities and unlocks deeper insights including assignee ticket counts, custom metrics, velocity analysis, defect patterns, and advanced analytics that are not readily available through native Jira reporting interfaces.
+JUNO represents a revolutionary approach to enterprise software engineering reporting and analytics. This comprehensive AI-powered solution addresses the critical limitation of accessing specific reporting data in Jira by providing a sophisticated natural language interface that transforms conversational queries into actionable insights. The system enhances reporting capabilities and unlocks deeper insights including assignee ticket counts, custom metrics, velocity analysis, defect patterns, and advanced analytics that are not readily available through native Jira reporting interfaces.
 
-The value proposition of this solution extends far beyond traditional reporting tools. By implementing a natural language interface powered by advanced machine learning algorithms, the system democratizes access to complex analytics, enabling both technical and non-technical stakeholders to extract meaningful insights from Jira data without requiring deep knowledge of Jira Query Language (JQL) or complex reporting configurations. This capability significantly enhances developer velocity tracking, sprint analytics, quality metrics analysis, and provides enterprise-grade insights that drive informed decision-making across software engineering departments.
+The value proposition of JUNO extends far beyond traditional reporting tools. By implementing a conversational AI interface powered by advanced machine learning algorithms and enterprise GPT integration, the system democratizes access to complex analytics, enabling both technical and non-technical stakeholders to extract meaningful insights from Jira data without requiring deep knowledge of Jira Query Language (JQL) or complex reporting configurations. This capability significantly enhances developer velocity tracking, sprint analytics, quality metrics analysis, and provides enterprise-grade insights that drive informed decision-making across software engineering departments.
 
-The architecture encompasses a comprehensive full-stack solution featuring a robust Flask-based backend API that integrates seamlessly with Jira Cloud REST API v3, a sophisticated natural language processing engine capable of interpreting complex queries across multiple intent categories, an advanced analytics engine providing velocity tracking, defect pattern analysis, lead time calculations, and trend forecasting, and a modern React-based dashboard offering intuitive visualization and interactive reporting capabilities. The system supports enterprise-scale deployments with proper security configurations, rate limiting, error handling, and scalability considerations.
+The architecture encompasses a comprehensive full-stack solution featuring a robust Flask-based backend API that integrates seamlessly with Jira Cloud REST API v3, a sophisticated hybrid natural language processing engine capable of interpreting complex queries across multiple intent categories with both local NLP and enterprise GPT enhancement, an advanced analytics engine providing velocity tracking, defect pattern analysis, lead time calculations, and predictive forecasting, and a modern React-based dashboard offering intuitive visualization and interactive reporting capabilities. The system supports enterprise-scale deployments with proper security configurations, multi-provider GPT support, rate limiting, error handling, and scalability considerations.
 
 ## Table of Contents
 
