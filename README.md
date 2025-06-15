@@ -119,19 +119,19 @@ cp .env.demo .env
 ### **Phase 2 Components**
 ```
 📁 juno-agent/
-├── app_phase2.py              # Main Flask application
+├── app_phase2.py                   # Main Flask application
 ├── src/phase2/
-│   ├── memory_layer.py        # AI memory and learning
-│   ├── reasoning_engine.py    # Transparent reasoning
-│   ├── sprint_risk_forecast.py # Risk prediction
-│   ├── velocity_analysis.py   # Velocity tracking
-│   ├── stale_triage_resolution.py # Smart triage
-│   ├── governance_framework.py # Enterprise governance
-│   ├── database_setup.py      # Database management
-│   ├── service_integration.py # Service orchestration
-│   └── test_suite.py         # Comprehensive testing
-├── templates/phase2/          # Web dashboard UI
-└── static/phase2/            # CSS/JS assets
+│   ├── memory_layer.py             # AI memory and learning
+│   ├── reasoning_engine.py         # Transparent reasoning
+│   ├── sprint_risk_forecast.py     # Risk prediction
+│   ├── velocity_analysis.py        # Velocity tracking
+│   ├── stale_triage_resolution.py  # Smart triage
+│   ├── governance_framework.py     # Enterprise governance
+│   ├── database_setup.py           # Database management
+│   ├── service_integration.py      # Service orchestration
+│   └── test_suite.py               # Comprehensive testing
+├── templates/phase2/               # Web dashboard UI
+└── static/phase2/                  # CSS/JS assets
 ```
 
 ### **Technology Stack**
