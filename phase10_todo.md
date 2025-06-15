@@ -8,5 +8,5 @@
 - [x] Update NLP processing to work with T-Mobile's Enterprise GPT
 - [x] Test the adapted system with mock T-Mobile GPT endpoints
 - [x] Update all documentation to reflect the new enterprise GPT flexibility
-- [ ] Commit and push all changes to the repository
+- [x] Commit and push all changes to the repository
 
