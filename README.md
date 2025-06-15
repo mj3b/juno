@@ -217,23 +217,23 @@ python demo_scenarios.py
 
 ```
 juno/
-├── juno-agent/                 # Core application code
-│   ├── src/                    # Source code modules
-│   │   ├── phase2/            # Phase 2 agentic components
-│   │   ├── phase3/            # Phase 3 multi-agent orchestration
-│   │   └── phase4/            # Phase 4 AI-native operations
-│   ├── templates/             # Web interface templates
-│   ├── static/                # Static assets (CSS, JS)
-│   └── app_phase2.py          # Main Phase 2 application
-├── docs/                      # Comprehensive documentation
+├── juno-agent/                        # Core application code
+│   ├── src/                           # Source code modules
+│   │   ├── phase2/                    # Phase 2 agentic components
+│   │   ├── phase3/                    # Phase 3 multi-agent orchestration
+│   │   └── phase4/                    # Phase 4 AI-native operations
+│   ├── templates/                     # Web interface templates
+│   ├── static/                        # Static assets (CSS, JS)
+│   └── app_phase2.py                  # Main Phase 2 application
+├── docs/                              # Comprehensive documentation
 │   ├── ENTERPRISE_IMPLEMENTATION.md
 │   ├── TECHNICAL_SPECIFICATIONS.md
 │   └── API_REFERENCE.md
-├── tests/                     # Test suites and results
+├── tests/                             # Test suites and results
 │   ├── comprehensive_test_suite.py
 │   └── TEST_RESULTS.md
-├── deploy.sh                  # One-click deployment script
-└── README.md                  # This file
+├── deploy.sh                          # One-click deployment script
+└── README.md                          # This file
 ```
 
 ### Core Components
