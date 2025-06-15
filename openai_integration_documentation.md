@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Jira AI Analytics Agent now includes comprehensive integration with OpenAI's Enterprise GPT capabilities, providing advanced natural language understanding and generation features that significantly enhance the system's analytical capabilities and user experience.
+The JUNO now includes comprehensive integration with OpenAI's Enterprise GPT capabilities, providing advanced natural language understanding and generation features that significantly enhance the system's analytical capabilities and user experience.
 
 ## Integration Architecture
 
@@ -321,5 +321,5 @@ Get processing statistics and performance metrics
 - Collaborative analytics features
 - Advanced visualization and reporting
 
-This OpenAI integration represents a significant advancement in the Jira AI Analytics Agent's capabilities, providing enterprise-grade natural language understanding while maintaining the reliability, performance, and cost-effectiveness required for production deployments.
+This OpenAI integration represents a significant advancement in the JUNO's capabilities, providing enterprise-grade natural language understanding while maintaining the reliability, performance, and cost-effectiveness required for production deployments.
 

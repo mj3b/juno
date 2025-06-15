@@ -2,7 +2,7 @@
 
 ## Overview
 
-Based on research into OpenAI's Enterprise GPT capabilities, here are the key findings for integrating with our Jira AI Analytics Agent:
+Based on research into OpenAI's Enterprise GPT capabilities, here are the key findings for integrating with our JUNO:
 
 ## OpenAI API Integration Options
 
@@ -20,7 +20,7 @@ Based on research into OpenAI's Enterprise GPT capabilities, here are the key fi
 - **Custom model fine-tuning** on organizational data
 - **SSO integration** and enterprise authentication
 
-### 3. Integration Benefits for Jira AI Agent
+### 3. Integration Benefits for JUNO
 - **Improved Natural Language Understanding**: GPT-4's advanced language comprehension
 - **Better Intent Recognition**: More accurate parsing of complex queries
 - **Contextual Awareness**: Understanding of conversation history and context

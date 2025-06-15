@@ -1,9 +1,9 @@
-# Jira AI Analytics Agent - Final Deliverables
+# JUNO - Final Deliverables
 
 ## Complete System Components
 
 ### Backend API System
-- **Location**: `/home/ubuntu/jira-ai-agent/`
+- **Location**: `/home/ubuntu/juno-agent/`
 - **Main Application**: `src/main.py`
 - **Key Modules**:
   - `src/jira_connector.py` - Jira API integration
@@ -14,7 +14,7 @@
   - `src/query_processor.py` - Query execution
 
 ### Frontend Dashboard
-- **Location**: `/home/ubuntu/jira-ai-dashboard/`
+- **Location**: `/home/ubuntu/juno-dashboard/`
 - **Main Component**: `src/App.jsx`
 - **Production Build**: `dist/` directory
 - **Key Features**:
@@ -24,7 +24,7 @@
   - Modern UI components
 
 ### Documentation Package
-- **Comprehensive Documentation**: `jira_ai_agent_documentation.md` (PDF available)
+- **Comprehensive Documentation**: `juno_agent_documentation.md` (PDF available)
 - **Quick Start Guide**: `quick_start_guide.md`
 - **API Reference**: `api_reference.md`
 - **Deployment Guide**: `deployment_guide.md`
@@ -37,9 +37,9 @@
 - **Architecture Design**: `ai_agent_architecture.md`
 
 ### Testing and Validation
-- **NLP Test Script**: `jira-ai-agent/test_nlp.py`
-- **Analytics Test Script**: `jira-ai-agent/test_analytics.py`
-- **Jira Integration Test**: `jira-ai-agent/test_jira_integration.py`
+- **NLP Test Script**: `juno-agent/test_nlp.py`
+- **Analytics Test Script**: `juno-agent/test_analytics.py`
+- **Jira Integration Test**: `juno-agent/test_jira_integration.py`
 
 ## System Capabilities
 

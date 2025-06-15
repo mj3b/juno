@@ -1,4 +1,4 @@
-# Enhanced Jira AI Agent Architecture with OpenAI Integration
+# Enhanced JUNO Architecture with OpenAI Integration
 
 ## Integration Architecture Design
 

@@ -1,4 +1,4 @@
-# Jira AI Analytics Agent - API Reference
+# JUNO - API Reference
 
 ## Base URL
 ```

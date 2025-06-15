@@ -1,8 +1,8 @@
-# JUNO: The Jira AI Analytics Agent - Quick Start Guide
+# JUNO: The JUNO - Quick Start Guide
 
 ## Overview
 
-JUNO, the Jira AI Analytics Agent, is an enterprise-grade solution that transforms natural language queries into actionable Jira insights. This quick start guide will help you get the system running in under 30 minutes.
+JUNO, the JUNO, is an enterprise-grade solution that transforms natural language queries into actionable Jira insights. This quick start guide will help you get the system running in under 30 minutes.
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ JUNO, the Jira AI Analytics Agent, is an enterprise-grade solution that transfor
 1. **Clone and Setup Environment**
 ```bash
 # Navigate to the backend directory
-cd jira-ai-agent
+cd juno-agent
 
 # Create virtual environment
 python3.11 -m venv venv
@@ -44,7 +44,7 @@ python src/main.py
 
 1. **Install Dependencies**
 ```bash
-cd jira-ai-dashboard
+cd juno-dashboard
 npm install
 ```
 

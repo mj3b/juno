@@ -1,4 +1,4 @@
-# Jira AI Agent Deployment Guide
+# JUNO Deployment Guide
 
 ## System Requirements
 
@@ -19,8 +19,8 @@
 ## Deployment Options
 
 ### Option 1: Local Development
-1. Backend: `cd jira-ai-agent && source venv/bin/activate && python src/main.py`
-2. Frontend: `cd jira-ai-dashboard && npm run dev`
+1. Backend: `cd juno-agent && source venv/bin/activate && python src/main.py`
+2. Frontend: `cd juno-dashboard && npm run dev`
 
 ### Option 2: Production Deployment
 1. Backend: Deploy Flask app using Gunicorn/uWSGI

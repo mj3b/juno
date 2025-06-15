@@ -1,4 +1,4 @@
-# JUNO: The Jira AI Analytics Agent - Project Summary
+# JUNO: The JUNO - Project Summary
 
 ## Project Overview
 

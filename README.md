@@ -49,7 +49,7 @@ To get JUNO up and running, follow these simplified steps. For detailed instruct
     ```
 2.  **Backend Setup (Python/Flask):**
     ```bash
-    cd jira-ai-agent
+    cd juno-agent
     python3.11 -m venv venv
     source venv/bin/activate
     pip install -r requirements.txt
@@ -61,7 +61,7 @@ To get JUNO up and running, follow these simplified steps. For detailed instruct
     ```
 3.  **Frontend Setup (React):**
     ```bash
-    cd ../jira-ai-dashboard
+    cd ../juno-dashboard
     npm install
     npm run dev
     ```
@@ -72,7 +72,7 @@ Access the dashboard at `http://localhost:5173` and start asking JUNO questions!
 
 Dive deeper into JUNO's capabilities and architecture:
 
-*   [Complete Documentation](jira_ai_agent_documentation.md)
+*   [Complete Documentation](juno_agent_documentation.md)
 *   [OpenAI Integration Documentation](openai_integration_documentation.md)
 *   [API Reference](api_reference.md)
 *   [Deployment Guide](deployment_guide.md)

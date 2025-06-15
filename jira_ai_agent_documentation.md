@@ -1,4 +1,4 @@
-# Jira AI Analytics Agent - Complete Documentation
+# JUNO - Complete Documentation
 
 **Author:** mj3b + AI  
 **Version:** 1.0  
@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-The Jira AI Analytics Agent represents a revolutionary approach to enterprise software engineering reporting and analytics. This comprehensive solution addresses the critical limitation of accessing specific reporting data in Jira by providing a sophisticated AI-powered interface that transforms natural language queries into actionable insights. The system enhances reporting capabilities and unlocks deeper insights including assignee ticket counts, custom metrics, velocity analysis, defect patterns, and advanced analytics that are not readily available through native Jira reporting interfaces.
+The JUNO represents a revolutionary approach to enterprise software engineering reporting and analytics. This comprehensive solution addresses the critical limitation of accessing specific reporting data in Jira by providing a sophisticated AI-powered interface that transforms natural language queries into actionable insights. The system enhances reporting capabilities and unlocks deeper insights including assignee ticket counts, custom metrics, velocity analysis, defect patterns, and advanced analytics that are not readily available through native Jira reporting interfaces.
 
 The value proposition of this solution extends far beyond traditional reporting tools. By implementing a natural language interface powered by advanced machine learning algorithms, the system democratizes access to complex analytics, enabling both technical and non-technical stakeholders to extract meaningful insights from Jira data without requiring deep knowledge of Jira Query Language (JQL) or complex reporting configurations. This capability significantly enhances developer velocity tracking, sprint analytics, quality metrics analysis, and provides enterprise-grade insights that drive informed decision-making across software engineering departments.
 
@@ -27,7 +27,7 @@ The architecture encompasses a comprehensive full-stack solution featuring a rob
 
 ## System Architecture
 
-The Jira AI Analytics Agent employs a sophisticated multi-tier architecture designed to provide scalable, maintainable, and extensible analytics capabilities for enterprise software engineering environments. The architecture follows modern software engineering principles including separation of concerns, modular design, and API-first development approaches that ensure the system can evolve with changing business requirements and technological advancements.
+The JUNO employs a sophisticated multi-tier architecture designed to provide scalable, maintainable, and extensible analytics capabilities for enterprise software engineering environments. The architecture follows modern software engineering principles including separation of concerns, modular design, and API-first development approaches that ensure the system can evolve with changing business requirements and technological advancements.
 
 ### Backend Architecture
 
@@ -60,7 +60,7 @@ This data flow architecture supports both synchronous and asynchronous processin
 
 ## Natural Language Processing Engine
 
-The Natural Language Processing Engine represents the intellectual core of the Jira AI Analytics Agent, implementing sophisticated algorithms that bridge the gap between human communication patterns and structured data queries. This engine transforms the traditional paradigm of Jira reporting from a technical, query-language-dependent process into an intuitive, conversational experience that empowers users across all technical skill levels to access complex analytics and insights.
+The Natural Language Processing Engine represents the intellectual core of the JUNO, implementing sophisticated algorithms that bridge the gap between human communication patterns and structured data queries. This engine transforms the traditional paradigm of Jira reporting from a technical, query-language-dependent process into an intuitive, conversational experience that empowers users across all technical skill levels to access complex analytics and insights.
 
 ### Intent Recognition and Classification
 
@@ -139,7 +139,7 @@ Performance correlation analysis identifies relationships between different metr
 
 ## User Interface and Experience
 
-The user interface of the Jira AI Analytics Agent represents a paradigm shift in how software engineering teams interact with their project data and analytics. The interface design prioritizes intuitive interaction patterns, visual clarity, and responsive performance while providing access to sophisticated analytical capabilities that traditionally required extensive technical expertise to access and interpret.
+The user interface of the JUNO represents a paradigm shift in how software engineering teams interact with their project data and analytics. The interface design prioritizes intuitive interaction patterns, visual clarity, and responsive performance while providing access to sophisticated analytical capabilities that traditionally required extensive technical expertise to access and interpret.
 
 ### Dashboard Design and Navigation
 
@@ -171,7 +171,7 @@ The color scheme and typography system implement accessibility best practices in
 
 ## Installation and Setup
 
-The installation and setup process for the Jira AI Analytics Agent is designed to accommodate various deployment scenarios while maintaining security best practices and operational reliability. The system supports both development and production deployment configurations with comprehensive documentation and automated setup procedures that minimize configuration complexity.
+The installation and setup process for the JUNO is designed to accommodate various deployment scenarios while maintaining security best practices and operational reliability. The system supports both development and production deployment configurations with comprehensive documentation and automated setup procedures that minimize configuration complexity.
 
 ### System Requirements and Prerequisites
 
@@ -186,8 +186,8 @@ Database requirements depend on deployment scale and data retention needs. The s
 Backend installation begins with creating an isolated Python virtual environment that prevents dependency conflicts with other system packages. The virtual environment should be created using Python 3.11 or later to ensure compatibility with all system dependencies and security features.
 
 ```bash
-python3.11 -m venv jira-ai-agent-env
-source jira-ai-agent-env/bin/activate  # On Windows: jira-ai-agent-env\Scripts\activate
+python3.11 -m venv juno-agent-env
+source juno-agent-env/bin/activate  # On Windows: juno-agent-env\Scripts\activate
 ```
 
 Package installation utilizes the provided requirements.txt file that specifies exact dependency versions tested with the system. This approach ensures reproducible deployments and minimizes compatibility issues that can arise from dependency version conflicts.
@@ -213,7 +213,7 @@ Database configuration depends on the chosen database backend. For SQLite deploy
 Frontend installation requires Node.js and package manager setup followed by dependency installation and build configuration. The system supports both npm and pnpm package managers, with pnpm recommended for faster installation and better dependency management.
 
 ```bash
-cd jira-ai-dashboard
+cd juno-dashboard
 npm install  # or pnpm install
 ```
 
@@ -244,7 +244,7 @@ HTTPS configuration is essential for production deployments to ensure secure tra
 
 ## API Reference
 
-The Jira AI Analytics Agent provides a comprehensive REST API that enables programmatic access to all system capabilities including natural language processing, analytics generation, data visualization, and Jira integration. The API follows RESTful design principles with consistent endpoint naming, HTTP method usage, and response formatting that ensures predictable and intuitive integration patterns.
+The JUNO provides a comprehensive REST API that enables programmatic access to all system capabilities including natural language processing, analytics generation, data visualization, and Jira integration. The API follows RESTful design principles with consistent endpoint naming, HTTP method usage, and response formatting that ensures predictable and intuitive integration patterns.
 
 ### Authentication and Security
 
@@ -322,7 +322,7 @@ User information endpoints provide access to user profiles, team memberships, an
 
 ## Advanced Features
 
-The Jira AI Analytics Agent includes numerous advanced features that extend beyond basic reporting capabilities to provide sophisticated analytical insights and operational efficiencies. These features leverage machine learning algorithms, predictive modeling techniques, and advanced data processing capabilities to deliver enterprise-grade analytics solutions.
+The JUNO includes numerous advanced features that extend beyond basic reporting capabilities to provide sophisticated analytical insights and operational efficiencies. These features leverage machine learning algorithms, predictive modeling techniques, and advanced data processing capabilities to deliver enterprise-grade analytics solutions.
 
 ### Intelligent Caching and Performance Optimization
 
@@ -354,7 +354,7 @@ API extensibility features enable organizations to add custom endpoints, impleme
 
 ## Deployment Guide
 
-Production deployment of the Jira AI Analytics Agent requires careful consideration of scalability, security, reliability, and maintenance requirements. The deployment architecture should accommodate expected user loads, data volumes, and availability requirements while maintaining security best practices and operational efficiency.
+Production deployment of the JUNO requires careful consideration of scalability, security, reliability, and maintenance requirements. The deployment architecture should accommodate expected user loads, data volumes, and availability requirements while maintaining security best practices and operational efficiency.
 
 ### Production Architecture Considerations
 
@@ -402,7 +402,7 @@ Caching effectiveness can significantly impact system performance, particularly 
 
 ## Future Enhancements
 
-The Jira AI Analytics Agent provides a robust foundation for advanced analytics capabilities with numerous opportunities for future enhancement and expansion. These enhancements focus on improving analytical sophistication, expanding integration capabilities, and enhancing user experience through advanced interface features.
+The JUNO provides a robust foundation for advanced analytics capabilities with numerous opportunities for future enhancement and expansion. These enhancements focus on improving analytical sophistication, expanding integration capabilities, and enhancing user experience through advanced interface features.
 
 ### Machine Learning Integration
 

@@ -12,7 +12,7 @@ from unittest.mock import Mock, patch
 import requests_mock
 
 # Add the src directory to the path
-sys.path.append(os.path.join(os.path.dirname(__file__), 'jira-ai-agent', 'src'))
+sys.path.append(os.path.join(os.path.dirname(__file__), 'juno-agent', 'src'))
 
 from enterprise_gpt_connector import EnterpriseGPTManager, GPTConfig, GPTProvider
 from enterprise_gpt_integration import EnterpriseGPTIntegration
