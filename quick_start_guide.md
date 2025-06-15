@@ -1,8 +1,8 @@
-# Jira AI Analytics Agent - Quick Start Guide
+# JUNO: The Jira AI Analytics Agent - Quick Start Guide
 
 ## Overview
 
-The Jira AI Analytics Agent is an enterprise-grade solution that transforms natural language queries into actionable Jira insights. This quick start guide will help you get the system running in under 30 minutes.
+JUNO, the Jira AI Analytics Agent, is an enterprise-grade solution that transforms natural language queries into actionable Jira insights. This quick start guide will help you get the system running in under 30 minutes.
 
 ## Prerequisites
 
@@ -58,7 +58,7 @@ npm run dev
 
 1. **Open the Dashboard**
    - Navigate to http://localhost:5173
-   - You should see the Jira AI Analytics Dashboard
+   - You should see the JUNO Dashboard
 
 2. **Try Sample Queries**
    - "How many tickets are assigned to John Doe?"
@@ -82,5 +82,4 @@ npm run dev
 - Explore advanced analytics features
 - Set up production deployment
 
-For detailed documentation, see the complete Jira AI Analytics Agent Documentation.
-
+For detailed documentation, see the complete JUNO Documentation.
