@@ -74,13 +74,13 @@ JUNO transforms reactive AI assistants into proactive agentic workflow orchestra
 ### Microservices Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                  JUNO Enterprise Platform                   │
-├─────────────────────────────────────────────────────────────┤
-│           API Gateway (FastAPI) + Load Balancer             │
+┌───────────────────────────────────────────────────────────────┐
+│                  JUNO Enterprise Platform                     │
+├───────────────────────────────────────────────────────────────┤
+│           API Gateway (FastAPI) + Load Balancer               │
 ├─────────────┬─────────────┬─────────────┬─────────────────────┤
-│   Phase 1   │   Phase 2   │   Phase 3   │   Phase 4           │
-│  Analytics  │ Agentic AI  │Multi-Agent  │ AI-Native Ops       │
+│   Phase 1   │   Phase 2   │   Phase 3   │     Phase 4         │
+│  Analytics  │ Agentic AI  │ Multi-Agent │   AI-Native Ops     │
 ├─────────────┼─────────────┼─────────────┼─────────────────────┤
 │ • Data      │ • Memory    │ • Orchestr. │ • RL Optimizer      │
 │   Extract   │   Layer     │ • Consensus │ • Threat Detection  │
@@ -88,9 +88,9 @@ JUNO transforms reactive AI assistants into proactive agentic workflow orchestra
 │ • Reports   │ • Risk      │ • Discovery │ • Predictive Scale  │
 │ • Visualiz. │ • Govern.   │ • Fault Tol.│ • Auto Operations   │
 ├─────────────┴─────────────┴─────────────┴─────────────────────┤
-│                  Shared Infrastructure                      │
-│    • PostgreSQL  • Redis  • Elasticsearch  • Monitoring     │
-└─────────────────────────────────────────────────────────────┘
+│                  Shared Infrastructure                        │
+│    • PostgreSQL  • Redis  • Elasticsearch  • Monitoring       │
+└───────────────────────────────────────────────────────────────┘
 ```
 
 ### Technology Stack
