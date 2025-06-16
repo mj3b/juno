@@ -1,0 +1,51 @@
+team_id,name,department,project,size,member_count,created_date,methodology
+team_de441d5a,Digital Core Platform Team,Data,Infrastructure,large,11,2025-05-05T20:57:43.112810,kanban
+team_199f0684,Robust Data Pipeline Team,Product,Analytics,large,12,2023-11-20T20:57:43.112990,scrum
+team_de2e8765,Efficient Data Pipeline Team,Security,AI/ML,medium,8,2024-03-21T20:57:43.113116,scrum
+team_db961771,Advanced Monitoring Team,Product,Customer Portal,small,4,2023-12-14T20:57:43.113191,scrum
+team_7899569b,Next-Gen Infrastructure Team,Platform,Frontend,medium,8,2024-03-18T20:57:43.113301,kanban
+team_1a0bd974,Strategic API Gateway Team,Security,Frontend,medium,7,2024-07-12T20:57:43.113409,kanban
+team_3fe0622b,Strategic AI/ML Team,Platform,DevOps,small,3,2023-12-31T20:57:43.113468,kanban
+team_accb35c9,Unified Security Team,Data,Security,large,11,2024-07-09T20:57:43.113616,hybrid
+team_ef77b88b,Modern Data Pipeline Team,Engineering,Frontend,small,3,2023-12-23T20:57:43.113674,scrum
+team_14acc087,Secure Core Platform Team,Security,Customer Portal,medium,6,2024-02-21T20:57:43.113769,hybrid
+team_c0e84ce2,Smart AI/ML Team,Platform,Backend,large,14,2024-12-29T20:57:43.113937,kanban
+team_a9af98ff,Scalable Mobile App Team,Data,API Gateway,small,5,2023-08-26T20:57:43.114015,scrum
+team_9adc8792,Enterprise Mobile App Team,Product,Security,medium,8,2024-02-07T20:57:43.114131,kanban
+team_c10625f6,Strategic Admin Tools Team,Security,Admin Tools,medium,9,2023-09-19T20:57:43.114249,hybrid
+team_e896296e,Robust Customer Portal Team,Platform,Data Pipeline,large,14,2024-06-07T20:57:43.114421,kanban
+team_f2952102,Enterprise API Gateway Team,Security,API Gateway,small,4,2025-01-30T20:57:43.114487,scrum
+team_6371a13e,Global Core Platform Team,Product,QA,medium,6,2023-07-26T20:57:43.114574,scrum
+team_1ff76715,Scalable Customer Portal Team,Data,Monitoring,large,12,2024-05-28T20:57:43.114777,scrum
+team_bda832aa,Next-Gen Customer Portal Team,Security,Customer Portal,small,3,2025-03-25T20:57:43.114836,kanban
+team_b1b118ea,Secure AI/ML Team,Product,Infrastructure,medium,9,2023-07-15T20:57:43.114960,scrum
+team_a0fd034f,Robust Infrastructure Team,Product,Core Platform,large,10,2024-03-17T20:57:43.115091,hybrid
+team_cdc3184e,Global Data Pipeline Team,Security,Analytics,large,11,2024-12-15T20:57:43.115229,kanban
+team_d63d11d5,Modern Infrastructure Team,Data,Monitoring,small,3,2023-07-22T20:57:43.115283,scrum
+team_f8f845eb,Intelligent DevOps Team,Product,Core Platform,large,12,2024-04-18T20:57:43.115440,kanban
+team_e28639a6,Intelligent AI/ML Team,Security,Customer Portal,medium,9,2023-10-31T20:57:43.115556,hybrid
+team_a0c9e902,Strategic Frontend Team,Platform,Mobile App,small,4,2023-11-30T20:57:43.115624,hybrid
+team_34aa967e,Future QA Team,Product,API Gateway,small,3,2023-08-01T20:57:43.115677,scrum
+team_8de9043a,Next-Gen Mobile App Team,Product,AI/ML,small,5,2025-02-01T20:57:43.115760,hybrid
+team_6411bb52,Strategic Analytics Team,Security,Analytics,medium,7,2024-03-04T20:57:43.115884,hybrid
+team_c9716787,Intelligent Customer Portal Team,Engineering,DevOps,medium,6,2024-09-13T20:57:43.116022,kanban
+team_7becd303,Future Frontend Team,Platform,Frontend,large,10,2025-02-26T20:57:43.116170,scrum
+team_5dad441c,Global Security Team,Security,Frontend,medium,8,2023-09-07T20:57:43.116277,kanban
+team_14fa5779,Secure DevOps Team,Security,Infrastructure,medium,6,2023-11-25T20:57:43.116359,scrum
+team_833ee1e9,Intelligent Core Platform Team,Data,Core Platform,medium,9,2024-06-07T20:57:43.116513,kanban
+team_b30cc79a,Strategic Analytics Team,Platform,Admin Tools,large,13,2023-09-01T20:57:43.116675,scrum
+team_1cac34f5,Next-Gen Security Team,Data,Backend,medium,9,2023-07-31T20:57:43.116911,kanban
+team_e31fd40b,Strategic Customer Portal Team,Platform,DevOps,medium,6,2024-11-25T20:57:43.116998,hybrid
+team_03a95ec9,Scalable Core Platform Team,Data,Frontend,small,5,2025-01-10T20:57:43.117073,kanban
+team_bafc4e56,Robust DevOps Team,Security,Mobile App,small,4,2024-07-23T20:57:43.117134,hybrid
+team_c1ec337f,Cloud AI/ML Team,Data,Analytics,medium,6,2024-04-24T20:57:43.117217,kanban
+team_4ce4349a,Agile API Gateway Team,Security,Core Platform,medium,6,2024-06-21T20:57:43.117308,hybrid
+team_ea4236ed,Secure Monitoring Team,Product,Infrastructure,medium,7,2024-07-19T20:57:43.117410,hybrid
+team_232020e5,Advanced AI/ML Team,Platform,DevOps,medium,7,2024-09-01T20:57:43.117506,hybrid
+team_3196e7fe,Secure Core Platform Team,Security,Mobile App,small,5,2023-06-29T20:57:43.117581,kanban
+team_4d923505,Intelligent Mobile App Team,Data,Data Pipeline,small,3,2023-07-25T20:57:43.117636,scrum
+team_9fb37131,Secure Security Team,Security,QA,small,5,2024-09-30T20:57:43.117720,scrum
+team_39c7357d,Scalable Data Pipeline Team,Engineering,Monitoring,small,3,2024-03-22T20:57:43.117777,kanban
+team_a73c4950,Digital Core Platform Team,Product,API Gateway,small,5,2024-03-09T20:57:43.117851,hybrid
+team_570fdbd6,Enterprise Backend Team,Engineering,DevOps,medium,7,2024-06-02T20:57:43.117949,kanban
+team_4635363b,Modern Mobile App Team,Platform,Monitoring,small,3,2024-12-08T20:57:43.118006,kanban
