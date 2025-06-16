@@ -1,6 +1,6 @@
 # JUNO Phase 2: Quick Start Guide
 
-## 🚀 Get Started in 15 Minutes
+## Get Started in 15 Minutes
 
 This quick start guide will have you running JUNO Phase 2 agentic capabilities in under 15 minutes.
 
@@ -80,17 +80,17 @@ python juno-agent/app.py --phase=2
 3. **Approve Triage Action**: Review and approve a stale ticket recommendation
 4. **View Reasoning**: Click "Why?" to see transparent AI reasoning
 
-## 🎯 What You Just Deployed
+## What You Just Deployed
 
 ### Immediate Capabilities
 
-**🧠 Agentic Intelligence**
+**Agentic Intelligence**
 - JUNO now learns from your team's patterns
 - Predicts sprint risks before they happen
 - Takes autonomous actions with your approval
 - Explains every decision with confidence scores
 
-**🏛️ Governance & Control**
+**Governance & Control**
 - All autonomous actions require approval
 - Complete audit trail of AI decisions
 - Role-based approval workflows
@@ -143,7 +143,7 @@ RISK_THRESHOLD_HIGH=0.8
 AUTO_APPROVAL_THRESHOLD=0.85
 ```
 
-## 📊 Immediate Value Demonstration
+## Immediate Value Demonstration
 
 ### Sprint Risk Prevention
 
@@ -172,7 +172,7 @@ Every AI decision includes:
 - **Historical Context**: Similar past situations and outcomes
 - **Impact Assessment**: Expected business and technical impact
 
-## 🎪 Demo Scenarios
+## Demo Scenarios
 
 ### Scenario 1: Sprint Risk Alert
 
@@ -195,7 +195,7 @@ Every AI decision includes:
 3. Recommends escalation to Engineering Manager
 4. Automatically creates escalation with context
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -247,7 +247,7 @@ python juno-agent/src/phase2/setup_demo_roles.py
 3. **Advanced Analytics**: Custom reporting and dashboards
 4. **Enterprise Integration**: SSO, LDAP, and compliance frameworks
 
-## 🏆 Success Metrics
+## Success Metrics
 
 Track these metrics to measure JUNO Phase 2 impact:
 
