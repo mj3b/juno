@@ -1,4 +1,4 @@
-# JUNO: Enterprise Agentic AI Orchestration Platform
+# JUNO: Agentic AI Platform for Jira Intelligence and Workflow Orchestration
 
 [![Tests](https://img.shields.io/badge/tests-47%20passed-brightgreen.svg)](./tests/TEST_RESULTS.md)
 [![Coverage](https://img.shields.io/badge/coverage-94.7%25-green.svg)](./tests/)
