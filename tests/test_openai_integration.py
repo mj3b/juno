@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3 mj3b
 """
 Test script for OpenAI integration and enhanced NLP capabilities.
 """
