@@ -254,24 +254,24 @@ juno/
 ### Phase-Specific Components
 
 **Phase 2: Agentic Workflow Management**
-- [`memory_layer.py`](./juno-agent/src/phase2/README.md#memory-layer) - Advanced memory management system
-- [`reasoning_engine.py`](./juno-agent/src/phase2/README.md#reasoning-engine) - Transparent decision making
-- [`sprint_risk_forecast.py`](./juno-agent/src/phase2/README.md#risk-forecasting) - Predictive risk analysis
-- [`velocity_analysis.py`](./juno-agent/src/phase2/README.md#velocity-analysis) - Team performance analytics
-- [`stale_triage_resolution.py`](./juno-agent/src/phase2/README.md#triage-resolution) - Autonomous ticket management
-- [`governance_framework.py`](./juno-agent/src/phase2/README.md#governance-framework) - Enterprise governance
+- [`memory_layer.py`](./juno-agent/src/phase2/memory_layer.py) - Advanced memory management system
+- [`reasoning_engine.py`](./juno-agent/src/phase2/reasoning_engine.py) - Transparent decision making
+- [`sprint_risk_forecast.py`](./juno-agent/src/phase2/sprint_risk_forecast.py) - Predictive risk analysis
+- [`velocity_analysis.py`](./juno-agent/src/phase2/velocity_analysis.py) - Team performance analytics
+- [`stale_triage_resolution.py`](./juno-agent/src/phase2/stale_triage_resolution.py) - Autonomous ticket management
+- [`governance_framework.py`](./juno-agent/src/phase2/governance_framework.py) - Enterprise governance
 
 **Phase 3: Multi-Agent Orchestration**
-- [`production_orchestrator.py`](./juno-agent/src/phase3/README.md#orchestrator) - Distributed agent coordination
-- Raft consensus protocol implementation
-- Service discovery and health monitoring
-- Fault tolerance and recovery mechanisms
+- [`production_orchestrator.py`](./juno-agent/src/phase3/production_orchestrator.py) - Distributed agent coordination
+- [`raft_consensus.py`](./juno-agent/src/phase3/raft_consensus.py) - Raft consensus protocol implementation
+- [`service_discovery.py`](./juno-agent/src/phase3/service_discovery.py) - Service discovery and health monitoring
+- [`fault_tolerance.py`](./juno-agent/src/phase3/fault_tolerance.py) - Fault tolerance and recovery mechanisms
 
 **Phase 4: AI-Native Operations**
-- [`production_ai_operations.py`](./juno-agent/src/phase4/README.md#operations-manager) - Autonomous operations
-- Reinforcement learning optimization
-- Threat detection and response
-- Self-healing infrastructure management
+- [`production_ai_operations.py`](./juno-agent/src/phase4/production_ai_operations.py) - Autonomous operations
+- [`reinforcement_learning.py`](./juno-agent/src/phase4/reinforcement_learning.py) - Reinforcement learning optimization
+- [`threat_detection.py`](./juno-agent/src/phase4/threat_detection.py) - Threat detection and response
+- [`self_healing.py`](./juno-agent/src/phase4/self_healing.py) - Self-healing infrastructure management
 
 ## Enterprise Deployment
 
