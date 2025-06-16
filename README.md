@@ -6,8 +6,39 @@
 [![Phase](https://img.shields.io/badge/phase-2%20complete-orange.svg)](./docs/)
 [![Enterprise](https://img.shields.io/badge/enterprise-ready-purple.svg)](./docs/ENTERPRISE_IMPLEMENTATION.md)
 
+## Visual Interface Showcase
+
+### Phase 2 Agentic AI Dashboard
+
+<div align="center">
+
+#### Main Dashboard Overview
+*Comprehensive agentic AI monitoring with real-time metrics and autonomous decision tracking*
+
+<img src="docs/images/dashboard-overview.png" alt="JUNO Phase 2 Dashboard Overview" width="800"/>
+
+#### Memory Layer Interface
+*Four-layer memory system monitoring: Episodic, Semantic, Procedural, and Working Memory*
+
+<img src="docs/images/memory-layer-interface.png" alt="Memory Layer Monitoring Interface" width="800"/>
+
+#### Reasoning Engine Dashboard
+*Autonomous decision tracking with confidence scores and transparent audit trails*
+
+<img src="docs/images/reasoning-engine-dashboard.png" alt="Reasoning Engine Decision Tracking" width="800"/>
+
+#### Risk Forecasting Interface
+*Sprint risk predictions with probability scoring and mitigation recommendations*
+
+<img src="docs/images/risk-forecasting-interface.png" alt="Risk Forecasting Dashboard" width="800"/>
+
+</div>
+
+---
+
 ## Table of Contents
 
+- [Visual Interface Showcase](#visual-interface-showcase)
 - [Overview](#overview)
 - [Architecture](#architecture)
   - [Microservices Architecture](#microservices-architecture)
