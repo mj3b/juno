@@ -107,6 +107,7 @@ Choose your deployment path:
 
 ### Phase 3: Multi-Agent Orchestration
 - **Status**: ✅ Production Ready
+<<<<<<< HEAD
 - **Focus**: Organization-wide workflow coordination
 - **Documentation**: [Phase 3 Deployment](./deployment/phase3-multi-agent-orchestration.md)
 
@@ -114,6 +115,15 @@ Choose your deployment path:
 - **Status**: ✅ Production Ready
 - **Focus**: Autonomous infrastructure and operations management
 - **Documentation**: [Phase 4 Deployment](./deployment/phase4-ai-native-operations.md)
+=======
+- **Documentation**: [Phase 3 Components](../juno-agent/src/phase3/README.md)
+- **Use Case**: Organization-wide workflow coordination
+
+### Phase 4: AI-Native Operations
+- **Status**: ✅ Production Ready
+- **Documentation**: [Phase 4 Components](../juno-agent/src/phase4/README.md)
+- **Use Case**: Autonomous infrastructure and operations management
+>>>>>>> 08488f86a747c0ae01a26d64d687ac225de43fd2
 
 ## 📖 Documentation Standards
 
@@ -164,4 +174,4 @@ git push origin docs/update-feature-docs
 **Documentation Status**: ✅ Comprehensive and Current  
 **Last Updated**: Current with latest code release  
 **Maintenance**: Actively maintained with regular updates
-
+mj3b

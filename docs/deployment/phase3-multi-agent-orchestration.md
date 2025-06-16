@@ -1,4 +1,4 @@
-# JUNO Phase 3: Multi-Agent Orchestration - Production Deployment
+# JUNO Phase 3: Multi-Agent Orchestration
 
 ## Overview
 
@@ -13,7 +13,7 @@ Production-ready deployment infrastructure for JUNO Phase 3 Multi-Agent Orchestr
 │                    Load Balancer (HAProxy)                  │
 ├─────────────────┬─────────────────┬─────────────────────────┤
 │  Orchestrator   │  Agent Cluster  │   Service Discovery     │
-│     Leader      │    (3-50 nodes) │     (Consul)           │
+│     Leader      │    (3-50 nodes) │     (Consul)            │
 ├─────────────────┼─────────────────┼─────────────────────────┤
 │ • Consensus     │ • Task Exec     │ • Health Checks         │
 │ • Coordination  │ • Capabilities  │ • Service Registry      │
@@ -21,8 +21,8 @@ Production-ready deployment infrastructure for JUNO Phase 3 Multi-Agent Orchestr
 │ • Fault Detect  │ • Reporting     │ • Leader Election       │
 ├─────────────────┴─────────────────┴─────────────────────────┤
 │                  Shared Infrastructure                      │
-│  • PostgreSQL Cluster  • Redis Cluster  • Prometheus       │
-│  • Elasticsearch      • Grafana         • AlertManager     │
+│  • PostgreSQL Cluster  • Redis Cluster  • Prometheus        │
+│  • Elasticsearch       • Grafana        • AlertManager      │
 └─────────────────────────────────────────────────────────────┘
 ```
 

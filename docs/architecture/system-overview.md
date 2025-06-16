@@ -3,7 +3,7 @@
 
 ---
 
-## 🏗️ **Architecture Overview**
+## **Architecture Overview**
 
 JUNO is built on a modern, scalable architecture that combines the power of conversational AI with enterprise-grade Jira analytics. The system employs a hybrid approach, utilizing both local natural language processing and cloud-based GPT enhancement to deliver optimal performance and cost efficiency.
 
@@ -38,7 +38,7 @@ graph TB
 
 ---
 
-## 🔧 **Core Components**
+## **Core Components**
 
 ### **1. Frontend Dashboard (React)**
 
@@ -166,7 +166,7 @@ class AnalyticsEngine:
 
 ---
 
-## 🔌 **Integration Architecture**
+## **Integration Architecture**
 
 ### **Jira Cloud Integration**
 
@@ -215,7 +215,7 @@ class GPTProviderManager:
 
 ---
 
-## 📊 **Data Architecture**
+## **Data Architecture**
 
 ### **Database Schema**
 
@@ -289,7 +289,7 @@ CACHE_CONFIG = {
 
 ---
 
-## 🔒 **Security Architecture**
+## **Security Architecture**
 
 ### **Authentication and Authorization**
 
@@ -402,7 +402,7 @@ class MonitoringSystem:
 
 ---
 
-## 🚀 **Deployment Architecture**
+## **Deployment Architecture**
 
 ### **Container Strategy**
 
@@ -475,7 +475,7 @@ spec:
 
 ---
 
-## 📈 **Future Architecture Considerations**
+## **Future Architecture Considerations**
 
 ### **Planned Enhancements**
 
