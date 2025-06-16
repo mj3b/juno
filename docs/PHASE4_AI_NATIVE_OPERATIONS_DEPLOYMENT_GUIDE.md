@@ -1,4 +1,4 @@
-# JUNO Phase 4: AI-Native Operations - Production Deployment
+# JUNO Phase 4: AI-Native Operations
 
 ## Overview
 
