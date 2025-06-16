@@ -20,7 +20,8 @@ docs/
 │   └── technical-specifications.md          # Detailed technical specs
 ├── reference/                               # API and integration documentation
 │   ├── api-reference.md                     # Complete API documentation
-│   └── integration-guide.md                 # Third-party integrations
+│   ├── integration-guide.md                 # Third-party integrations
+│   └── enterprise-gpt-integration.md        # OpenAI Enterprise GPT guide
 ├── images/                                  # Visual interface mockups
 └── phase2/                                  # Legacy Phase 2 specific docs
 ```
@@ -43,6 +44,7 @@ Choose your deployment path:
 - **Specifications:** [Technical Specifications](./architecture/technical-specifications.md) - Detailed technical docs
 - **APIs:** [API Reference](./reference/api-reference.md) - Complete API documentation
 - **Integrations:** [Integration Guide](./reference/integration-guide.md) - Third-party system integration
+- **Enterprise GPT:** [Enterprise GPT Integration](./reference/enterprise-gpt-integration.md) - OpenAI Enterprise GPT implementation guide
 
 ## Documentation by Role
 
@@ -68,6 +70,7 @@ Choose your deployment path:
 | [Quick Start](./getting-started/quick-start.md) | Immediate setup and demo | 15 minutes |
 | [API Reference](./reference/api-reference.md) | Complete API documentation | 60 minutes |
 | [Integration Guide](./reference/integration-guide.md) | Third-party system integration | 40 minutes |
+| [Enterprise GPT Integration](./reference/enterprise-gpt-integration.md) | OpenAI Enterprise GPT implementation | 75 minutes |
 | [System Overview](./architecture/system-overview.md) | Architecture and component details | 25 minutes |
 
 ### For Security and Compliance Teams
