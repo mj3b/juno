@@ -247,8 +247,8 @@ juno/
 | **Reasoning Engine** | `src/phase2/reasoning_engine.py` | Multi-factor decision making with confidence scoring |
 | **Risk Forecasting** | `src/phase2/sprint_risk_forecast.py` | Predictive analytics for sprint completion |
 | **Governance Framework** | `src/phase2/governance_framework.py` | Role-based approval workflows |
-| **Multi-Agent Orchestrator** | `src/phase3/multi_agent_orchestrator.py` | Distributed consensus and coordination |
-| **AI Operations Manager** | `src/phase4/ai_operations_manager.py` | Self-healing and optimization |
+| **Multi-Agent Orchestrator** | `src/phase3/production_orchestrator.py` | Distributed consensus and coordination |
+| **AI Operations Manager** | `src/phase4/production_ai_operations.py` | Self-healing and optimization |
 
 ### Phase-Specific Components
 
@@ -261,13 +261,13 @@ juno/
 - [`governance_framework.py`](./juno-agent/src/phase2/README.md#governance-framework) - Enterprise governance
 
 **Phase 3: Multi-Agent Orchestration**
-- [`multi_agent_orchestrator.py`](./juno-agent/src/phase3/README.md#orchestrator) - Distributed agent coordination
+- [`production_orchestrator.py`](./juno-agent/src/phase3/README.md#orchestrator) - Distributed agent coordination
 - Raft consensus protocol implementation
 - Service discovery and health monitoring
 - Fault tolerance and recovery mechanisms
 
 **Phase 4: AI-Native Operations**
-- [`ai_operations_manager.py`](./juno-agent/src/phase4/README.md#operations-manager) - Autonomous operations
+- [`production_ai_operations.py`](./juno-agent/src/phase4/README.md#operations-manager) - Autonomous operations
 - Reinforcement learning optimization
 - Threat detection and response
 - Self-healing infrastructure management
