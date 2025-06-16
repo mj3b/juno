@@ -2,11 +2,11 @@
 
 This directory contains everything you need to get started with JUNO quickly and efficiently.
 
-## 📁 Contents
+## Contents
 
 - **[quick-start.md](./quick-start.md)** - Complete 15-minute setup guide to get JUNO running
 
-## 🚀 Quick Setup Path
+## Quick Setup Path
 
 1. **Prerequisites Check** (2 minutes)
    - Python 3.11+, Git, Jira access, OpenAI API key
@@ -20,7 +20,7 @@ This directory contains everything you need to get started with JUNO quickly and
 4. **First Demo** (3 minutes)
    - Run JUNO, test natural language queries, explore dashboard
 
-## 🎯 What You'll Achieve
+## What You'll Achieve
 
 After completing the quick start guide, you'll have:
 
@@ -30,7 +30,7 @@ After completing the quick start guide, you'll have:
 - ✅ **Interactive dashboard** showing agentic AI features
 - ✅ **Understanding of core capabilities** and next steps
 
-## 🔗 Next Steps
+## Next Steps
 
 After completing the quick start:
 
@@ -39,14 +39,14 @@ After completing the quick start:
 - **Enterprise Planning**: Review [Enterprise Implementation Strategy](../deployment/enterprise-implementation.md)
 - **Technical Deep Dive**: Study [System Architecture](../architecture/system-overview.md)
 
-## 💡 Tips for Success
+## Tips for Success
 
 - **Start Small**: Begin with a test Jira project before connecting production data
 - **Test Queries**: Try various natural language questions to understand AI capabilities
 - **Review Logs**: Check application logs to understand how JUNO processes requests
 - **Explore Dashboard**: Spend time with each tab to understand agentic AI features
 
-## 🆘 Need Help?
+## Need Help?
 
 - **Issues**: Check [GitHub Issues](https://github.com/mj3b/juno/issues) for common problems
 - **Documentation**: Browse other guides in the [docs directory](../README.md)
