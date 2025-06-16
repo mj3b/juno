@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3 mj3b
 """
 Test script for Natural Language Processing functionality.
 This script tests the NLP processor with various query types.

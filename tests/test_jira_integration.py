@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3 mj3b
 """
 Test script for Jira API integration.
 This script tests the Jira API connector and data extraction functionality.
