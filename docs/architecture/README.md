@@ -2,12 +2,12 @@
 
 This directory contains comprehensive architecture documentation for JUNO, covering system design, technical specifications, and implementation details.
 
-## 📁 Architecture Documents
+## Architecture Documents
 
 - **[system-overview.md](./system-overview.md)** - High-level system architecture and design patterns
 - **[technical-specifications.md](./technical-specifications.md)** - Detailed technical specifications and requirements
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 JUNO implements a modern microservices architecture designed for enterprise scalability, fault tolerance, and maintainability. The system evolves through four distinct phases, each building upon the previous foundation.
 
@@ -57,7 +57,7 @@ JUNO implements a modern microservices architecture designed for enterprise scal
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## 🔄 Phase Evolution
+## Phase Evolution
 
 ### Phase 1: Analytics Foundation
 - Basic Jira analytics and reporting
@@ -82,7 +82,7 @@ JUNO implements a modern microservices architecture designed for enterprise scal
 - Predictive scaling and resource management
 - Self-healing infrastructure automation
 
-## 📊 Technical Specifications
+## Technical Specifications
 
 ### Performance Requirements
 - **Response Time**: < 200ms for API calls, < 2s for complex analytics
@@ -102,7 +102,7 @@ JUNO implements a modern microservices architecture designed for enterprise scal
 - **Retention**: Configurable data retention policies
 - **Privacy**: GDPR compliance with data anonymization
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Core Technologies
 - **Backend**: Python 3.11, Flask, FastAPI
@@ -123,7 +123,7 @@ JUNO implements a modern microservices architecture designed for enterprise scal
 - **Monitoring**: Prometheus, Grafana, Jaeger
 - **CI/CD**: GitHub Actions, ArgoCD
 
-## 📖 Documentation Guide
+## Documentation Guide
 
 ### For System Architects
 - Start with [System Overview](./system-overview.md) for high-level design
@@ -150,7 +150,7 @@ Key architectural decisions are documented within the technical specifications:
 4. **AI Provider Abstraction**: Vendor-neutral interface for flexibility
 5. **Security Model**: Zero-trust architecture with comprehensive audit trails
 
-## 🚀 Future Architecture Evolution
+## Future Architecture Evolution
 
 ### Planned Enhancements
 - **Edge Computing**: Local AI processing for reduced latency
