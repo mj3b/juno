@@ -7,21 +7,21 @@ This directory contains the core JUNO application code, organized by functionali
 ```
 juno-agent/
 ├── src/                        # Core source code modules
-│   ├── phase2/                # Phase 2: Agentic AI components
-│   ├── phase3/                # Phase 3: Multi-agent orchestration
-│   ├── phase4/                # Phase 4: AI-native operations
-│   ├── models/                # Data models and schemas
-│   ├── routes/                # API route handlers
-│   └── static/                # Static assets
-├── templates/                 # Jinja2 web templates
-│   ├── phase2/               # Phase 2 dashboard templates
-│   └── base.html             # Base template
-├── static/                   # Static web assets
-│   ├── phase2/              # Phase 2 CSS/JS
-│   └── css/                 # Shared stylesheets
-├── app_phase2.py            # Main Phase 2 Flask application
-├── requirements-phase2.txt  # Phase 2 Python dependencies
-└── README.md               # This file
+│   ├── phase2/                 # Phase 2: Agentic AI components
+│   ├── phase3/                 # Phase 3: Multi-agent orchestration
+│   ├── phase4/                 # Phase 4: AI-native operations
+│   ├── models/                 # Data models and schemas
+│   ├── routes/                 # API route handlers
+│   └── static/                 # Static assets
+├── templates/                  # Jinja2 web templates
+│   ├── phase2/                 # Phase 2 dashboard templates
+│   └── base.html               # Base template
+├── static/                     # Static web assets
+│   ├── phase2/                 # Phase 2 CSS/JS
+│   └── css/                    # Shared stylesheets
+├── app_phase2.py               # Main Phase 2 Flask application
+├── requirements-phase2.txt     # Phase 2 Python dependencies
+└── README.md                   # This file
 ```
 
 ## Core Application Files
