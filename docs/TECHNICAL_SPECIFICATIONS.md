@@ -651,5 +651,5 @@ Legal hold capabilities preserve data during litigation or investigation while m
 
 ---
 
-*This technical specification provides comprehensive technical details for implementing, deploying, and maintaining JUNO at enterprise scale. Organizations should adapt these specifications to their specific technical requirements and regulatory environment.*
+*This technical specification provides comprehensive technical details for implementing, deploying, and maintaining JUNO at enterprise scale. Organizations should adapt these specifications to their specific technical requirements and regulatory environment.* mj3b
 
