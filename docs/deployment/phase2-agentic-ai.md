@@ -87,7 +87,7 @@ Based on validation testing and industry benchmarks:
 **Python Environment:**
 ```bash
 Python 3.11+
-pip install -r requirements-phase2.txt
+pip install -r requirements.txt
 ```
 
 **Key Dependencies:**
@@ -136,7 +136,7 @@ source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate  # Windows
 
 # Install dependencies
-pip install -r juno-agent/requirements-phase2.txt
+pip install -r juno-agent/requirements.txt
 ```
 
 ### Step 2: Configuration

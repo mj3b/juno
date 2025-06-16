@@ -24,7 +24,7 @@ source venv/bin/activate  # Linux/Mac
 # venv\Scripts\activate  # Windows
 
 # Install dependencies
-pip install -r juno-agent/requirements-phase2.txt
+pip install -r juno-agent/requirements.txt
 ```
 
 ### Step 2: Configure (5 minutes)

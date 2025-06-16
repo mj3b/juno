@@ -13,25 +13,26 @@ juno-agent/
 │   ├── models/                 # Data models and schemas
 │   ├── routes/                 # API route handlers
 │   └── static/                 # Static assets
-├── templates/                  # Jinja2 web templates
-│   ├── phase2/                 # Phase 2 dashboard templates
-│   └── base.html               # Base template
-├── static/                     # Static web assets
-│   ├── phase2/                 # Phase 2 CSS/JS
-│   └── css/                    # Shared stylesheets
-├── app_phase2.py               # Main Phase 2 Flask application
-├── requirements-phase2.txt     # Phase 2 Python dependencies
+├── src/                        # Organized source code by phase
+│   ├── phase1/                 # Phase 1 analytics components
+│   ├── phase2/                 # Phase 2 agentic AI components
+│   ├── phase3/                 # Phase 3 multi-agent orchestration
+│   └── phase4/                 # Phase 4 AI-native operations
+├── requirements.txt            # Python dependencies
 └── README.md                   # This file
 ```
 
 ## Core Application Files
 
-### Main Applications
+### Main Application Structure
 
-| File | Purpose | Phase |
-|------|---------|-------|
-| `app_phase2.py` | Main Flask application for Phase 2 agentic capabilities | 2 |
-| `requirements-phase2.txt` | Python dependencies for Phase 2 features | 2 |
+| Directory | Purpose | Status |
+|-----------|---------|--------|
+| `src/phase1/` | Analytics foundation and Jira integration | ✅ Production Ready |
+| `src/phase2/` | Agentic AI workflow management | ✅ Production Ready |
+| `src/phase3/` | Multi-agent orchestration and consensus | ✅ Production Ready |
+| `src/phase4/` | AI-native operations and self-healing | ✅ Production Ready |
+| `requirements.txt` | Python dependencies for all phases | ✅ Current |
 
 ### Legacy Components (Phase 1)
 
@@ -127,14 +128,14 @@ OAUTH_CLIENT_SECRET=secret      # OAuth secret
 ### Local Development
 ```bash
 # Install dependencies
-pip install -r requirements-phase2.txt
+pip install -r requirements.txt
 
 # Set up environment
-cp .env.phase2.example .env
+cp .env.example .env
 # Edit .env with your configuration
 
-# Run Phase 2 application
-python app_phase2.py
+# Run application (Phase 2 components available in src/phase2/)
+python src/main.py
 
 # Access dashboard
 open http://localhost:5000
