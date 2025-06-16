@@ -23,10 +23,10 @@ This guide provides enterprise-grade patterns for integrating OpenAI's GPT model
 ### Integration Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    OpenAI Enterprise GPT                    │
-├─────────────────────────────────────────────────────────────┤
-│                     JUNO AI Gateway                         │
+┌───────────────────────────────────────────────────────────────┐
+│                    OpenAI Enterprise GPT                      │
+├───────────────────────────────────────────────────────────────┤
+│                     JUNO AI Gateway                           │
 ├─────────────┬─────────────┬─────────────┬─────────────────────┤
 │   Phase 1   │   Phase 2   │   Phase 3   │   Phase 4           │
 │  Analytics  │ Agentic AI  │Multi-Agent  │ AI-Native Ops       │
