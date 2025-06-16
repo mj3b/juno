@@ -4,7 +4,7 @@
 [![Coverage](https://img.shields.io/badge/coverage-94.7%25-green.svg)](./tests/)
 [![Performance](https://img.shields.io/badge/latency-127ms%20avg-blue.svg)](./tests/TEST_RESULTS.md)
 [![Phase](https://img.shields.io/badge/phase-2%20complete-orange.svg)](./docs/)
-[![Enterprise](https://img.shields.io/badge/enterprise-ready-purple.svg)](./docs/ENTERPRISE_IMPLEMENTATION.md)
+[![Enterprise](https://img.shields.io/badge/enterprise-ready-purple.svg)](./docs/deployment/enterprise-implementation.md)
 
 **JUNO: The AI Analyst for Jira.** Powered by Enterprise GPT, JUNO adds a natural language layer to Jira, delivering granular reports, defect trends, velocity insights, and more. JIRA tracks. JUNO explains. Ask in plain English—get real answers. It's your Jira whisperer for smarter workflows and faster decision-making.
 
@@ -461,24 +461,24 @@ CREATE TABLE audit_trail (
 ## Documentation
 
 ### For Executives
-- [Enterprise Implementation Guide](./docs/ENTERPRISE_IMPLEMENTATION.md) - Strategic deployment roadmap
-- [ROI and Business Impact](./docs/ENTERPRISE_IMPLEMENTATION.md#success-metrics-and-roi-measurement) - Quantified business value
+- [Enterprise Implementation Guide](./docs/deployment/enterprise-implementation.md) - Strategic deployment roadmap
+- [ROI and Business Impact](./docs/deployment/enterprise-implementation.md#success-metrics-and-roi-measurement) - Quantified business value
 
 ### For Engineering Managers
-- [Technical Specifications](./docs/TECHNICAL_SPECIFICATIONS.md) - Detailed technical architecture
-- [Deployment Guide](./docs/DEPLOYMENT_GUIDE.md) - Production deployment procedures
-- [Performance Benchmarks](./tests/TEST_RESULTS.md) - Validated performance metrics
+- [Technical Specifications](./docs/architecture/technical-specifications.md) - Detailed technical architecture
+- [Phase 2 Deployment Guide](./docs/deployment/phase2-agentic-ai.md) - Agentic AI production deployment
+- [Phase 3 Deployment Guide](./docs/deployment/phase3-multi-agent-orchestration.md) - Multi-agent orchestration
+- [Phase 4 Deployment Guide](./docs/deployment/phase4-ai-native-operations.md) - AI-native operations
 
 ### For Developers
-- [API Reference](./docs/API_REFERENCE.md) - Complete API documentation
-- [Architecture Guide](./docs/ARCHITECTURE.md) - System design and patterns
-- [Integration Guide](./docs/INTEGRATION_GUIDE.md) - Integration patterns and examples
-- [Code Structure Guide](./juno-agent/README.md) - Detailed code organization
+- [API Reference](./docs/reference/api-reference.md) - Complete API documentation
+- [System Architecture](./docs/architecture/system-overview.md) - System design and patterns
+- [Integration Guide](./docs/reference/integration-guide.md) - Integration patterns and examples
 
 ### For DevOps
-- [Quick Start Guide](./docs/QUICK_START.md) - Rapid deployment procedures
-- [Monitoring Guide](./docs/ENTERPRISE_IMPLEMENTATION.md#monitoring-and-observability) - Observability setup
-- [Security Configuration](./docs/TECHNICAL_SPECIFICATIONS.md#security-specifications) - Security hardening
+- [Quick Start Guide](./docs/getting-started/quick-start.md) - Rapid deployment procedures
+- [Monitoring Guide](./docs/deployment/enterprise-implementation.md#monitoring-and-observability) - Observability setup
+- [Security Configuration](./docs/architecture/technical-specifications.md#security-specifications) - Security hardening
 
 ## Testing
 
@@ -603,8 +603,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For enterprise deployment assistance, custom integrations, or technical support:
 
-- **Documentation**: [Enterprise Implementation Guide](./docs/ENTERPRISE_IMPLEMENTATION.md)
-- **Technical Specifications**: [Technical Specifications](./docs/TECHNICAL_SPECIFICATIONS.md)
+- **Documentation**: [Enterprise Implementation Guide](./docs/deployment/enterprise-implementation.md)
+- **Technical Specifications**: [Technical Specifications](./docs/architecture/technical-specifications.md)
 - **Performance Metrics**: [Test Results](./tests/TEST_RESULTS.md)
 
 ### Community Support
