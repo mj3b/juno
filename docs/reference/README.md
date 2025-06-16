@@ -6,6 +6,7 @@ This directory contains detailed reference documentation for developers, integra
 
 - **[api-reference.md](./api-reference.md)** - Complete API documentation with examples
 - **[integration-guide.md](./integration-guide.md)** - Third-party system integration patterns
+- **[enterprise-gpt-integration.md](./enterprise-gpt-integration.md)** - OpenAI Enterprise GPT implementation guide
 
 ## API Reference
 
