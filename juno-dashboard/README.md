@@ -72,12 +72,12 @@ The dashboard integrates with the JUNO Agent backend via REST API endpoints:
 ```
 juno-dashboard/
 ├── src/
-│   ├── components/          # Reusable UI components
+│   ├── components/         # Reusable UI components
 │   │   └── ui/             # Base UI components
 │   ├── hooks/              # Custom React hooks
 │   ├── assets/             # Static assets
 │   └── App.jsx             # Main application component
 ├── public/                 # Public assets
-└── package.json           # Dependencies and scripts
+└── package.json            # Dependencies and scripts
 ```
 
