@@ -3,7 +3,7 @@
 
 ---
 
-## 🎯 **Overview**
+## **Overview**
 
 JUNO supports multiple GPT providers to meet diverse enterprise requirements. This guide covers setup and configuration for OpenAI, Azure OpenAI, and Enterprise GPT providers, enabling you to choose the optimal AI backend for your organization's needs.
 
@@ -29,7 +29,7 @@ JUNO supports multiple GPT providers to meet diverse enterprise requirements. Th
 
 ---
 
-## ⚙️ **Configuration Setup**
+## ⚙**Configuration Setup**
 
 ### **Environment Variables**
 
@@ -71,7 +71,7 @@ API_RATE_LIMIT=60  # requests per minute
 
 ---
 
-## 🔌 **Provider-Specific Setup**
+## **Provider-Specific Setup**
 
 ### **OpenAI Setup**
 
@@ -184,7 +184,7 @@ def select_provider(query, context):
 
 ---
 
-## 📊 **Performance Optimization**
+## **Performance Optimization**
 
 ### **Caching Strategy**
 
@@ -313,7 +313,7 @@ def benchmark_providers():
 
 ---
 
-## 🚀 **Advanced Features**
+## **Advanced Features**
 
 ### **Multi-Provider Responses**
 
@@ -370,7 +370,7 @@ class CustomGPTProvider:
 
 ---
 
-## 📋 **Troubleshooting**
+## **Troubleshooting**
 
 ### **Common Issues**
 
@@ -421,7 +421,7 @@ def setup_monitoring():
 
 ---
 
-## 📚 **Best Practices**
+## **Best Practices**
 
 ### **Configuration Management**
 - Use environment variables for all sensitive configuration
