@@ -59,7 +59,7 @@ const mockMetrics = {
   avgLeadTime: 5.3
 }
 
-// Phase 2 Agentic AI Mock Data
+// Enterprise Platform Mock Data
 const mockAgenticMetrics = {
   memoryUtilization: 78,
   reasoningAccuracy: 89.3,
@@ -69,6 +69,26 @@ const mockAgenticMetrics = {
   activeAgents: 3,
   decisionsToday: 47,
   interventionsRequired: 2
+}
+
+// Phase 3 Multi-Agent Orchestration Data
+const mockOrchestrationMetrics = {
+  activeAgents: 12,
+  consensusLatency: 45, // ms
+  coordinationSuccess: 98.7,
+  distributedTasks: 234,
+  faultTolerance: 99.2,
+  networkHealth: 96.8
+}
+
+// Phase 4 AI-Native Operations Data
+const mockOperationsMetrics = {
+  selfHealingEvents: 23,
+  threatDetections: 7,
+  rlOptimizations: 156,
+  predictiveScaling: 89.4,
+  autonomousResolutions: 21,
+  systemHealth: 97.3
 }
 
 const mockRiskForecasts = [
@@ -243,13 +263,13 @@ function App() {
                   <Brain className="w-5 h-5 text-white" />
                 </div>
                 <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  JUNO Phase 2
+                  JUNO Enterprise Platform
                 </h1>
               </div>
               <div className="flex items-center space-x-2">
                 <Badge variant="secondary" className="hidden sm:inline-flex">
                   <Sparkles className="w-3 h-3 mr-1" />
-                  Agentic AI
+                  All Phases Ready
                 </Badge>
                 <Badge 
                   variant={agenticMode ? "default" : "outline"} 
@@ -454,12 +474,16 @@ function App() {
           </Card>
         </div>
 
-        {/* Phase 2 Agentic Dashboard */}
+        {/* Enterprise Agentic Dashboard */}
         <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-6">
-          <TabsList className="grid w-full grid-cols-6">
+          <TabsList className="grid w-full grid-cols-8">
             <TabsTrigger value="overview" className="flex items-center space-x-2">
               <Gauge className="w-4 h-4" />
               <span>Overview</span>
+            </TabsTrigger>
+            <TabsTrigger value="analytics" className="flex items-center space-x-2">
+              <BarChart3 className="w-4 h-4" />
+              <span>Analytics</span>
             </TabsTrigger>
             <TabsTrigger value="memory" className="flex items-center space-x-2">
               <Database className="w-4 h-4" />
@@ -469,6 +493,14 @@ function App() {
               <Brain className="w-4 h-4" />
               <span>Reasoning</span>
             </TabsTrigger>
+            <TabsTrigger value="orchestration" className="flex items-center space-x-2">
+              <Network className="w-4 h-4" />
+              <span>Multi-Agent</span>
+            </TabsTrigger>
+            <TabsTrigger value="operations" className="flex items-center space-x-2">
+              <Bot className="w-4 h-4" />
+              <span>AI Ops</span>
+            </TabsTrigger>
             <TabsTrigger value="risk" className="flex items-center space-x-2">
               <AlertTriangle className="w-4 h-4" />
               <span>Risk Forecast</span>
@@ -476,10 +508,6 @@ function App() {
             <TabsTrigger value="governance" className="flex items-center space-x-2">
               <Shield className="w-4 h-4" />
               <span>Governance</span>
-            </TabsTrigger>
-            <TabsTrigger value="analytics" className="flex items-center space-x-2">
-              <BarChart3 className="w-4 h-4" />
-              <span>Analytics</span>
             </TabsTrigger>
           </TabsList>
 
@@ -791,6 +819,175 @@ function App() {
                 </div>
               </CardContent>
             </Card>
+          </TabsContent>
+
+          <TabsContent value="orchestration" className="space-y-6">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center space-x-2">
+                    <Network className="w-5 h-5 text-blue-600" />
+                    <span>Multi-Agent Coordination</span>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-gray-600">Active Agents</span>
+                    <span className="font-semibold">{mockOrchestrationMetrics.activeAgents}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-gray-600">Consensus Latency</span>
+                    <span className="font-semibold">{mockOrchestrationMetrics.consensusLatency}ms</span>
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm text-gray-600">Coordination Success</span>
+                      <span className="font-semibold">{mockOrchestrationMetrics.coordinationSuccess}%</span>
+                    </div>
+                    <Progress value={mockOrchestrationMetrics.coordinationSuccess} className="h-2" />
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-gray-600">Distributed Tasks</span>
+                    <span className="font-semibold">{mockOrchestrationMetrics.distributedTasks}</span>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center space-x-2">
+                    <Shield className="w-5 h-5 text-green-600" />
+                    <span>Fault Tolerance</span>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="space-y-2">
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm text-gray-600">System Resilience</span>
+                      <span className="font-semibold">{mockOrchestrationMetrics.faultTolerance}%</span>
+                    </div>
+                    <Progress value={mockOrchestrationMetrics.faultTolerance} className="h-2" />
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm text-gray-600">Network Health</span>
+                      <span className="font-semibold">{mockOrchestrationMetrics.networkHealth}%</span>
+                    </div>
+                    <Progress value={mockOrchestrationMetrics.networkHealth} className="h-2" />
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center space-x-2">
+                    <Activity className="w-5 h-5 text-purple-600" />
+                    <span>Agent Status</span>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-3">
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm">Orchestrator</span>
+                    <Badge variant="default">Active</Badge>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm">Consensus Leader</span>
+                    <Badge variant="default">Active</Badge>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm">Service Discovery</span>
+                    <Badge variant="default">Active</Badge>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm">Fault Monitor</span>
+                    <Badge variant="default">Active</Badge>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </TabsContent>
+
+          <TabsContent value="operations" className="space-y-6">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center space-x-2">
+                    <Bot className="w-5 h-5 text-blue-600" />
+                    <span>AI-Native Operations</span>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-gray-600">Self-Healing Events</span>
+                    <span className="font-semibold">{mockOperationsMetrics.selfHealingEvents}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-gray-600">Threat Detections</span>
+                    <span className="font-semibold">{mockOperationsMetrics.threatDetections}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-gray-600">RL Optimizations</span>
+                    <span className="font-semibold">{mockOperationsMetrics.rlOptimizations}</span>
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm text-gray-600">System Health</span>
+                      <span className="font-semibold">{mockOperationsMetrics.systemHealth}%</span>
+                    </div>
+                    <Progress value={mockOperationsMetrics.systemHealth} className="h-2" />
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center space-x-2">
+                    <TrendingUp className="w-5 h-5 text-green-600" />
+                    <span>Predictive Scaling</span>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="space-y-2">
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm text-gray-600">Prediction Accuracy</span>
+                      <span className="font-semibold">{mockOperationsMetrics.predictiveScaling}%</span>
+                    </div>
+                    <Progress value={mockOperationsMetrics.predictiveScaling} className="h-2" />
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-gray-600">Autonomous Resolutions</span>
+                    <span className="font-semibold">{mockOperationsMetrics.autonomousResolutions}</span>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center space-x-2">
+                    <AlertTriangle className="w-5 h-5 text-orange-600" />
+                    <span>Security & Monitoring</span>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-3">
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm">Threat Detection</span>
+                    <Badge variant="default">Active</Badge>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm">Self-Healing</span>
+                    <Badge variant="default">Active</Badge>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm">RL Optimizer</span>
+                    <Badge variant="default">Learning</Badge>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm">Predictive Scaler</span>
+                    <Badge variant="default">Active</Badge>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
           </TabsContent>
 
           <TabsContent value="analytics" className="space-y-6">
