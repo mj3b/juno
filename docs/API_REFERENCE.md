@@ -131,3 +131,4 @@ All endpoints return consistent error format:
 - `429`: Rate Limited
 - `500`: Internal Server Error
 
+mj3b
