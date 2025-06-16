@@ -1,4 +1,4 @@
-# JUNO Phase 3: Multi-Agent Orchestration - Production Deployment
+# JUNO Phase 3: Multi-Agent Orchestration
 
 ## Overview
 
