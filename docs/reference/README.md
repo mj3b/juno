@@ -2,12 +2,12 @@
 
 This directory contains detailed reference documentation for developers, integrators, and system administrators working with JUNO.
 
-## 📁 Reference Documents
+## Reference Documents
 
 - **[api-reference.md](./api-reference.md)** - Complete API documentation with examples
 - **[integration-guide.md](./integration-guide.md)** - Third-party system integration patterns
 
-## 🔌 API Reference
+## API Reference
 
 The JUNO API provides comprehensive access to all platform capabilities through RESTful endpoints, GraphQL queries, and WebSocket connections for real-time updates.
 
@@ -26,7 +26,7 @@ The JUNO API provides comprehensive access to all platform capabilities through 
 - **JWT Tokens**: Stateless authentication with configurable expiration
 - **Enterprise SSO**: SAML and OIDC integration for enterprise environments
 
-## 🔗 Integration Patterns
+## Integration Patterns
 
 JUNO supports multiple integration patterns to fit different organizational needs and technical architectures.
 
@@ -70,7 +70,7 @@ Asynchronous integration using message queues (Kafka, RabbitMQ) for high-volume 
 #### Database Integration
 Direct database integration for legacy systems, with support for multiple database types and custom query optimization.
 
-## 📚 Developer Resources
+## Developer Resources
 
 ### SDKs and Libraries
 - **Python SDK**: Complete Python library with async support
@@ -90,7 +90,7 @@ Direct database integration for legacy systems, with support for multiple databa
 - **Load Testing**: Performance testing tools and benchmarks
 - **Integration Testing**: End-to-end testing frameworks
 
-## 🛠️ Configuration Reference
+## Configuration Reference
 
 ### Environment Variables
 Complete reference for all configuration options, including:
@@ -105,7 +105,7 @@ Complete reference for all configuration options, including:
 - **Docker Compose**: Local development environment setup
 - **Helm Charts**: Production-ready Kubernetes deployments
 
-## 🔧 Troubleshooting Guide
+## Troubleshooting Guide
 
 ### Common Issues
 - **Authentication Failures**: Diagnosis and resolution steps
@@ -119,7 +119,7 @@ Complete reference for all configuration options, including:
 - **Metrics and Monitoring**: Key performance indicators and alerts
 - **Trace Analysis**: Distributed tracing for complex workflows
 
-## 📖 Best Practices
+## Best Practices
 
 ### API Usage
 - **Rate Limiting**: Respect API limits and implement backoff strategies
@@ -133,7 +133,7 @@ Complete reference for all configuration options, including:
 - **Scalability**: Design for growth and high availability
 - **Maintenance**: Plan for updates and backward compatibility
 
-## 🆘 Support Resources
+## Support Resources
 
 ### Documentation
 - **API Documentation**: Interactive API explorer and examples
