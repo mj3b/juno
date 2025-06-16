@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # JUNO Phase 2: One-Click Deployment Script
-# Automated setup and configuration for client demonstrations
+# Automated setup and configuration for client demonstrations mj3b
 
 set -e  # Exit on any error
 
