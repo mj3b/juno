@@ -1,4 +1,4 @@
-# JUNO: Integration Guide
+# JUNO: GPT Integration Guide
 ## Complete GPT Provider Setup and Configuration
 
 ---
