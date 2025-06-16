@@ -58,6 +58,7 @@
   - [Code Standards](#code-standards)
   - [Contribution Process](#contribution-process)
 - [License](#license)
+- [Visual Interface Showcase](##visual-interface-showcase)
 - [Support](#support)
   - [Enterprise Support](#enterprise-support)
   - [Community Support](#community-support)
@@ -542,7 +543,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🎨 Visual Interface Showcase
+## Visual Interface Showcase
 
 *Professional engineering demonstration of JUNO's enterprise agentic AI platform*
 
