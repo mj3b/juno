@@ -76,7 +76,7 @@ JUNO transforms reactive AI assistants into proactive agentic workflow orchestra
 
 When I joined the engineering team as a consultant, my brief was straightforward: help a seasoned manager bring maturity and optimization to a growing but strained software delivery operation. The team had energy, but also entropy—overwhelmed by dashboards, chasing defects across Jira, and struggling to distinguish signal from noise in daily standups. They didn't need another tool. They needed clarity.
 
-Around that same time, McKinsey released its strategy blueprint for agentic AI. As I read through their diagnosis of the "genAI paradox"—widespread deployment, minimal impact—it hit uncomfortably close to home. We had copilots and dashboards, even a few fine-tuned LLMs. But none of them transformed how work got done. They just hovered at the edges—bolted-on intelligence, not built-in intuition.
+Around that same time, McKinsey released its strategy blueprint for agentic AI. As I read through their diagnosis of the "genAI paradox"—widespread deployment, minimal impact—it hit uncomfortably close to home. We had a multitude of dashboards and rolled up use of Enterprise GPT. But none of them transformed how work got done. They just hovered at the edges—bolted-on intelligence, not built-in intuition.
 
 Then came the pivotal quote from the McKinsey report:
 
