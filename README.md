@@ -8,7 +8,7 @@
 
 **JUNO: The AI Analyst for Jira.** Powered by Enterprise GPT, JUNO adds a natural language layer to Jira, delivering granular reports, defect trends, velocity insights, and more. JIRA tracks. JUNO explains. Ask in plain English—get real answers. It's your Jira whisperer for smarter workflows and faster decision-making.
 
-**🌟 Optimized for Cloud Jira**: Enhanced performance, security, and scalability with cloud-native deployment patterns. JUNO leverages Atlassian Cloud's robust APIs, automatic updates, and enterprise security framework for seamless integration and optimal performance.
+**⭐Optimized for Cloud Jira**: Enhanced performance, security, and scalability with cloud-native deployment patterns. JUNO leverages Atlassian Cloud's robust APIs, automatic updates, and enterprise security framework for seamless integration and optimal performance.
 
 ## Table of Contents
 
