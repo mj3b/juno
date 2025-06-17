@@ -2,9 +2,9 @@
 
 **Comprehensive Cloud-Native Deployment Patterns for Enterprise Agentic AI**
 
-*Author: Manus AI*  
+*Author: mj3b + AI 
 *Version: 2.0*  
-*Last Updated: December 2024*
+*Last Updated: June 2025*
 
 ## Table of Contents
 
