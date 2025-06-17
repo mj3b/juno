@@ -1,0 +1,262 @@
+# JUNO Cloud Jira Deployment Guide
+# Kubernetes manifests for cloud-native deployment
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: juno-cloud
+  labels:
+    name: juno-cloud
+    environment: production
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: juno-cloud-config
+  namespace: juno-cloud
+data:
+  # Cloud Jira Configuration
+  jira_api_version: "3"
+  jira_cloud_optimizations: "true"
+  jira_rate_limit_buffer: "0.8"
+  jira_cache_strategy: "intelligent"
+  jira_webhook_validation: "strict"
+  
+  # Performance Configuration
+  cloud_batch_size: "100"
+  cloud_connection_pool_size: "10"
+  cloud_async_workers: "8"
+  cloud_intelligent_caching: "true"
+  
+  # Security Configuration
+  data_classification_enabled: "true"
+  pii_detection_enabled: "true"
+  audit_logging: "comprehensive"
+  encryption_at_rest: "true"
+  
+  # OpenAI Configuration
+  openai_model: "gpt-4"
+  cloud_jira_gpt_optimizations: "true"
+  gpt_cloud_cache_strategy: "intelligent"
+  gpt_batch_processing: "true"
+
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: juno-cloud-secrets
+  namespace: juno-cloud
+type: Opaque
+stringData:
+  jira-base-url: "https://your-company.atlassian.net"
+  jira-email: "your-email@company.com"
+  jira-api-token: "your-jira-cloud-api-token"
+  openai-api-key: "your-openai-enterprise-api-key"
+  openai-org-id: "your-openai-org-id"
+  openai-project-id: "your-openai-project-id"
+  database-url: "postgresql://juno:password@postgres:5432/juno_cloud"
+  redis-url: "redis://redis:6379/0"
+  flask-secret-key: "your-super-secret-flask-key"
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: juno-cloud-app
+  namespace: juno-cloud
+  labels:
+    app: juno-cloud
+    component: application
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: juno-cloud
+      component: application
+  template:
+    metadata:
+      labels:
+        app: juno-cloud
+        component: application
+    spec:
+      containers:
+      - name: juno-cloud
+        image: juno/cloud:latest
+        ports:
+        - containerPort: 5000
+          name: http
+        env:
+        - name: JIRA_BASE_URL
+          valueFrom:
+            secretKeyRef:
+              name: juno-cloud-secrets
+              key: jira-base-url
+        - name: JIRA_EMAIL
+          valueFrom:
+            secretKeyRef:
+              name: juno-cloud-secrets
+              key: jira-email
+        - name: JIRA_API_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: juno-cloud-secrets
+              key: jira-api-token
+        - name: OPENAI_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: juno-cloud-secrets
+              key: openai-api-key
+        - name: OPENAI_ORG_ID
+          valueFrom:
+            secretKeyRef:
+              name: juno-cloud-secrets
+              key: openai-org-id
+        - name: OPENAI_PROJECT_ID
+          valueFrom:
+            secretKeyRef:
+              name: juno-cloud-secrets
+              key: openai-project-id
+        - name: DATABASE_URL
+          valueFrom:
+            secretKeyRef:
+              name: juno-cloud-secrets
+              key: database-url
+        - name: REDIS_URL
+          valueFrom:
+            secretKeyRef:
+              name: juno-cloud-secrets
+              key: redis-url
+        - name: FLASK_SECRET_KEY
+          valueFrom:
+            secretKeyRef:
+              name: juno-cloud-secrets
+              key: flask-secret-key
+        envFrom:
+        - configMapRef:
+            name: juno-cloud-config
+        resources:
+          requests:
+            memory: "1Gi"
+            cpu: "500m"
+          limits:
+            memory: "2Gi"
+            cpu: "1000m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 5000
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 5000
+          initialDelaySeconds: 5
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 3
+        volumeMounts:
+        - name: logs
+          mountPath: /app/logs
+        - name: data
+          mountPath: /app/data
+      volumes:
+      - name: logs
+        emptyDir: {}
+      - name: data
+        persistentVolumeClaim:
+          claimName: juno-cloud-data
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: juno-cloud-service
+  namespace: juno-cloud
+  labels:
+    app: juno-cloud
+spec:
+  selector:
+    app: juno-cloud
+    component: application
+  ports:
+  - name: http
+    port: 80
+    targetPort: 5000
+    protocol: TCP
+  type: ClusterIP
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: juno-cloud-ingress
+  namespace: juno-cloud
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/proxy-body-size: "10m"
+    nginx.ingress.kubernetes.io/rate-limit: "100"
+spec:
+  tls:
+  - hosts:
+    - juno-cloud.your-domain.com
+    secretName: juno-cloud-tls
+  rules:
+  - host: juno-cloud.your-domain.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: juno-cloud-service
+            port:
+              number: 80
+
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: juno-cloud-data
+  namespace: juno-cloud
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi
+  storageClassName: fast-ssd
+
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: juno-cloud-hpa
+  namespace: juno-cloud
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: juno-cloud-app
+  minReplicas: 3
+  maxReplicas: 10
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 70
+  - type: Resource
+    resource:
+      name: memory
+      target:
+        type: Utilization
+        averageUtilization: 80
+

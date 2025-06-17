@@ -4,6 +4,9 @@ This directory contains comprehensive deployment guides for all JUNO phases, fro
 
 ## Deployment Guides
 
+### Cloud-Optimized Deployment
+- **[cloud-jira-deployment.md](./cloud-jira-deployment.md)** - Cloud Jira optimized deployment patterns and configurations
+
 ### Phase-Specific Deployments
 - **[phase1-analytics-foundation.md](./phase1-analytics-foundation.md)** - Deploy analytics foundation and Jira integration
 - **[phase2-agentic-ai.md](./phase2-agentic-ai.md)** - Deploy autonomous workflow management with governance

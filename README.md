@@ -8,6 +8,8 @@
 
 **JUNO: The AI Analyst for Jira.** Powered by Enterprise GPT, JUNO adds a natural language layer to Jira, delivering granular reports, defect trends, velocity insights, and more. JIRA tracks. JUNO explains. Ask in plain English—get real answers. It's your Jira whisperer for smarter workflows and faster decision-making.
 
+**🌟 Optimized for Cloud Jira**: Enhanced performance, security, and scalability with cloud-native deployment patterns. JUNO leverages Atlassian Cloud's robust APIs, automatic updates, and enterprise security framework for seamless integration and optimal performance.
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -215,6 +217,7 @@ We didn't build JUNO because we wanted to experiment with AI.
 - Python 3.11+
 - Docker and Docker Compose
 - Kubernetes cluster (for production)
+- **Cloud Jira instance** (recommended for optimal performance and security) - [Cloud Jira Setup Guide](./docs/deployment/cloud-jira-deployment.md)
 - OpenAI API key (see [Enterprise GPT Integration Guide](./docs/reference/enterprise-gpt-integration.md))
 
 ### Local Development Setup
@@ -242,9 +245,9 @@ cp .env.phase2.example .env
 
 # Configure required settings
 export OPENAI_API_KEY="your-openai-key"  # See Enterprise GPT Integration Guide
-export JIRA_URL="https://your-company.atlassian.net"
-export JIRA_USERNAME="your-username"
-export JIRA_API_TOKEN="your-api-token"
+export JIRA_URL="https://your-company.atlassian.net"  # Cloud Jira URL
+export JIRA_USERNAME="your-email@company.com"  # Cloud Jira email
+export JIRA_API_TOKEN="your-api-token"  # Cloud Jira API token
 export JUNO_PHASE=2
 ```
 
@@ -518,6 +521,8 @@ CREATE TABLE audit_trail (
 
 ### For Engineering Managers
 - [Technical Specifications](./docs/architecture/technical-specifications.md) - Detailed technical architecture
+- [Cloud Jira Deployment Guide](./docs/deployment/cloud-jira-deployment.md) - Cloud-optimized deployment patterns
+- [Phase 1 Deployment Guide](./docs/deployment/phase1-analytics-foundation.md) - Analytics foundation deployment
 - [Phase 2 Deployment Guide](./docs/deployment/phase2-agentic-ai.md) - Agentic AI production deployment
 - [Phase 3 Deployment Guide](./docs/deployment/phase3-multi-agent-orchestration.md) - Multi-agent orchestration
 - [Phase 4 Deployment Guide](./docs/deployment/phase4-ai-native-operations.md) - AI-native operations

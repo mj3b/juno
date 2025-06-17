@@ -1,0 +1,64 @@
+# Cloud Jira Optimized Dockerfile for JUNO
+FROM python:3.11-slim
+
+# Set working directory
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    curl \
+    git \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements first for better caching
+COPY juno-agent/requirements.txt .
+COPY requirements.txt ./requirements-base.txt
+
+# Install Python dependencies with cloud optimizations
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt && \
+    pip install --no-cache-dir -r requirements-base.txt && \
+    pip install --no-cache-dir \
+        aiohttp[speedups] \
+        uvloop \
+        redis[hiredis] \
+        psycopg2-binary \
+        prometheus-client
+
+# Copy application code
+COPY juno-agent/ ./juno-agent/
+COPY juno-dashboard/dist/ ./static/
+COPY . .
+
+# Create necessary directories
+RUN mkdir -p logs data temp
+
+# Set environment variables for cloud optimization
+ENV PYTHONPATH=/app
+ENV PYTHONUNBUFFERED=1
+ENV CLOUD_OPTIMIZATIONS=true
+ENV ASYNC_MODE=true
+ENV CACHE_BACKEND=redis
+
+# Create non-root user for security
+RUN useradd --create-home --shell /bin/bash juno && \
+    chown -R juno:juno /app
+USER juno
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+    CMD curl -f http://localhost:5000/health || exit 1
+
+# Expose port
+EXPOSE 5000
+
+# Start command with cloud optimizations
+CMD ["python", "-m", "uvicorn", "juno-agent.src.main:app", \
+     "--host", "0.0.0.0", \
+     "--port", "5000", \
+     "--workers", "4", \
+     "--loop", "uvloop", \
+     "--access-log", \
+     "--log-level", "info"]
+
