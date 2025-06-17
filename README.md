@@ -49,6 +49,7 @@
   - [For Executives](#for-executives)
   - [For Engineering Managers](#for-engineering-managers)
   - [For Developers](#for-developers)
+  - [Enterprise GPT Integration](#enterprise-gpt-integration)
   - [For DevOps](#for-devops)
 - [Testing](#testing)
   - [Comprehensive Test Suite](#comprehensive-test-suite)
@@ -130,7 +131,7 @@ We didn't build JUNO because we wanted to experiment with AI.
 - **Runtime**: Python 3.11+ with asyncio concurrency
 - **API Framework**: FastAPI with automatic OpenAPI documentation
 - **Databases**: PostgreSQL (transactional), Elasticsearch (vector), Redis (cache)
-- **AI/ML**: OpenAI GPT-4, Sentence Transformers, scikit-learn, TensorFlow
+- **AI/ML**: OpenAI GPT-4 ([Enterprise Integration Guide](./docs/reference/enterprise-gpt-integration.md)), Sentence Transformers, scikit-learn, TensorFlow
 - **Infrastructure**: Kubernetes, Istio, Prometheus, Grafana
 
 ## Phase Implementation
@@ -214,7 +215,7 @@ We didn't build JUNO because we wanted to experiment with AI.
 - Python 3.11+
 - Docker and Docker Compose
 - Kubernetes cluster (for production)
-- OpenAI API key
+- OpenAI API key (see [Enterprise GPT Integration Guide](./docs/reference/enterprise-gpt-integration.md))
 
 ### Local Development Setup
 
@@ -240,7 +241,7 @@ open http://localhost:5000
 cp .env.phase2.example .env
 
 # Configure required settings
-export OPENAI_API_KEY="your-openai-key"
+export OPENAI_API_KEY="your-openai-key"  # See Enterprise GPT Integration Guide
 export JIRA_URL="https://your-company.atlassian.net"
 export JIRA_USERNAME="your-username"
 export JIRA_API_TOKEN="your-api-token"
@@ -523,8 +524,12 @@ CREATE TABLE audit_trail (
 
 ### For Developers
 - [API Reference](./docs/reference/api-reference.md) - Complete API documentation
+- [Enterprise GPT Integration](./docs/reference/enterprise-gpt-integration.md) - OpenAI Enterprise GPT implementation guide
 - [System Architecture](./docs/architecture/system-overview.md) - System design and patterns
 - [Integration Guide](./docs/reference/integration-guide.md) - Integration patterns and examples
+
+### Enterprise GPT Integration
+- [OpenAI Enterprise GPT Implementation Guide](./docs/reference/enterprise-gpt-integration.md) - Comprehensive phase-by-phase GPT integration patterns
 
 ### For DevOps
 - [Quick Start Guide](./docs/getting-started/quick-start.md) - Rapid deployment procedures
@@ -659,6 +664,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For enterprise deployment assistance, custom integrations, or technical support:
 
 - **Documentation**: [Enterprise Implementation Guide](./docs/deployment/enterprise-implementation.md)
+- **Enterprise GPT Integration**: [OpenAI Enterprise GPT Implementation Guide](./docs/reference/enterprise-gpt-integration.md)
 - **Technical Specifications**: [Technical Specifications](./docs/architecture/technical-specifications.md)
 - **Performance Metrics**: [Comprehensive Test Results](./tests/TEST_RESULTS.md) - 109 tests, 100% pass rate, 96.3% coverage
 
