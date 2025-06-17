@@ -3,6 +3,7 @@
 **Comprehensive Cloud-Native Deployment Patterns for Enterprise Agentic AI**
 
 *Author: mj3b + AI 
+
 *Version: 2.0*  
 *Last Updated: June 2025*
 
