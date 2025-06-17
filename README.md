@@ -50,7 +50,7 @@
   - [For Engineering Managers](#for-engineering-managers)
   - [For Developers](#for-developers)
   - [For DevOps](#for-devops)
-  - [Enterprise GPT Integration](#enterprise-gpt-integration)
+  - [Enterprise GPT Integration](#enterprise-gpt-integration) ⭐
 - [Testing](#testing)
   - [Comprehensive Test Suite](#comprehensive-test-suite)
   - [Test Results Summary](#test-results-summary)
