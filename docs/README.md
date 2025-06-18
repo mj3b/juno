@@ -21,9 +21,8 @@ docs/
 │   └── technical-specifications.md          # Detailed technical specs
 ├── guides/                                  # Educational and conceptual guides
 │   └── ai-agents-vs-agentic-ai.md           # AI Agents vs Agentic AI guide
-├── evaluation/                              # Evaluation frameworks and strategies
-│   ├── human-evaluation-framework.md        # Human evaluation framework
-│   └── evaluation-strategy.md               # Comprehensive evaluation strategy
+├── evaluation/                              # Evaluation frameworks
+│   └── human-evaluation-framework.md        # Human evaluation framework
 ├── reference/                               # API and integration documentation
 │   ├── api-reference.md                     # Complete API documentation
 │   ├── integration-guide.md                 # Third-party integrations
@@ -48,8 +47,7 @@ Choose your deployment path:
 
 ### Understanding JUNO's Agentic AI Approach?
 - **AI Agents vs Agentic AI:** [Educational Guide](./guides/ai-agents-vs-agentic-ai.md) - Understand why JUNO is agentic AI, not just AI agents
-- **Human Evaluation:** [Evaluation Framework](./evaluation/human-evaluation-framework.md) - Comprehensive human evaluation framework
-- **Evaluation Strategy:** [Strategy Guide](./evaluation/evaluation-strategy.md) - Implementation strategy for evaluation
+- **Human Evaluation:** [Evaluation Framework](./evaluation/human-evaluation-framework.md) - Human evaluation framework
 
 ### Need Technical Details?
 - **Architecture:** [System Overview](./architecture/system-overview.md) - High-level design

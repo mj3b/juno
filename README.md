@@ -10,6 +10,20 @@
 
 **⭐Optimized for Cloud Jira**: Enhanced performance, security, and scalability with cloud-native deployment patterns. JUNO leverages Atlassian Cloud's robust APIs, automatic updates, and enterprise security framework for seamless integration and optimal performance.
 
+## 🎯 Why JUNO is Agentic AI, Not Just AI Agents
+
+**[📖 Essential Reading: AI Agents vs Agentic AI Educational Guide](./docs/guides/ai-agents-vs-agentic-ai.md)**
+
+JUNO represents true **agentic AI** - autonomous systems that reason through multiple valid paths to achieve optimal outcomes. Unlike traditional AI agents that follow fixed workflows, JUNO's agentic approach enables:
+
+- **🧠 Multiple Valid Solution Paths**: JUNO can resolve sprint risks through reassignment, scope adjustment, or stakeholder escalation - choosing the optimal approach based on context
+- **🔮 Proactive Intelligence**: Predicts and prevents issues rather than just responding to them
+- **🤖 Autonomous Reasoning**: Makes informed decisions within defined boundaries without constant human oversight
+- **🔄 Self-Optimizing**: Learns from outcomes to improve future decision-making
+- **🎼 Multi-Agent Orchestration**: Coordinates specialized agents for complex workflow management
+
+**For Engineers**: Understanding this distinction is critical for implementing, evaluating, and scaling JUNO effectively. [Read the full guide →](./docs/guides/ai-agents-vs-agentic-ai.md)
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -513,6 +527,22 @@ CREATE TABLE audit_trail (
 );
 ```
 
+## Documentation Structure
+
+```
+docs/
+├── guides/                                  # Educational and conceptual guides
+│   └── ai-agents-vs-agentic-ai.md           # 🎯 AI Agents vs Agentic AI guide
+├── evaluation/                              # Evaluation frameworks
+│   └── human-evaluation-framework.md        # Human evaluation framework
+├── deployment/                              # Production deployment guides
+│   ├── cloud-jira-deployment.md             # Cloud Jira optimization guide
+│   └── enterprise-implementation.md         # Enterprise-wide strategy
+├── architecture/                            # System design and specifications
+├── reference/                               # API and integration documentation
+└── getting-started/                         # Quick setup and first steps
+```
+
 ## Documentation
 
 ### For Executives
@@ -520,6 +550,8 @@ CREATE TABLE audit_trail (
 - [ROI and Business Impact](./docs/deployment/enterprise-implementation.md#success-metrics-and-roi-measurement) - Quantified business value
 
 ### For Engineering Managers
+- **[🎯 AI Agents vs Agentic AI Guide](./docs/guides/ai-agents-vs-agentic-ai.md)** - Essential understanding for JUNO implementation
+- [Human Evaluation Framework](./docs/evaluation/human-evaluation-framework.md) - Evaluation strategy for agentic AI systems
 - [Technical Specifications](./docs/architecture/technical-specifications.md) - Detailed technical architecture
 - [Cloud Jira Deployment Guide](./docs/deployment/cloud-jira-deployment.md) - Cloud-optimized deployment patterns
 - [Phase 1 Deployment Guide](./docs/deployment/phase1-analytics-foundation.md) - Analytics foundation deployment
@@ -533,7 +565,7 @@ CREATE TABLE audit_trail (
 - [System Architecture](./docs/architecture/system-overview.md) - System design and patterns
 - [Integration Guide](./docs/reference/integration-guide.md) - Integration patterns and examples
 
-### Enterprise GPT Integration
+### Enterprise GPT Integration ⭐
 - [OpenAI Enterprise GPT Implementation Guide](./docs/reference/enterprise-gpt-integration.md) - Comprehensive phase-by-phase GPT integration patterns
 
 ### For DevOps
