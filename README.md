@@ -654,7 +654,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## Visual Interface Showcase
+## Visual Interface Showcase (Mockup only)
 
 *Professional engineering demonstration of JUNO's enterprise agentic AI platform*
 
