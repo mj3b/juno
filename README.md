@@ -1,5 +1,5 @@
 <div align="center">
-<img src="docs/images/juno-readme-banner.png" alt="JUNO - Agentic AI Platform for Jira Intelligence" width="80%"/>
+<img src="docs/images/juno-readme-banner.png" alt="JUNO - Agentic AI Platform for Jira Intelligence" width="100%"/>
 </div>
 
 # JUNO: Agentic AI Platform for Jira Intelligence and Workflow Orchestration
