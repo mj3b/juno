@@ -97,9 +97,9 @@ JUNO began as a hypothesis:
 JUNO is not a chatbot. It's not a dashboard filter.  
 It's an **Agentic AI Analyst**—built from the ground up to sit inside Jira and perform the mental gymnastics we were once forced to do manually:
 
-- ✅ Surface delivery anomalies before they show up in retros
-- ✅ Analyze defect sprawl in real time—not days after it derails release plans
-- ✅ Compress 12 browser tabs of context-switching into one insight thread
+- Surface delivery anomalies before they show up in retros
+- Analyze defect sprawl in real time—not days after it derails release plans
+- Compress 12 browser tabs of context-switching into one insight thread
 
 Its architecture was inspired by McKinsey’s *agentic mesh model*—modular, vendor-neutral, observable, and designed to govern autonomy at scale. But JUNO didn’t emerge from a whiteboard. It was forged in the chaos of real engineering meetings—where delivery dates slip, scope expands, and everyone's underwater.
 
@@ -111,7 +111,7 @@ Enterprise-grade JIRA—especially when bundled with analytics plugins, Advanced
 
 We didn’t want to add another plugin. We wanted to subtract complexity.
 
-So we asked: *What if the analyst was the interface?*
+So I asked: *What if the analyst was the interface?*
 
 By integrating with OpenAI’s **Enterprise GPT**, we created a more cost-conscious, usage-based alternative—scaling insight on demand without scaling licensing costs. GPT’s flexible consumption model meant we could meet teams where they were, without forcing them into tiered subscriptions or tool sprawl. For many teams, JUNO’s integration model is not just smarter—it’s **cheaper**.
 
