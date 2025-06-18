@@ -10,17 +10,17 @@
 
 **⭐Optimized for Cloud Jira**: Enhanced performance, security, and scalability with cloud-native deployment patterns. JUNO leverages Atlassian Cloud's robust APIs, automatic updates, and enterprise security framework for seamless integration and optimal performance.
 
-## 🎯 Why JUNO is Agentic AI, Not Just AI Agents
+## Why JUNO is Agentic AI, Not Just AI Agents
 
 **[📖 Essential Reading: AI Agents vs Agentic AI Educational Guide](./docs/guides/ai-agents-vs-agentic-ai.md)**
 
 JUNO represents true **agentic AI** - autonomous systems that reason through multiple valid paths to achieve optimal outcomes. Unlike traditional AI agents that follow fixed workflows, JUNO's agentic approach enables:
 
-- **🧠 Multiple Valid Solution Paths**: JUNO can resolve sprint risks through reassignment, scope adjustment, or stakeholder escalation - choosing the optimal approach based on context
-- **🔮 Proactive Intelligence**: Predicts and prevents issues rather than just responding to them
-- **🤖 Autonomous Reasoning**: Makes informed decisions within defined boundaries without constant human oversight
-- **🔄 Self-Optimizing**: Learns from outcomes to improve future decision-making
-- **🎼 Multi-Agent Orchestration**: Coordinates specialized agents for complex workflow management
+- **Multiple Valid Solution Paths**: JUNO can resolve sprint risks through reassignment, scope adjustment, or stakeholder escalation - choosing the optimal approach based on context
+- **Proactive Intelligence**: Predicts and prevents issues rather than just responding to them
+- **Autonomous Reasoning**: Makes informed decisions within defined boundaries without constant human oversight
+- **Self-Optimizing**: Learns from outcomes to improve future decision-making
+- **Multi-Agent Orchestration**: Coordinates specialized agents for complex workflow management
 
 **For Engineers**: Understanding this distinction is critical for implementing, evaluating, and scaling JUNO effectively. [Read the full guide →](./docs/guides/ai-agents-vs-agentic-ai.md)
 
