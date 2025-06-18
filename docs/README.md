@@ -14,10 +14,16 @@ docs/
 │   ├── phase2-agentic-ai.md                 # Phase 2: Agentic AI deployment
 │   ├── phase3-multi-agent-orchestration.md  # Phase 3: Multi-agent systems
 │   ├── phase4-ai-native-operations.md       # Phase 4: AI-native operations
+│   ├── cloud-jira-deployment.md             # Cloud Jira optimization guide
 │   └── enterprise-implementation.md         # Enterprise-wide strategy
 ├── architecture/                            # System design and specifications
 │   ├── system-overview.md                   # High-level architecture
 │   └── technical-specifications.md          # Detailed technical specs
+├── guides/                                  # Educational and conceptual guides
+│   └── ai-agents-vs-agentic-ai.md           # AI Agents vs Agentic AI guide
+├── evaluation/                              # Evaluation frameworks and strategies
+│   ├── human-evaluation-framework.md        # Human evaluation framework
+│   └── evaluation-strategy.md               # Comprehensive evaluation strategy
 ├── reference/                               # API and integration documentation
 │   ├── api-reference.md                     # Complete API documentation
 │   ├── integration-guide.md                 # Third-party integrations
@@ -37,7 +43,13 @@ Choose your deployment path:
 - **Phase 2:** [Agentic AI Deployment](./deployment/phase2-agentic-ai.md) - Autonomous workflow management
 - **Phase 3:** [Multi-Agent Orchestration](./deployment/phase3-multi-agent-orchestration.md) - Organization-wide coordination
 - **Phase 4:** [AI-Native Operations](./deployment/phase4-ai-native-operations.md) - Self-optimizing systems
+- **Cloud Jira:** [Cloud Jira Deployment](./deployment/cloud-jira-deployment.md) - Cloud-optimized deployment guide
 - **Enterprise:** [Enterprise Implementation](./deployment/enterprise-implementation.md) - Strategic rollout guide
+
+### Understanding JUNO's Agentic AI Approach?
+- **AI Agents vs Agentic AI:** [Educational Guide](./guides/ai-agents-vs-agentic-ai.md) - Understand why JUNO is agentic AI, not just AI agents
+- **Human Evaluation:** [Evaluation Framework](./evaluation/human-evaluation-framework.md) - Comprehensive human evaluation framework
+- **Evaluation Strategy:** [Strategy Guide](./evaluation/evaluation-strategy.md) - Implementation strategy for evaluation
 
 ### Need Technical Details?
 - **Architecture:** [System Overview](./architecture/system-overview.md) - High-level design
