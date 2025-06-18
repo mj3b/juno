@@ -546,7 +546,7 @@ CREATE TABLE audit_trail (
 ```
 docs/
 ├── guides/                                  # Educational and conceptual guides
-│   └── ai-agents-vs-agentic-ai.md           # 🎯 AI Agents vs Agentic AI guide
+│   └── ai-agents-vs-agentic-ai.md           # AI Agents vs Agentic AI guide
 ├── evaluation/                              # Evaluation frameworks
 │   └── human-evaluation-framework.md        # Human evaluation framework
 ├── deployment/                              # Production deployment guides
@@ -564,7 +564,7 @@ docs/
 - [ROI and Business Impact](./docs/deployment/enterprise-implementation.md#success-metrics-and-roi-measurement) - Quantified business value
 
 ### For Engineering Managers
-- **[🎯 AI Agents vs Agentic AI Guide](./docs/guides/ai-agents-vs-agentic-ai.md)** - Essential understanding for JUNO implementation
+- [AI Agents vs Agentic AI Guide](./docs/guides/ai-agents-vs-agentic-ai.md)** - Essential understanding for JUNO implementation
 - [Human Evaluation Framework](./docs/evaluation/human-evaluation-framework.md) - Evaluation strategy for agentic AI systems
 - [Technical Specifications](./docs/architecture/technical-specifications.md) - Detailed technical architecture
 - [Cloud Jira Deployment Guide](./docs/deployment/cloud-jira-deployment.md) - Cloud-optimized deployment patterns
