@@ -2,8 +2,6 @@
 <img src="docs/images/juno-readme-banner-rectangular.png" alt="JUNO - Agentic AI Platform for Jira Intelligence" width="100%"/>
 </div>
 
-# JUNO: Agentic AI Platform for Jira Intelligence and Workflow Orchestration
-
 [![Tests](https://img.shields.io/badge/tests-109%20passed-brightgreen.svg)](./tests/TEST_RESULTS.md)
 [![Coverage](https://img.shields.io/badge/coverage-96.3%25-green.svg)](./tests/)
 [![Performance](https://img.shields.io/badge/latency-127ms%20avg-blue.svg)](./tests/TEST_RESULTS.md)
