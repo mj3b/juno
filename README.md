@@ -1,5 +1,5 @@
 <div align="center">
-<img src="docs/images/juno-readme-banner.png" alt="JUNO - Agentic AI Platform for Jira Intelligence" width="100%"/>
+<img src="docs/images/juno-readme-banner-rectangular.png" alt="JUNO - Agentic AI Platform for Jira Intelligence" width="100%"/>
 </div>
 
 # JUNO: Agentic AI Platform for Jira Intelligence and Workflow Orchestration
@@ -14,19 +14,7 @@
 
 **⭐Optimized for Cloud Jira**: Enhanced performance, security, and scalability with cloud-native deployment patterns. JUNO leverages Atlassian Cloud's robust APIs, automatic updates, and enterprise security framework for seamless integration and optimal performance.
 
-## Why JUNO is Agentic AI, Not Just AI Agents
-
-**[📖 Essential Reading: AI Agents vs Agentic AI Educational Guide](./docs/guides/ai-agents-vs-agentic-ai.md)**
-
-JUNO represents true **agentic AI** - autonomous systems that reason through multiple valid paths to achieve optimal outcomes. Unlike traditional AI agents that follow fixed workflows, JUNO's agentic approach enables:
-
-- **Multiple Valid Solution Paths**: JUNO can resolve sprint risks through reassignment, scope adjustment, or stakeholder escalation - choosing the optimal approach based on context
-- **Proactive Intelligence**: Predicts and prevents issues rather than just responding to them
-- **Autonomous Reasoning**: Makes informed decisions within defined boundaries without constant human oversight
-- **Self-Optimizing**: Learns from outcomes to improve future decision-making
-- **Multi-Agent Orchestration**: Coordinates specialized agents for complex workflow management
-
-**For Engineers**: Understanding this distinction is critical for implementing, evaluating, and scaling JUNO effectively. [Read the full guide →](./docs/guides/ai-agents-vs-agentic-ai.md)
+---
 
 ## Table of Contents
 
@@ -88,9 +76,9 @@ JUNO represents true **agentic AI** - autonomous systems that reason through mul
 
 ## Overview
 
-JUNO transforms reactive AI assistants into proactive agentic workflow orchestrators. Built for enterprise-scale deployment with comprehensive governance, transparent reasoning, and autonomous decision-making capabilities.
-
 **Core Value Proposition**: Shift from "AI answers questions" to "AI prevents problems and optimizes outcomes."
+
+---
 
 ## How JUNO Was Born: A Consultant's Reckoning with the GenAI Paradox
 
@@ -124,6 +112,24 @@ Now, when a manager asks "Why did our regression rate spike last sprint?"—JUNO
 We didn't build JUNO because we wanted to experiment with AI.
 **We built JUNO because we were drowning in Jira, and no one was coming to save us.**
 
+---
+
+## 🎯 Why JUNO is Agentic AI, Not Just AI Agents
+
+**[📖 Essential Reading: AI Agents vs Agentic AI Educational Guide](./docs/guides/ai-agents-vs-agentic-ai.md)**
+
+JUNO represents true **agentic AI** - autonomous systems that reason through multiple valid paths to achieve optimal outcomes. Unlike traditional AI agents that follow fixed workflows, JUNO's agentic approach enables:
+
+- **🧠 Multiple Valid Solution Paths**: JUNO can resolve sprint risks through reassignment, scope adjustment, or stakeholder escalation - choosing the optimal approach based on context
+- **🔮 Proactive Intelligence**: Predicts and prevents issues rather than just responding to them
+- **🤖 Autonomous Reasoning**: Makes informed decisions within defined boundaries without constant human oversight
+- **🔄 Self-Optimizing**: Learns from outcomes to improve future decision-making
+- **🎼 Multi-Agent Orchestration**: Coordinates specialized agents for complex workflow management
+
+**For Engineers**: Understanding this distinction is critical for implementing, evaluating, and scaling JUNO effectively. [Read the full guide →](./docs/guides/ai-agents-vs-agentic-ai.md)
+
+---
+
 ## Architecture
 
 ### Microservices Architecture
@@ -155,6 +161,8 @@ We didn't build JUNO because we wanted to experiment with AI.
 - **Databases**: PostgreSQL (transactional), Elasticsearch (vector), Redis (cache)
 - **AI/ML**: OpenAI GPT-4 ([Enterprise Integration Guide](./docs/reference/enterprise-gpt-integration.md)), Sentence Transformers, scikit-learn, TensorFlow
 - **Infrastructure**: Kubernetes, Istio, Prometheus, Grafana
+
+---
 
 ## Phase Implementation
 
@@ -229,6 +237,8 @@ We didn't build JUNO because we wanted to experiment with AI.
 - Threat detection accuracy: >96%
 - Automated resolution rate: >89%
 - MTTR: <5 minutes
+
+---
 
 ## Quick Start
 
