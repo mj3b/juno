@@ -1,3 +1,7 @@
+<div align="center">
+<img src="docs/images/juno-readme-banner.png" alt="JUNO - Agentic AI Platform for Jira Intelligence" width="100%"/>
+</div>
+
 # JUNO: Agentic AI Platform for Jira Intelligence and Workflow Orchestration
 
 [![Tests](https://img.shields.io/badge/tests-109%20passed-brightgreen.svg)](./tests/TEST_RESULTS.md)
@@ -27,6 +31,8 @@ JUNO represents true **agentic AI** - autonomous systems that reason through mul
 ## Table of Contents
 
 - [Overview](#overview)
+- [How JUNO Was Born](#how-juno-was-born-a-consultants-reckoning-with-the-genai-paradox)
+- [Why JUNO is Agentic AI, Not Just AI Agents](#why-juno-is-agentic-ai-not-just-ai-agents)
 - [Architecture](#architecture)
   - [Microservices Architecture](#microservices-architecture)
   - [Technology Stack](#technology-stack)
