@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify, request
 from ..enhanced_nlp_processor import EnhancedNLPProcessor
-from ..openai_integration import OpenAIIntegration
+from juno.infrastructure.openai_integration.openai_client import OpenAIIntegration
 import logging
 
 # Create blueprint for enhanced NLP routes

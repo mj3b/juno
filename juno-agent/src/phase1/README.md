@@ -15,11 +15,11 @@ Phase 1 establishes the analytics foundation for JUNO, providing essential data 
 
 | Component | File | Purpose | Status |
 |-----------|------|---------|--------|
-| **Data Extractor** | `../data_extractor.py` | Jira API integration and data normalization | ✅ Production |
+| **Data Extractor** | `../../src/juno/infrastructure/jira_integration/extractor.py` | Jira API integration and data normalization | ✅ Production |
 | **Analytics Engine** | `../analytics_engine.py` | Statistical analysis and trend detection | ✅ Production |
 | **Visualization Engine** | `../visualization_engine.py` | Interactive charts and dashboards | ✅ Production |
 | **Query Processor** | `../query_processor.py` | Natural language query interpretation | ✅ Production |
-| **Jira Connector** | `../jira_connector.py` | API connectivity and authentication | ✅ Production |
+| **Jira Connector** | `../../src/juno/infrastructure/jira_integration/connector.py` | API connectivity and authentication | ✅ Production |
 
 ### Key Features
 

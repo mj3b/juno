@@ -279,11 +279,11 @@ juno/
 ### Phase-Specific Components
 
 **Phase 1: Analytics Foundation**
-- [`data_extractor.py`](./juno-agent/src/data_extractor.py) - Jira API integration and data extraction
+- [`data_extractor.py`](./src/juno/infrastructure/jira_integration/extractor.py) - Jira API integration and data extraction
 - [`analytics_engine.py`](./juno-agent/src/analytics_engine.py) - Statistical analysis and insights generation
 - [`visualization_engine.py`](./juno-agent/src/visualization_engine.py) - Interactive charts and dashboards
 - [`query_processor.py`](./juno-agent/src/query_processor.py) - Natural language query processing
-- [`jira_connector.py`](./juno-agent/src/jira_connector.py) - Jira API connectivity and authentication
+- [`jira_connector.py`](./src/juno/infrastructure/jira_integration/connector.py) - Jira API connectivity and authentication
 
 **Phase 2: Agentic Workflow Management**
 - [`memory_layer.py`](./juno-agent/src/phase2/memory_layer.py) - Advanced memory management system

@@ -1,7 +1,7 @@
 import logging
 from typing import Dict, List, Optional, Any, Tuple
 from .nlp_processor import JiraNLUProcessor
-from .enterprise_gpt_integration import EnterpriseGPTIntegration
+from juno.infrastructure.openai_integration.integration import EnterpriseGPTIntegration
 import time
 
 class EnhancedNLPProcessor:

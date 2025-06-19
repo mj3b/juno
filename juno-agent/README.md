@@ -35,8 +35,8 @@ juno-agent/
 | File | Purpose | Phase | Status |
 |------|---------|-------|--------|
 | `analytics_engine.py` | Data analytics and insights generation | Phase 1 | ✅ Production |
-| `data_extractor.py` | Jira data extraction and processing | Phase 1 | ✅ Production |
-| `jira_connector.py` | Jira API integration | Phase 1 | ✅ Production |
+| `jira_integration/extractor.py` | Jira data extraction and processing | Phase 1 | ✅ Production |
+| `jira_integration/connector.py` | Jira API integration | Phase 1 | ✅ Production |
 | `query_processor.py` | Natural language query processing | Phase 1 | ✅ Production |
 | `visualization_engine.py` | Chart and graph generation | Phase 1 | ✅ Production |
 

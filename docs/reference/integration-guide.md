@@ -94,7 +94,7 @@ API_RATE_LIMIT=60  # requests per minute
 3. **Test Connection**
    ```bash
    python -c "
-   from juno-agent.src.openai_integration import OpenAIIntegration
+   from juno.infrastructure.openai_integration.openai_client import OpenAIIntegration
    client = OpenAIIntegration()
    print(client.test_connection())
    "
@@ -120,7 +120,7 @@ API_RATE_LIMIT=60  # requests per minute
 3. **Test Deployment**
    ```bash
    python -c "
-   from juno-agent.src.openai_integration import AzureOpenAIIntegration
+   from juno.infrastructure.openai_integration.openai_client import AzureOpenAIIntegration
    client = AzureOpenAIIntegration()
    print(client.test_connection())
    "

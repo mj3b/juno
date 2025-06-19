@@ -1,16 +1,10 @@
 import os
 import sys
 from types import SimpleNamespace
-import pytest
 
-base = os.path.join(os.path.dirname(__file__), '../../juno-agent')
-sys.path.insert(0, os.path.join(base, 'src'))
-sys.path.insert(0, base)
-
-jira_module = pytest.importorskip('jira_connector')
-extractor_module = pytest.importorskip('data_extractor')
-JiraAPIConnector = jira_module.JiraAPIConnector
-JiraDataExtractor = extractor_module.JiraDataExtractor
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../../src'))
+from juno.infrastructure.jira_integration.connector import JiraAPIConnector
+from juno.infrastructure.jira_integration.extractor import JiraDataExtractor
 
 
 def test_jira_integration(monkeypatch):
