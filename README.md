@@ -506,6 +506,10 @@ ws.onmessage = (event) => {
 
 ## Performance Metrics
 
+Detailed benchmark numbers are provided in
+[performance-benchmarks](./docs/performance-benchmarks.md).
+
+<!--
 ### Validated Performance Results
 
 | Metric | Target | Achieved | Status |
@@ -533,6 +537,7 @@ ws.onmessage = (event) => {
 | 1000 ops/sec | 167ms | 99.8% | 78% |
 | 2000 ops/sec | 334ms | 97.2% | 94% |
 
+-->
 ## Security & Compliance
 
 ### Security Features
@@ -743,7 +748,7 @@ For enterprise deployment assistance, custom integrations, or technical support:
 - **Documentation**: [Enterprise Implementation Guide](./docs/deployment/enterprise-implementation.md)
 - **Enterprise GPT Integration**: [OpenAI Enterprise GPT Implementation Guide](./docs/reference/enterprise-gpt-integration.md)
 - **Technical Specifications**: [Technical Specifications](./docs/architecture/technical-specifications.md)
-- **Performance Metrics**: [Comprehensive Test Results](./tests/TEST_RESULTS.md) - 109 tests, 100% pass rate, 96.3% coverage
+- **Performance Benchmarks**: [Performance Benchmarks](./docs/performance-benchmarks.md) - validated latency and scalability metrics
 
 ### Community Support
 
