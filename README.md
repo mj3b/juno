@@ -11,6 +11,7 @@
 **JUNO: AI-driven analytics for Jira.** This repository hosts the agentic platform that augments Jira with natural language queries and data-driven insights. Built on Enterprise GPT, JUNO translates Jira activity into actionable reports covering defects, velocity trends, and project health. Ask questions in plain English to obtain rigorous answers backed by your issue tracker.
 
 **Optimized for Atlassian Cloud**: JUNO is designed for secure, high-performance deployments. It leverages Atlassian's APIs and cloud-native practices to integrate seamlessly with enterprise environments.
+<div style="background-color:#fff5b1;border:1px solid #ffe58f;border-radius:6px;padding:12px;margin-top:8px;margin-bottom:8px"><b>Important Notes:</b> JUNO leverages advanced generative AI. Review the <a href="./docs/architecture/technical-specifications.md">technical specifications</a> and <a href="./docs/deployment/enterprise-implementation.md">enterprise implementation guide</a> before deploying in production.</div>
 
 ---
 
@@ -221,6 +222,7 @@ juno-repo/
 ---
 
 ## Quick Start
+<details><summary><strong>Expand Quick Start instructions</strong></summary>
 
 A minimal setup to launch JUNO locally. For the full environment setup and
 detailed instructions, see the
@@ -240,8 +242,10 @@ cd juno
 # Open the dashboard
 open http://localhost:5000
 ```
+</details>
 
 ## Code Structure
+<details><summary><strong>Expand Code Map</strong></summary>
 
 ### Directory Overview
 
@@ -304,8 +308,10 @@ juno/
 - [`reinforcement_learning.py`](./juno-agent/src/phase4/reinforcement_learning.py) - Reinforcement learning optimization
 - [`threat_detection.py`](./juno-agent/src/phase4/threat_detection.py) - Threat detection and response
 - [`self_healing.py`](./juno-agent/src/phase4/self_healing.py) - Self-healing infrastructure management
+</details>
 
 ## Enterprise Deployment
+<details><summary><strong>Expand deployment details</strong></summary>
 
 ### Production Architecture
 
@@ -367,6 +373,7 @@ security:
     at_rest: "AES-256-GCM"
     in_transit: "TLS-1.3"
 ```
+</details>
 
 ## API Reference
 
