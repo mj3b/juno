@@ -45,10 +45,12 @@
   - [RESTful API](#restful-api)
   - [GraphQL API](#graphql-api)
   - [WebSocket API](#websocket-api)
-- [Performance Metrics](#performance-metrics)
+- [Performance Benchmarks](#performance-benchmarks)
+<!--
   - [Validated Performance Results](#validated-performance-results)
   - [Scalability Testing](#scalability-testing)
   - [Load Testing Results](#load-testing-results)
+-->
 - [Security & Compliance](#security--compliance)
   - [Security Features](#security-features)
   - [Compliance Frameworks](#compliance-frameworks)
@@ -425,7 +427,7 @@ ws.onmessage = (event) => {
 };
 ```
 
-## Performance Metrics
+## Performance Benchmarks
 
 Detailed benchmark numbers are provided in
 [performance-benchmarks](./docs/performance-benchmarks.md).
