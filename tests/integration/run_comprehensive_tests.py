@@ -19,6 +19,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import argparse
 import sqlite3
 import csv
+import importlib.util
 from dataclasses import dataclass, asdict
 import psutil
 import traceback
@@ -244,8 +245,8 @@ class JUNOTestRunner:
             if module_file.exists():
                 try:
                     # Import module and discover test cases
-                    spec = unittest.util.spec_from_file_location(module_name, module_file)
-                    module = unittest.util.module_from_spec(spec)
+                    spec = importlib.util.spec_from_file_location(module_name, module_file)
+                    module = importlib.util.module_from_spec(spec)
                     spec.loader.exec_module(module)
                     
                     # Find test classes
