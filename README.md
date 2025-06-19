@@ -570,6 +570,13 @@ to restore comprehensive testing are welcome.
 ### Development Setup
 
 ```bash
+# Create and activate a virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Install runtime dependencies
+pip install -r requirements.txt
+
 # Install development dependencies
 pip install -r requirements-dev.txt
 
