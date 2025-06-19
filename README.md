@@ -69,7 +69,7 @@
   - [Code Standards](#code-standards)
   - [Contribution Process](#contribution-process)
 - [License](#license)
-- [Visual Interface Showcase](##visual-interface-showcase)
+ - [Visual Interface Showcase](#visual-interface-showcase)
 - [Support](#support)
   - [Enterprise Support](#enterprise-support)
   - [Community Support](#community-support)
