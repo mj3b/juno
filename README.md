@@ -148,27 +148,35 @@ JUNO represents true **agentic AI** - autonomous systems that reason through mul
 
 ## Architecture
 
-### Microservices Architecture
+JUNO follows a professional **Agent Project Structure** with clear separation of concerns:
 
 ```
-┌───────────────────────────────────────────────────────────────┐
-│                  JUNO Enterprise Platform                     │
-├───────────────────────────────────────────────────────────────┤
-│           API Gateway (FastAPI) + Load Balancer               │
-├─────────────┬─────────────┬─────────────┬─────────────────────┤
-│   Phase 1   │   Phase 2   │   Phase 3   │     Phase 4         │
-│  Analytics  │ Agentic AI  │ Multi-Agent │   AI-Native Ops     │
-├─────────────┼─────────────┼─────────────┼─────────────────────┤
-│ • Data      │ • Memory    │ • Orchestr. │ • RL Optimizer      │
-│   Extract   │   Layer     │ • Consensus │ • Threat Detection  │
-│ • Analytics │ • Reasoning │ • Coord.    │ • Self-Healing      │
-│ • Reports   │ • Risk      │ • Discovery │ • Predictive Scale  │
-│ • Visualiz. │ • Govern.   │ • Fault Tol.│ • Auto Operations   │
-├─────────────┴─────────────┴─────────────┴─────────────────────┤
-│                  Shared Infrastructure                        │
-│    • PostgreSQL  • Redis  • Elasticsearch  • Monitoring       │
-└───────────────────────────────────────────────────────────────┘
+juno-repo/
+├── src/juno/                    # Main agent project
+│   ├── core/                    # Core agent logic
+│   │   ├── agent/               # Main agent implementation
+│   │   ├── memory/              # Memory layer (4-layer system)
+│   │   ├── reasoning/           # Reasoning engine & NLP
+│   │   └── tools/               # Agent tools & utilities
+│   ├── applications/            # Application services
+│   │   ├── dashboard_service/   # React dashboard & visualization
+│   │   ├── analytics_service/   # Sprint risk, triage, velocity
+│   │   └── reporting_service/   # Report generation
+│   └── infrastructure/          # External integrations
+│       ├── jira_integration/    # Jira Cloud API
+│       ├── openai_integration/  # Enterprise GPT
+│       └── monitoring/          # Observability & security
+├── tools/                       # Command-line utilities
+├── notebooks/                   # Jupyter notebooks for analysis
+├── data/                        # Training & evaluation data
+└── tests/                       # Comprehensive test suite
 ```
+
+### Agent Project Benefits
+- **🎯 Clear Separation**: Core logic, applications, and infrastructure properly isolated
+- **📈 Scalable**: Easy to add new capabilities without cluttering codebase
+- **🔧 Maintainable**: Professional structure following industry best practices
+- **🚀 Enterprise-Ready**: Supports JUNO's 4-phase evolution roadmap
 
 ### Technology Stack
 

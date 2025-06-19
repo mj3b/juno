@@ -1,0 +1,6604 @@
+[
+  {
+    "team_id": "team_de441d5a",
+    "name": "Digital Core Platform Team",
+    "department": "Data",
+    "project": "Infrastructure",
+    "size": "large",
+    "members": [
+      {
+        "user_id": "user_9f3b2277",
+        "name": "Morgan Hall",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Git",
+          "Terraform",
+          "Kubernetes"
+        ],
+        "capacity": 0.8173877665258833,
+        "join_date": "2022-02-02T20:57:43.112567"
+      },
+      {
+        "user_id": "user_bbca5007",
+        "name": "Jordan Anderson",
+        "role": "Senior Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "GCP",
+          "Jira",
+          "React",
+          "Kubernetes"
+        ],
+        "capacity": 0.6795350602746594,
+        "join_date": "2021-09-24T20:57:43.112601"
+      },
+      {
+        "user_id": "user_b8311d9a",
+        "name": "Rowan Williams",
+        "role": "Data Scientist",
+        "seniority_level": "mid",
+        "skills": [
+          "Docker",
+          "Go",
+          "React",
+          "Python",
+          "Redis",
+          "PostgreSQL"
+        ],
+        "capacity": 0.7111485366686567,
+        "join_date": "2024-03-02T20:57:43.112635"
+      },
+      {
+        "user_id": "user_fdbf6807",
+        "name": "Sam Moore",
+        "role": "Senior Developer",
+        "seniority_level": "junior",
+        "skills": [
+          "TypeScript",
+          "MySQL",
+          "Jenkins",
+          "Jira",
+          "Go",
+          "Vue"
+        ],
+        "capacity": 0.8918927146775271,
+        "join_date": "2022-05-14T20:57:43.112656"
+      },
+      {
+        "user_id": "user_cb9f510c",
+        "name": "Casey Green",
+        "role": "Data Scientist",
+        "seniority_level": "junior",
+        "skills": [
+          "C#",
+          "Confluence",
+          "Jira",
+          "MySQL",
+          "Docker",
+          "Java",
+          "Angular"
+        ],
+        "capacity": 0.6183297534622648,
+        "join_date": "2024-02-05T20:57:43.112694"
+      },
+      {
+        "user_id": "user_d8629904",
+        "name": "Sam Miller",
+        "role": "Senior Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "MongoDB",
+          "Go",
+          "AWS"
+        ],
+        "capacity": 0.8542737777057601,
+        "join_date": "2023-04-30T20:57:43.112725"
+      },
+      {
+        "user_id": "user_64d9c438",
+        "name": "Riley Rodriguez",
+        "role": "DevOps Engineer",
+        "seniority_level": "mid",
+        "skills": [
+          "Go",
+          "Jenkins",
+          "Git",
+          "Confluence",
+          "Angular",
+          "Python",
+          "Kubernetes",
+          "Node.js"
+        ],
+        "capacity": 0.6653609975047713,
+        "join_date": "2023-03-31T20:57:43.112741"
+      },
+      {
+        "user_id": "user_02e5f054",
+        "name": "Blake Green",
+        "role": "Product Manager",
+        "seniority_level": "senior",
+        "skills": [
+          "Node.js",
+          "Vue",
+          "PostgreSQL"
+        ],
+        "capacity": 0.7604659148089316,
+        "join_date": "2025-01-01T20:57:43.112758"
+      },
+      {
+        "user_id": "user_9693335a",
+        "name": "Avery Green",
+        "role": "DevOps Engineer",
+        "seniority_level": "mid",
+        "skills": [
+          "Azure",
+          "MongoDB",
+          "Confluence",
+          "AWS",
+          "JavaScript",
+          "Go",
+          "Jira",
+          "Node.js"
+        ],
+        "capacity": 0.8979955928366425,
+        "join_date": "2022-05-09T20:57:43.112775"
+      },
+      {
+        "user_id": "user_ae13226f",
+        "name": "Blake Hall",
+        "role": "Data Scientist",
+        "seniority_level": "lead",
+        "skills": [
+          "Node.js",
+          "JavaScript",
+          "GCP",
+          "Azure",
+          "Angular"
+        ],
+        "capacity": 0.9023128630134951,
+        "join_date": "2020-07-18T20:57:43.112790"
+      },
+      {
+        "user_id": "user_60e002e7",
+        "name": "Casey Garcia",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Angular",
+          "MongoDB",
+          "Jenkins",
+          "Jira",
+          "AWS",
+          "GCP",
+          "Go"
+        ],
+        "capacity": 0.9884313510454472,
+        "join_date": "2020-07-19T20:57:43.112807"
+      }
+    ],
+    "created_date": "2025-05-05T20:57:43.112810",
+    "tech_stack": [
+      "JavaScript",
+      "Node.js",
+      "Python",
+      "Redis",
+      "PostgreSQL",
+      "AWS",
+      "GCP",
+      "Confluence",
+      "Jira",
+      "Git"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_199f0684",
+    "name": "Robust Data Pipeline Team",
+    "department": "Product",
+    "project": "Analytics",
+    "size": "large",
+    "members": [
+      {
+        "user_id": "user_39853006",
+        "name": "Sam Johnson",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "GCP",
+          "React",
+          "Jira",
+          "PostgreSQL",
+          "Azure",
+          "Jenkins",
+          "TypeScript"
+        ],
+        "capacity": 0.9858197232529234,
+        "join_date": "2022-09-25T20:57:43.112859"
+      },
+      {
+        "user_id": "user_923d537a",
+        "name": "Quinn Brown",
+        "role": "Product Manager",
+        "seniority_level": "junior",
+        "skills": [
+          "Terraform",
+          "Azure",
+          "Angular"
+        ],
+        "capacity": 0.9911937974709337,
+        "join_date": "2022-05-22T20:57:43.112874"
+      },
+      {
+        "user_id": "user_43488d2d",
+        "name": "Sam Garcia",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Python",
+          "Go",
+          "GCP",
+          "Jira",
+          "Redis",
+          "Java",
+          "Kubernetes"
+        ],
+        "capacity": 0.9021060786543222,
+        "join_date": "2021-07-04T20:57:43.112886"
+      },
+      {
+        "user_id": "user_6e308a28",
+        "name": "Avery Walker",
+        "role": "QA Engineer",
+        "seniority_level": "lead",
+        "skills": [
+          "Confluence",
+          "MySQL",
+          "AWS",
+          "GCP",
+          "Git",
+          "TypeScript",
+          "Node.js",
+          "Kubernetes"
+        ],
+        "capacity": 0.6256103585305379,
+        "join_date": "2025-04-03T20:57:43.112898"
+      },
+      {
+        "user_id": "user_3a8394e9",
+        "name": "Parker Williams",
+        "role": "Product Manager",
+        "seniority_level": "mid",
+        "skills": [
+          "Angular",
+          "Jenkins",
+          "Confluence"
+        ],
+        "capacity": 0.6235495067505293,
+        "join_date": "2024-12-29T20:57:43.112908"
+      },
+      {
+        "user_id": "user_071ad273",
+        "name": "Teagan Brown",
+        "role": "DevOps Engineer",
+        "seniority_level": "junior",
+        "skills": [
+          "Node.js",
+          "Go",
+          "Git",
+          "Azure",
+          "Java",
+          "Kubernetes",
+          "JavaScript"
+        ],
+        "capacity": 0.8893410263523883,
+        "join_date": "2022-03-04T20:57:43.112920"
+      },
+      {
+        "user_id": "user_efbd8dab",
+        "name": "Parker Thompson",
+        "role": "Product Manager",
+        "seniority_level": "lead",
+        "skills": [
+          "Java",
+          "TypeScript",
+          "Jenkins",
+          "Redis",
+          "MySQL",
+          "Confluence"
+        ],
+        "capacity": 0.7644409104198953,
+        "join_date": "2020-07-12T20:57:43.112931"
+      },
+      {
+        "user_id": "user_ce97602f",
+        "name": "Sage Brown",
+        "role": "Senior Developer",
+        "seniority_level": "junior",
+        "skills": [
+          "Terraform",
+          "PostgreSQL",
+          "TypeScript",
+          "Node.js",
+          "Java",
+          "Jira"
+        ],
+        "capacity": 0.8145143015641377,
+        "join_date": "2024-08-02T20:57:43.112942"
+      },
+      {
+        "user_id": "user_a3272e6a",
+        "name": "Harper Johnson",
+        "role": "QA Engineer",
+        "seniority_level": "lead",
+        "skills": [
+          "Angular",
+          "AWS",
+          "Kubernetes",
+          "TypeScript"
+        ],
+        "capacity": 0.6202353318099525,
+        "join_date": "2022-05-05T20:57:43.112953"
+      },
+      {
+        "user_id": "user_4b8ae1d6",
+        "name": "Sydney Anderson",
+        "role": "Senior Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "Redis",
+          "Azure",
+          "Java",
+          "MongoDB"
+        ],
+        "capacity": 0.9609771462042195,
+        "join_date": "2024-06-13T20:57:43.112964"
+      },
+      {
+        "user_id": "user_2eaea68d",
+        "name": "Finley Anderson",
+        "role": "Data Scientist",
+        "seniority_level": "senior",
+        "skills": [
+          "C#",
+          "Redis",
+          "Kubernetes",
+          "Azure",
+          "JavaScript",
+          "Java"
+        ],
+        "capacity": 0.7186831301978257,
+        "join_date": "2025-01-17T20:57:43.112975"
+      },
+      {
+        "user_id": "user_17e02828",
+        "name": "Parker Hall",
+        "role": "Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Vue",
+          "Docker",
+          "Azure"
+        ],
+        "capacity": 0.8011401531678054,
+        "join_date": "2020-08-04T20:57:43.112988"
+      }
+    ],
+    "created_date": "2023-11-20T20:57:43.112990",
+    "tech_stack": [
+      "React",
+      "Java",
+      "PostgreSQL",
+      "Azure",
+      "Kubernetes",
+      "AWS",
+      "Confluence",
+      "Jira",
+      "Git"
+    ],
+    "methodology": "scrum"
+  },
+  {
+    "team_id": "team_de2e8765",
+    "name": "Efficient Data Pipeline Team",
+    "department": "Security",
+    "project": "AI/ML",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_e6107ae1",
+        "name": "Avery Lewis",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "PostgreSQL",
+          "Node.js",
+          "Go",
+          "MongoDB",
+          "JavaScript",
+          "C#",
+          "AWS",
+          "Terraform"
+        ],
+        "capacity": 0.9858036663411028,
+        "join_date": "2024-01-19T20:57:43.113030"
+      },
+      {
+        "user_id": "user_c90b7b60",
+        "name": "Alex Thomas",
+        "role": "Senior Developer",
+        "seniority_level": "junior",
+        "skills": [
+          "Java",
+          "GCP",
+          "Go",
+          "JavaScript",
+          "MySQL",
+          "Angular",
+          "Node.js"
+        ],
+        "capacity": 0.7478108354955536,
+        "join_date": "2024-06-27T20:57:43.113043"
+      },
+      {
+        "user_id": "user_62663c4c",
+        "name": "Hayden Wright",
+        "role": "QA Engineer",
+        "seniority_level": "junior",
+        "skills": [
+          "Kubernetes",
+          "C#",
+          "Git",
+          "TypeScript",
+          "JavaScript",
+          "Go",
+          "Confluence",
+          "Terraform"
+        ],
+        "capacity": 0.8969666735923995,
+        "join_date": "2024-07-02T20:57:43.113055"
+      },
+      {
+        "user_id": "user_ed4512bd",
+        "name": "Blake Miller",
+        "role": "Product Manager",
+        "seniority_level": "senior",
+        "skills": [
+          "Git",
+          "Confluence",
+          "Go",
+          "GCP"
+        ],
+        "capacity": 0.7954127408597507,
+        "join_date": "2020-08-18T20:57:43.113066"
+      },
+      {
+        "user_id": "user_af523e2b",
+        "name": "Jordan Chen",
+        "role": "Data Scientist",
+        "seniority_level": "senior",
+        "skills": [
+          "React",
+          "PostgreSQL",
+          "JavaScript"
+        ],
+        "capacity": 0.8548453509205518,
+        "join_date": "2023-11-27T20:57:43.113077"
+      },
+      {
+        "user_id": "user_5978eafb",
+        "name": "Riley Hall",
+        "role": "Designer",
+        "seniority_level": "lead",
+        "skills": [
+          "React",
+          "TypeScript",
+          "Angular",
+          "JavaScript",
+          "Kubernetes",
+          "Vue",
+          "MySQL"
+        ],
+        "capacity": 0.8330038265959177,
+        "join_date": "2024-07-17T20:57:43.113089"
+      },
+      {
+        "user_id": "user_dfff2505",
+        "name": "Harper Garcia",
+        "role": "Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Vue",
+          "MySQL",
+          "Java",
+          "Git",
+          "Node.js"
+        ],
+        "capacity": 0.8667733642542172,
+        "join_date": "2023-05-23T20:57:43.113100"
+      },
+      {
+        "user_id": "user_cb1ec424",
+        "name": "Sam Williams",
+        "role": "Data Scientist",
+        "seniority_level": "mid",
+        "skills": [
+          "Python",
+          "Redis",
+          "React",
+          "Terraform"
+        ],
+        "capacity": 0.9697949180966182,
+        "join_date": "2020-12-26T20:57:43.113114"
+      }
+    ],
+    "created_date": "2024-03-21T20:57:43.113116",
+    "tech_stack": [
+      "Angular",
+      "Python",
+      "PostgreSQL",
+      "MySQL",
+      "Azure",
+      "Git",
+      "Terraform"
+    ],
+    "methodology": "scrum"
+  },
+  {
+    "team_id": "team_db961771",
+    "name": "Advanced Monitoring Team",
+    "department": "Product",
+    "project": "Customer Portal",
+    "size": "small",
+    "members": [
+      {
+        "user_id": "user_48311ddc",
+        "name": "Blake Lopez",
+        "role": "Senior Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Confluence",
+          "GCP",
+          "MongoDB",
+          "Git",
+          "Kubernetes"
+        ],
+        "capacity": 0.7324599472857628,
+        "join_date": "2025-03-21T20:57:43.113152"
+      },
+      {
+        "user_id": "user_598191d0",
+        "name": "Casey Hill",
+        "role": "QA Engineer",
+        "seniority_level": "mid",
+        "skills": [
+          "Go",
+          "Vue",
+          "TypeScript",
+          "Jira",
+          "Redis",
+          "MySQL",
+          "PostgreSQL"
+        ],
+        "capacity": 0.7745575535482432,
+        "join_date": "2022-07-04T20:57:43.113164"
+      },
+      {
+        "user_id": "user_4bcf7e6a",
+        "name": "Casey Smith",
+        "role": "Product Manager",
+        "seniority_level": "senior",
+        "skills": [
+          "Jenkins",
+          "Redis",
+          "React"
+        ],
+        "capacity": 0.8079681394266341,
+        "join_date": "2020-11-07T20:57:43.113177"
+      },
+      {
+        "user_id": "user_4ab5ffb3",
+        "name": "Logan Lewis",
+        "role": "Product Manager",
+        "seniority_level": "senior",
+        "skills": [
+          "Angular",
+          "Git",
+          "PostgreSQL",
+          "Jira",
+          "Jenkins",
+          "TypeScript"
+        ],
+        "capacity": 0.88790170520558,
+        "join_date": "2023-09-09T20:57:43.113189"
+      }
+    ],
+    "created_date": "2023-12-14T20:57:43.113191",
+    "tech_stack": [
+      "TypeScript",
+      "Angular",
+      "Node.js",
+      "Java",
+      "Redis",
+      "Kubernetes",
+      "Azure",
+      "GCP",
+      "Git",
+      "Jenkins",
+      "Terraform"
+    ],
+    "methodology": "scrum"
+  },
+  {
+    "team_id": "team_7899569b",
+    "name": "Next-Gen Infrastructure Team",
+    "department": "Platform",
+    "project": "Frontend",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_0b7e8671",
+        "name": "Hayden Thomas",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Git",
+          "Java",
+          "GCP",
+          "Azure",
+          "Python",
+          "Angular"
+        ],
+        "capacity": 0.8567572809986055,
+        "join_date": "2020-09-25T20:57:43.113225"
+      },
+      {
+        "user_id": "user_06df92e3",
+        "name": "Reese Young",
+        "role": "DevOps Engineer",
+        "seniority_level": "junior",
+        "skills": [
+          "Git",
+          "C#",
+          "Node.js",
+          "Java"
+        ],
+        "capacity": 0.658941584898309,
+        "join_date": "2025-02-11T20:57:43.113237"
+      },
+      {
+        "user_id": "user_6f4926a9",
+        "name": "Quinn Thompson",
+        "role": "Senior Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "Confluence",
+          "Docker",
+          "Java",
+          "MongoDB",
+          "Azure",
+          "Terraform"
+        ],
+        "capacity": 0.6975937758313755,
+        "join_date": "2021-09-11T20:57:43.113248"
+      },
+      {
+        "user_id": "user_114399c8",
+        "name": "Rowan Anderson",
+        "role": "Senior Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "Python",
+          "Jenkins",
+          "GCP",
+          "AWS"
+        ],
+        "capacity": 0.6200873540562564,
+        "join_date": "2023-12-23T20:57:43.113259"
+      },
+      {
+        "user_id": "user_413bacb8",
+        "name": "Tyler Lopez",
+        "role": "Senior Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "AWS",
+          "Git",
+          "GCP",
+          "Kubernetes"
+        ],
+        "capacity": 0.8381809273877678,
+        "join_date": "2021-02-20T20:57:43.113269"
+      },
+      {
+        "user_id": "user_23f41451",
+        "name": "Teagan Thomas",
+        "role": "Data Scientist",
+        "seniority_level": "lead",
+        "skills": [
+          "Terraform",
+          "Azure",
+          "AWS",
+          "Go"
+        ],
+        "capacity": 0.9007107146002046,
+        "join_date": "2020-08-30T20:57:43.113279"
+      },
+      {
+        "user_id": "user_c810b8a2",
+        "name": "Reese Martinez",
+        "role": "Designer",
+        "seniority_level": "mid",
+        "skills": [
+          "AWS",
+          "Angular",
+          "Jenkins",
+          "C#",
+          "Node.js"
+        ],
+        "capacity": 0.7086860428328738,
+        "join_date": "2023-08-01T20:57:43.113290"
+      },
+      {
+        "user_id": "user_c0bff8a9",
+        "name": "Teagan Williams",
+        "role": "Senior Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "Node.js",
+          "MongoDB",
+          "Jenkins",
+          "JavaScript"
+        ],
+        "capacity": 0.8825676566778209,
+        "join_date": "2025-01-05T20:57:43.113299"
+      }
+    ],
+    "created_date": "2024-03-18T20:57:43.113301",
+    "tech_stack": [
+      "Angular",
+      "TypeScript",
+      "Python",
+      "Java",
+      "Redis",
+      "MongoDB",
+      "AWS",
+      "Kubernetes",
+      "Azure",
+      "Git"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_1a0bd974",
+    "name": "Strategic API Gateway Team",
+    "department": "Security",
+    "project": "Frontend",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_3d455b58",
+        "name": "Jamie Lee",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Redis",
+          "Azure",
+          "React",
+          "MongoDB",
+          "PostgreSQL"
+        ],
+        "capacity": 0.9337747241245834,
+        "join_date": "2022-03-10T20:57:43.113335"
+      },
+      {
+        "user_id": "user_be5e78b3",
+        "name": "Sage Johnson",
+        "role": "Designer",
+        "seniority_level": "mid",
+        "skills": [
+          "Kubernetes",
+          "React",
+          "MongoDB",
+          "Docker",
+          "Confluence",
+          "Jenkins",
+          "Angular"
+        ],
+        "capacity": 0.8570998592037342,
+        "join_date": "2024-08-12T20:57:43.113347"
+      },
+      {
+        "user_id": "user_f1c02a70",
+        "name": "Tanner Thomas",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "MongoDB",
+          "PostgreSQL",
+          "Java",
+          "AWS",
+          "Go"
+        ],
+        "capacity": 0.9008039294219139,
+        "join_date": "2020-09-16T20:57:43.113361"
+      },
+      {
+        "user_id": "user_ae07310f",
+        "name": "Harper Martinez",
+        "role": "Senior Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "Terraform",
+          "Kubernetes",
+          "Vue"
+        ],
+        "capacity": 0.9999631314036836,
+        "join_date": "2023-05-31T20:57:43.113371"
+      },
+      {
+        "user_id": "user_7d507ebc",
+        "name": "Quinn Clark",
+        "role": "Senior Developer",
+        "seniority_level": "junior",
+        "skills": [
+          "Node.js",
+          "Java",
+          "React"
+        ],
+        "capacity": 0.8485342626344632,
+        "join_date": "2024-01-14T20:57:43.113384"
+      },
+      {
+        "user_id": "user_bc5c4327",
+        "name": "Morgan Thompson",
+        "role": "Senior Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "Jenkins",
+          "Go",
+          "MySQL",
+          "Python",
+          "Jira",
+          "TypeScript"
+        ],
+        "capacity": 0.911116754470173,
+        "join_date": "2024-06-15T20:57:43.113396"
+      },
+      {
+        "user_id": "user_d26bd570",
+        "name": "Cameron Davis",
+        "role": "Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Git",
+          "MongoDB",
+          "Jenkins",
+          "Java",
+          "Angular",
+          "Docker",
+          "Node.js"
+        ],
+        "capacity": 0.6407605221783906,
+        "join_date": "2021-01-15T20:57:43.113407"
+      }
+    ],
+    "created_date": "2024-07-12T20:57:43.113409",
+    "tech_stack": [
+      "JavaScript",
+      "Node.js",
+      "Redis",
+      "MongoDB",
+      "MySQL",
+      "Docker",
+      "Git",
+      "Jira",
+      "Confluence"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_3fe0622b",
+    "name": "Strategic AI/ML Team",
+    "department": "Platform",
+    "project": "DevOps",
+    "size": "small",
+    "members": [
+      {
+        "user_id": "user_5e5c5739",
+        "name": "Harper Johnson",
+        "role": "QA Engineer",
+        "seniority_level": "lead",
+        "skills": [
+          "Redis",
+          "Docker",
+          "Go",
+          "PostgreSQL",
+          "Node.js",
+          "Angular"
+        ],
+        "capacity": 0.7115712996769881,
+        "join_date": "2022-11-05T20:57:43.113443"
+      },
+      {
+        "user_id": "user_092dbc68",
+        "name": "Quinn Allen",
+        "role": "Designer",
+        "seniority_level": "lead",
+        "skills": [
+          "React",
+          "Azure",
+          "PostgreSQL",
+          "Python",
+          "Java"
+        ],
+        "capacity": 0.7419299864704381,
+        "join_date": "2023-12-04T20:57:43.113454"
+      },
+      {
+        "user_id": "user_6b26692f",
+        "name": "Drew Martinez",
+        "role": "QA Engineer",
+        "seniority_level": "junior",
+        "skills": [
+          "Java",
+          "Angular",
+          "Node.js",
+          "Redis",
+          "Azure",
+          "Kubernetes",
+          "Git"
+        ],
+        "capacity": 0.8762437357786093,
+        "join_date": "2021-10-02T20:57:43.113466"
+      }
+    ],
+    "created_date": "2023-12-31T20:57:43.113468",
+    "tech_stack": [
+      "React",
+      "JavaScript",
+      "Java",
+      "Go",
+      "MySQL",
+      "Redis",
+      "MongoDB",
+      "Docker",
+      "GCP",
+      "Terraform",
+      "Git"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_accb35c9",
+    "name": "Unified Security Team",
+    "department": "Data",
+    "project": "Security",
+    "size": "large",
+    "members": [
+      {
+        "user_id": "user_47c9c8d2",
+        "name": "Casey Hall",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "PostgreSQL",
+          "TypeScript",
+          "Terraform",
+          "Kubernetes"
+        ],
+        "capacity": 0.9901755120786869,
+        "join_date": "2020-08-02T20:57:43.113507"
+      },
+      {
+        "user_id": "user_c539a845",
+        "name": "Riley Jones",
+        "role": "Product Manager",
+        "seniority_level": "lead",
+        "skills": [
+          "Terraform",
+          "Docker",
+          "GCP",
+          "Jira",
+          "C#"
+        ],
+        "capacity": 0.9922042521850052,
+        "join_date": "2020-09-14T20:57:43.113518"
+      },
+      {
+        "user_id": "user_6070f1ff",
+        "name": "Avery Miller",
+        "role": "Product Manager",
+        "seniority_level": "senior",
+        "skills": [
+          "C#",
+          "React",
+          "Jenkins",
+          "Kubernetes"
+        ],
+        "capacity": 0.6506331839391927,
+        "join_date": "2025-02-12T20:57:43.113528"
+      },
+      {
+        "user_id": "user_8827ccda",
+        "name": "Jordan Williams",
+        "role": "QA Engineer",
+        "seniority_level": "mid",
+        "skills": [
+          "Azure",
+          "TypeScript",
+          "React",
+          "Docker",
+          "C#",
+          "Terraform",
+          "Confluence",
+          "AWS"
+        ],
+        "capacity": 0.7362823730241169,
+        "join_date": "2025-01-31T20:57:43.113539"
+      },
+      {
+        "user_id": "user_395ed764",
+        "name": "Blake Lopez",
+        "role": "Designer",
+        "seniority_level": "junior",
+        "skills": [
+          "MongoDB",
+          "Azure",
+          "Angular"
+        ],
+        "capacity": 0.8308084625883272,
+        "join_date": "2021-07-11T20:57:43.113549"
+      },
+      {
+        "user_id": "user_9d34a73e",
+        "name": "Jordan Garcia",
+        "role": "Tech Lead",
+        "seniority_level": "senior",
+        "skills": [
+          "Node.js",
+          "TypeScript",
+          "Kubernetes"
+        ],
+        "capacity": 0.9057773781304777,
+        "join_date": "2021-12-22T20:57:43.113559"
+      },
+      {
+        "user_id": "user_c4343e4c",
+        "name": "Peyton King",
+        "role": "Product Manager",
+        "seniority_level": "lead",
+        "skills": [
+          "AWS",
+          "C#",
+          "Docker",
+          "Redis",
+          "Jenkins",
+          "Git"
+        ],
+        "capacity": 0.8484109284288595,
+        "join_date": "2021-12-15T20:57:43.113572"
+      },
+      {
+        "user_id": "user_45b64455",
+        "name": "Sage Davis",
+        "role": "Product Manager",
+        "seniority_level": "mid",
+        "skills": [
+          "Git",
+          "Angular",
+          "Python",
+          "Node.js",
+          "Kubernetes"
+        ],
+        "capacity": 0.6300259475604671,
+        "join_date": "2025-05-11T20:57:43.113583"
+      },
+      {
+        "user_id": "user_b0d4b0ec",
+        "name": "Harper Thomas",
+        "role": "Designer",
+        "seniority_level": "senior",
+        "skills": [
+          "Node.js",
+          "C#",
+          "Jenkins"
+        ],
+        "capacity": 0.7130873492449151,
+        "join_date": "2020-07-21T20:57:43.113592"
+      },
+      {
+        "user_id": "user_9a105f70",
+        "name": "Hayden Chen",
+        "role": "Product Manager",
+        "seniority_level": "senior",
+        "skills": [
+          "Docker",
+          "Git",
+          "Java",
+          "Redis",
+          "TypeScript",
+          "Kubernetes",
+          "Node.js",
+          "JavaScript"
+        ],
+        "capacity": 0.9633645780850424,
+        "join_date": "2020-09-27T20:57:43.113603"
+      },
+      {
+        "user_id": "user_a42f0a97",
+        "name": "Morgan Chen",
+        "role": "Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "Jira",
+          "Terraform",
+          "Docker",
+          "C#",
+          "AWS"
+        ],
+        "capacity": 0.6497414632698832,
+        "join_date": "2021-07-06T20:57:43.113613"
+      }
+    ],
+    "created_date": "2024-07-09T20:57:43.113616",
+    "tech_stack": [
+      "Angular",
+      "TypeScript",
+      "Python",
+      "C#",
+      "MongoDB",
+      "Redis",
+      "AWS",
+      "Docker",
+      "Terraform"
+    ],
+    "methodology": "hybrid"
+  },
+  {
+    "team_id": "team_ef77b88b",
+    "name": "Modern Data Pipeline Team",
+    "department": "Engineering",
+    "project": "Frontend",
+    "size": "small",
+    "members": [
+      {
+        "user_id": "user_37cd64d6",
+        "name": "Jamie White",
+        "role": "Designer",
+        "seniority_level": "senior",
+        "skills": [
+          "Docker",
+          "Redis",
+          "Confluence",
+          "Azure"
+        ],
+        "capacity": 0.9876220944262815,
+        "join_date": "2022-09-27T20:57:43.113649"
+      },
+      {
+        "user_id": "user_05a499ea",
+        "name": "Emery Taylor",
+        "role": "DevOps Engineer",
+        "seniority_level": "senior",
+        "skills": [
+          "TypeScript",
+          "Python",
+          "PostgreSQL",
+          "Redis",
+          "Azure",
+          "C#",
+          "MongoDB",
+          "Vue"
+        ],
+        "capacity": 0.7819303634406918,
+        "join_date": "2023-08-11T20:57:43.113661"
+      },
+      {
+        "user_id": "user_267a9893",
+        "name": "Blake Moore",
+        "role": "Senior Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "React",
+          "Git",
+          "Kubernetes",
+          "AWS",
+          "Redis",
+          "Vue",
+          "Java"
+        ],
+        "capacity": 0.8073757569842915,
+        "join_date": "2021-11-18T20:57:43.113671"
+      }
+    ],
+    "created_date": "2023-12-23T20:57:43.113674",
+    "tech_stack": [
+      "React",
+      "Vue",
+      "C#",
+      "Java",
+      "Redis",
+      "MongoDB",
+      "AWS",
+      "Docker",
+      "Terraform",
+      "Confluence",
+      "Git"
+    ],
+    "methodology": "scrum"
+  },
+  {
+    "team_id": "team_14acc087",
+    "name": "Secure Core Platform Team",
+    "department": "Security",
+    "project": "Customer Portal",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_3c8871ba",
+        "name": "Quinn Wright",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "AWS",
+          "TypeScript",
+          "Confluence"
+        ],
+        "capacity": 0.9664286347537803,
+        "join_date": "2021-08-30T20:57:43.113710"
+      },
+      {
+        "user_id": "user_50e9e6ba",
+        "name": "Tyler Walker",
+        "role": "QA Engineer",
+        "seniority_level": "senior",
+        "skills": [
+          "Azure",
+          "Terraform",
+          "Node.js",
+          "AWS",
+          "Kubernetes",
+          "JavaScript"
+        ],
+        "capacity": 0.75343440529886,
+        "join_date": "2022-01-05T20:57:43.113722"
+      },
+      {
+        "user_id": "user_a744350d",
+        "name": "Kendall Hall",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "Redis",
+          "PostgreSQL",
+          "GCP",
+          "Go",
+          "React"
+        ],
+        "capacity": 0.7131355933131307,
+        "join_date": "2023-09-13T20:57:43.113733"
+      },
+      {
+        "user_id": "user_36953130",
+        "name": "Sydney Wilson",
+        "role": "Designer",
+        "seniority_level": "mid",
+        "skills": [
+          "Kubernetes",
+          "Azure",
+          "MySQL",
+          "PostgreSQL",
+          "Terraform",
+          "Jira"
+        ],
+        "capacity": 0.7508840216855543,
+        "join_date": "2023-07-27T20:57:43.113743"
+      },
+      {
+        "user_id": "user_1c8859b5",
+        "name": "Tanner Jones",
+        "role": "Product Manager",
+        "seniority_level": "lead",
+        "skills": [
+          "Redis",
+          "Vue",
+          "PostgreSQL",
+          "Terraform"
+        ],
+        "capacity": 0.7891905000961658,
+        "join_date": "2020-10-28T20:57:43.113753"
+      },
+      {
+        "user_id": "user_3462d082",
+        "name": "Finley Smith",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "JavaScript",
+          "GCP",
+          "Docker"
+        ],
+        "capacity": 0.7327978815725456,
+        "join_date": "2024-10-23T20:57:43.113766"
+      }
+    ],
+    "created_date": "2024-02-21T20:57:43.113769",
+    "tech_stack": [
+      "JavaScript",
+      "Python",
+      "Java",
+      "MySQL",
+      "PostgreSQL",
+      "GCP",
+      "Docker",
+      "Jenkins",
+      "Jira",
+      "Confluence"
+    ],
+    "methodology": "hybrid"
+  },
+  {
+    "team_id": "team_c0e84ce2",
+    "name": "Smart AI/ML Team",
+    "department": "Platform",
+    "project": "Backend",
+    "size": "large",
+    "members": [
+      {
+        "user_id": "user_f20deafe",
+        "name": "Jordan Young",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Node.js",
+          "Confluence",
+          "Git"
+        ],
+        "capacity": 0.9841858197560593,
+        "join_date": "2023-03-08T20:57:43.113799"
+      },
+      {
+        "user_id": "user_40973f8a",
+        "name": "Sage Chen",
+        "role": "Data Scientist",
+        "seniority_level": "junior",
+        "skills": [
+          "Jenkins",
+          "TypeScript",
+          "AWS",
+          "Python",
+          "C#",
+          "React",
+          "Vue",
+          "PostgreSQL"
+        ],
+        "capacity": 0.9184573860648847,
+        "join_date": "2023-09-24T20:57:43.113811"
+      },
+      {
+        "user_id": "user_f8e9fb87",
+        "name": "Emery Rodriguez",
+        "role": "Data Scientist",
+        "seniority_level": "mid",
+        "skills": [
+          "GCP",
+          "Redis",
+          "Docker",
+          "Git"
+        ],
+        "capacity": 0.9170077895523813,
+        "join_date": "2024-06-02T20:57:43.113821"
+      },
+      {
+        "user_id": "user_e4419c5e",
+        "name": "Riley Chen",
+        "role": "Data Scientist",
+        "seniority_level": "mid",
+        "skills": [
+          "Docker",
+          "JavaScript",
+          "Node.js",
+          "AWS",
+          "Go",
+          "Confluence"
+        ],
+        "capacity": 0.7021306832636616,
+        "join_date": "2025-04-27T20:57:43.113832"
+      },
+      {
+        "user_id": "user_56b11efb",
+        "name": "Teagan King",
+        "role": "Designer",
+        "seniority_level": "senior",
+        "skills": [
+          "Kubernetes",
+          "Python",
+          "Angular",
+          "AWS",
+          "MySQL",
+          "Docker",
+          "C#",
+          "Redis"
+        ],
+        "capacity": 0.8761254049840517,
+        "join_date": "2022-10-24T20:57:43.113842"
+      },
+      {
+        "user_id": "user_805c943f",
+        "name": "Tanner Miller",
+        "role": "Product Manager",
+        "seniority_level": "lead",
+        "skills": [
+          "TypeScript",
+          "Node.js",
+          "MongoDB",
+          "Docker",
+          "MySQL",
+          "Confluence"
+        ],
+        "capacity": 0.7183489560863139,
+        "join_date": "2021-06-14T20:57:43.113853"
+      },
+      {
+        "user_id": "user_6e0434d4",
+        "name": "Cameron Anderson",
+        "role": "Data Scientist",
+        "seniority_level": "senior",
+        "skills": [
+          "Docker",
+          "Git",
+          "Terraform"
+        ],
+        "capacity": 0.9894411267311699,
+        "join_date": "2021-12-22T20:57:43.113862"
+      },
+      {
+        "user_id": "user_d9212361",
+        "name": "Sage Thompson",
+        "role": "QA Engineer",
+        "seniority_level": "mid",
+        "skills": [
+          "MySQL",
+          "Node.js",
+          "Confluence",
+          "Java",
+          "Jira",
+          "Go",
+          "JavaScript"
+        ],
+        "capacity": 0.8512992414747593,
+        "join_date": "2021-11-08T20:57:43.113873"
+      },
+      {
+        "user_id": "user_51eea21f",
+        "name": "Reese Brown",
+        "role": "QA Engineer",
+        "seniority_level": "lead",
+        "skills": [
+          "Docker",
+          "MySQL",
+          "Terraform"
+        ],
+        "capacity": 0.6525647225681942,
+        "join_date": "2023-09-20T20:57:43.113883"
+      },
+      {
+        "user_id": "user_77bf54ef",
+        "name": "Drew Hall",
+        "role": "Data Scientist",
+        "seniority_level": "mid",
+        "skills": [
+          "JavaScript",
+          "Kubernetes",
+          "MySQL",
+          "GCP"
+        ],
+        "capacity": 0.8007179049059361,
+        "join_date": "2023-11-05T20:57:43.113893"
+      },
+      {
+        "user_id": "user_fc47c73c",
+        "name": "Sydney Johnson",
+        "role": "QA Engineer",
+        "seniority_level": "lead",
+        "skills": [
+          "Terraform",
+          "PostgreSQL",
+          "TypeScript",
+          "AWS",
+          "Angular"
+        ],
+        "capacity": 0.656302806002353,
+        "join_date": "2024-02-09T20:57:43.113903"
+      },
+      {
+        "user_id": "user_21135bf8",
+        "name": "Tanner Lewis",
+        "role": "Data Scientist",
+        "seniority_level": "senior",
+        "skills": [
+          "MongoDB",
+          "React",
+          "Go"
+        ],
+        "capacity": 0.8146289233076236,
+        "join_date": "2022-10-28T20:57:43.113912"
+      },
+      {
+        "user_id": "user_5785dec7",
+        "name": "Emery Lewis",
+        "role": "QA Engineer",
+        "seniority_level": "lead",
+        "skills": [
+          "MySQL",
+          "TypeScript",
+          "Git",
+          "Node.js",
+          "Azure",
+          "React",
+          "Kubernetes",
+          "PostgreSQL"
+        ],
+        "capacity": 0.9661023634972637,
+        "join_date": "2024-02-18T20:57:43.113923"
+      },
+      {
+        "user_id": "user_435c93f3",
+        "name": "Reese Chen",
+        "role": "Designer",
+        "seniority_level": "senior",
+        "skills": [
+          "Redis",
+          "TypeScript",
+          "JavaScript",
+          "Vue",
+          "Confluence",
+          "C#",
+          "Azure",
+          "Jenkins"
+        ],
+        "capacity": 0.6388767994487287,
+        "join_date": "2022-05-12T20:57:43.113934"
+      }
+    ],
+    "created_date": "2024-12-29T20:57:43.113937",
+    "tech_stack": [
+      "TypeScript",
+      "Angular",
+      "C#",
+      "Java",
+      "PostgreSQL",
+      "MySQL",
+      "Kubernetes",
+      "GCP",
+      "AWS",
+      "Git",
+      "Confluence",
+      "Jenkins"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_a9af98ff",
+    "name": "Scalable Mobile App Team",
+    "department": "Data",
+    "project": "API Gateway",
+    "size": "small",
+    "members": [
+      {
+        "user_id": "user_fbdf05fe",
+        "name": "Emery Brown",
+        "role": "Data Scientist",
+        "seniority_level": "senior",
+        "skills": [
+          "TypeScript",
+          "AWS",
+          "Angular",
+          "Git"
+        ],
+        "capacity": 0.6848423261693253,
+        "join_date": "2021-10-15T20:57:43.113972"
+      },
+      {
+        "user_id": "user_fbf41045",
+        "name": "Peyton Anderson",
+        "role": "Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "JavaScript",
+          "Docker",
+          "Java",
+          "Angular"
+        ],
+        "capacity": 0.931927134886853,
+        "join_date": "2022-04-07T20:57:43.113982"
+      },
+      {
+        "user_id": "user_3500e4f5",
+        "name": "Avery Wilson",
+        "role": "Product Manager",
+        "seniority_level": "mid",
+        "skills": [
+          "JavaScript",
+          "Jira",
+          "React",
+          "Go",
+          "Kubernetes"
+        ],
+        "capacity": 0.7002616786912496,
+        "join_date": "2024-05-24T20:57:43.113993"
+      },
+      {
+        "user_id": "user_d2d00d43",
+        "name": "Casey Lewis",
+        "role": "Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "MySQL",
+          "Node.js",
+          "Docker"
+        ],
+        "capacity": 0.729508584784809,
+        "join_date": "2024-05-25T20:57:43.114002"
+      },
+      {
+        "user_id": "user_b1a1d9a9",
+        "name": "Blake Brown",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "TypeScript",
+          "Angular",
+          "Azure",
+          "AWS",
+          "MySQL",
+          "GCP",
+          "Terraform"
+        ],
+        "capacity": 0.7808021679635009,
+        "join_date": "2024-02-18T20:57:43.114012"
+      }
+    ],
+    "created_date": "2023-08-26T20:57:43.114015",
+    "tech_stack": [
+      "JavaScript",
+      "Go",
+      "Python",
+      "Redis",
+      "Kubernetes",
+      "AWS",
+      "Jenkins",
+      "Jira"
+    ],
+    "methodology": "scrum"
+  },
+  {
+    "team_id": "team_9adc8792",
+    "name": "Enterprise Mobile App Team",
+    "department": "Product",
+    "project": "Security",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_19c3fdcd",
+        "name": "Finley Young",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "C#",
+          "AWS",
+          "GCP",
+          "Jira",
+          "Redis",
+          "TypeScript",
+          "Docker"
+        ],
+        "capacity": 0.970558547459115,
+        "join_date": "2020-10-21T20:57:43.114052"
+      },
+      {
+        "user_id": "user_b30465a1",
+        "name": "Teagan Allen",
+        "role": "Product Manager",
+        "seniority_level": "lead",
+        "skills": [
+          "Node.js",
+          "Redis",
+          "PostgreSQL",
+          "AWS",
+          "MongoDB",
+          "Jenkins"
+        ],
+        "capacity": 0.8918450030538017,
+        "join_date": "2023-08-15T20:57:43.114064"
+      },
+      {
+        "user_id": "user_ecb8f2f1",
+        "name": "Harper Moore",
+        "role": "QA Engineer",
+        "seniority_level": "senior",
+        "skills": [
+          "Git",
+          "Azure",
+          "Angular",
+          "Redis"
+        ],
+        "capacity": 0.6386257730263142,
+        "join_date": "2021-03-25T20:57:43.114074"
+      },
+      {
+        "user_id": "user_fb3a966b",
+        "name": "Emery King",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "Kubernetes",
+          "Terraform",
+          "PostgreSQL",
+          "TypeScript",
+          "Redis",
+          "MySQL",
+          "Jira"
+        ],
+        "capacity": 0.9472368595476259,
+        "join_date": "2021-05-01T20:57:43.114085"
+      },
+      {
+        "user_id": "user_47668ce7",
+        "name": "Jordan Miller",
+        "role": "QA Engineer",
+        "seniority_level": "senior",
+        "skills": [
+          "Docker",
+          "GCP",
+          "Java"
+        ],
+        "capacity": 0.6618920703433046,
+        "join_date": "2022-09-02T20:57:43.114095"
+      },
+      {
+        "user_id": "user_934408be",
+        "name": "Quinn Lopez",
+        "role": "Senior Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "MySQL",
+          "TypeScript",
+          "Go",
+          "Docker",
+          "Node.js",
+          "Redis",
+          "Kubernetes"
+        ],
+        "capacity": 0.9898186408502833,
+        "join_date": "2020-10-13T20:57:43.114105"
+      },
+      {
+        "user_id": "user_66f31ceb",
+        "name": "Peyton Young",
+        "role": "Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Python",
+          "Go",
+          "Jenkins"
+        ],
+        "capacity": 0.9049638071923991,
+        "join_date": "2023-06-21T20:57:43.114115"
+      },
+      {
+        "user_id": "user_ff1d5364",
+        "name": "Emery Anderson",
+        "role": "Tech Lead",
+        "seniority_level": "mid",
+        "skills": [
+          "Git",
+          "MongoDB",
+          "Angular",
+          "JavaScript",
+          "React",
+          "Terraform",
+          "GCP"
+        ],
+        "capacity": 0.6860531520134043,
+        "join_date": "2023-01-08T20:57:43.114129"
+      }
+    ],
+    "created_date": "2024-02-07T20:57:43.114131",
+    "tech_stack": [
+      "Vue",
+      "Angular",
+      "Node.js",
+      "Python",
+      "MySQL",
+      "Docker",
+      "Jira"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_c10625f6",
+    "name": "Strategic Admin Tools Team",
+    "department": "Security",
+    "project": "Admin Tools",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_654e1dc5",
+        "name": "Blake Jones",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "TypeScript",
+          "MySQL",
+          "Redis",
+          "Terraform",
+          "C#",
+          "Docker",
+          "Azure"
+        ],
+        "capacity": 0.905386821429629,
+        "join_date": "2022-09-23T20:57:43.114160"
+      },
+      {
+        "user_id": "user_329b2052",
+        "name": "Jordan Lee",
+        "role": "Data Scientist",
+        "seniority_level": "junior",
+        "skills": [
+          "Java",
+          "C#",
+          "JavaScript"
+        ],
+        "capacity": 0.9056643583044991,
+        "join_date": "2023-10-02T20:57:43.114171"
+      },
+      {
+        "user_id": "user_e651a66a",
+        "name": "Drew Davis",
+        "role": "Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "Redis",
+          "Python",
+          "JavaScript",
+          "MongoDB",
+          "Kubernetes",
+          "Node.js",
+          "GCP",
+          "MySQL"
+        ],
+        "capacity": 0.6288301986368631,
+        "join_date": "2020-07-17T20:57:43.114182"
+      },
+      {
+        "user_id": "user_68a831f4",
+        "name": "Sage Brown",
+        "role": "Data Scientist",
+        "seniority_level": "junior",
+        "skills": [
+          "Angular",
+          "PostgreSQL",
+          "Docker",
+          "Redis",
+          "Git",
+          "MongoDB"
+        ],
+        "capacity": 0.8837995846275737,
+        "join_date": "2023-01-12T20:57:43.114192"
+      },
+      {
+        "user_id": "user_ddeff7a4",
+        "name": "Cameron Davis",
+        "role": "Data Scientist",
+        "seniority_level": "junior",
+        "skills": [
+          "Python",
+          "Jira",
+          "AWS",
+          "Jenkins",
+          "MySQL"
+        ],
+        "capacity": 0.6352519525191539,
+        "join_date": "2020-08-21T20:57:43.114206"
+      },
+      {
+        "user_id": "user_d53c0617",
+        "name": "Casey Lee",
+        "role": "Data Scientist",
+        "seniority_level": "lead",
+        "skills": [
+          "Angular",
+          "MongoDB",
+          "C#",
+          "PostgreSQL",
+          "Node.js",
+          "Confluence",
+          "Python"
+        ],
+        "capacity": 0.6305517509892085,
+        "join_date": "2021-10-28T20:57:43.114216"
+      },
+      {
+        "user_id": "user_2aa955ba",
+        "name": "Casey White",
+        "role": "Product Manager",
+        "seniority_level": "senior",
+        "skills": [
+          "Terraform",
+          "Confluence",
+          "JavaScript",
+          "Node.js",
+          "TypeScript"
+        ],
+        "capacity": 0.6585776873110777,
+        "join_date": "2024-04-07T20:57:43.114227"
+      },
+      {
+        "user_id": "user_a1eeebfc",
+        "name": "Riley Young",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "Confluence",
+          "Azure",
+          "AWS",
+          "Docker"
+        ],
+        "capacity": 0.9039508598430994,
+        "join_date": "2022-11-09T20:57:43.114237"
+      },
+      {
+        "user_id": "user_c80611b2",
+        "name": "River Green",
+        "role": "DevOps Engineer",
+        "seniority_level": "senior",
+        "skills": [
+          "AWS",
+          "Angular",
+          "Azure",
+          "Confluence"
+        ],
+        "capacity": 0.7211281740556051,
+        "join_date": "2023-11-01T20:57:43.114247"
+      }
+    ],
+    "created_date": "2023-09-19T20:57:43.114249",
+    "tech_stack": [
+      "Angular",
+      "Node.js",
+      "Redis",
+      "PostgreSQL",
+      "GCP",
+      "Jira",
+      "Terraform"
+    ],
+    "methodology": "hybrid"
+  },
+  {
+    "team_id": "team_e896296e",
+    "name": "Robust Customer Portal Team",
+    "department": "Platform",
+    "project": "Data Pipeline",
+    "size": "large",
+    "members": [
+      {
+        "user_id": "user_ca99cb10",
+        "name": "Skylar Hall",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "AWS",
+          "Docker",
+          "Confluence"
+        ],
+        "capacity": 0.837647893013845,
+        "join_date": "2021-01-23T20:57:43.114279"
+      },
+      {
+        "user_id": "user_af793235",
+        "name": "Jamie White",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "TypeScript",
+          "PostgreSQL",
+          "Angular",
+          "GCP",
+          "Python",
+          "Vue"
+        ],
+        "capacity": 0.6990974894393137,
+        "join_date": "2022-12-02T20:57:43.114290"
+      },
+      {
+        "user_id": "user_413ea853",
+        "name": "Hayden White",
+        "role": "Tech Lead",
+        "seniority_level": "senior",
+        "skills": [
+          "C#",
+          "MongoDB",
+          "Redis",
+          "PostgreSQL",
+          "Git"
+        ],
+        "capacity": 0.8391543449531957,
+        "join_date": "2020-12-12T20:57:43.114304"
+      },
+      {
+        "user_id": "user_376905db",
+        "name": "Reese Clark",
+        "role": "DevOps Engineer",
+        "seniority_level": "junior",
+        "skills": [
+          "TypeScript",
+          "Kubernetes",
+          "Git",
+          "MongoDB",
+          "C#"
+        ],
+        "capacity": 0.7007983139864613,
+        "join_date": "2020-08-06T20:57:43.114314"
+      },
+      {
+        "user_id": "user_dfea9808",
+        "name": "River Green",
+        "role": "Tech Lead",
+        "seniority_level": "senior",
+        "skills": [
+          "Docker",
+          "Git",
+          "JavaScript"
+        ],
+        "capacity": 0.9666985820228481,
+        "join_date": "2023-08-20T20:57:43.114323"
+      },
+      {
+        "user_id": "user_d88edadf",
+        "name": "Reese Walker",
+        "role": "Data Scientist",
+        "seniority_level": "mid",
+        "skills": [
+          "Jenkins",
+          "Angular",
+          "C#",
+          "Kubernetes",
+          "MongoDB",
+          "PostgreSQL",
+          "JavaScript"
+        ],
+        "capacity": 0.868046559997889,
+        "join_date": "2020-09-22T20:57:43.114334"
+      },
+      {
+        "user_id": "user_a4dcfe5a",
+        "name": "Sage Lewis",
+        "role": "Senior Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "MySQL",
+          "React",
+          "Terraform",
+          "C#",
+          "Python",
+          "Java",
+          "PostgreSQL"
+        ],
+        "capacity": 0.9790673070137388,
+        "join_date": "2022-08-25T20:57:43.114345"
+      },
+      {
+        "user_id": "user_12597fa1",
+        "name": "Avery Lee",
+        "role": "Tech Lead",
+        "seniority_level": "mid",
+        "skills": [
+          "C#",
+          "TypeScript",
+          "GCP"
+        ],
+        "capacity": 0.9083498881452404,
+        "join_date": "2020-09-09T20:57:43.114354"
+      },
+      {
+        "user_id": "user_e7b8b7e2",
+        "name": "Sage Hill",
+        "role": "Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "JavaScript",
+          "Jira",
+          "MongoDB",
+          "Terraform",
+          "Python",
+          "Jenkins",
+          "Docker"
+        ],
+        "capacity": 0.8884731991221708,
+        "join_date": "2025-02-16T20:57:43.114365"
+      },
+      {
+        "user_id": "user_1be0a89a",
+        "name": "Harper Rodriguez",
+        "role": "Product Manager",
+        "seniority_level": "lead",
+        "skills": [
+          "C#",
+          "AWS",
+          "Node.js",
+          "Kubernetes",
+          "Git",
+          "Terraform",
+          "Azure"
+        ],
+        "capacity": 0.9615897352549833,
+        "join_date": "2024-04-14T20:57:43.114375"
+      },
+      {
+        "user_id": "user_16f1c650",
+        "name": "Emery Lewis",
+        "role": "Designer",
+        "seniority_level": "lead",
+        "skills": [
+          "MongoDB",
+          "GCP",
+          "Redis",
+          "Python",
+          "Java"
+        ],
+        "capacity": 0.920503689660619,
+        "join_date": "2024-08-06T20:57:43.114386"
+      },
+      {
+        "user_id": "user_1b29a158",
+        "name": "Tanner Martinez",
+        "role": "Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "Kubernetes",
+          "TypeScript",
+          "Jenkins",
+          "GCP",
+          "C#"
+        ],
+        "capacity": 0.633550050148716,
+        "join_date": "2024-06-22T20:57:43.114399"
+      },
+      {
+        "user_id": "user_d3e64002",
+        "name": "Blake Thomas",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Node.js",
+          "AWS",
+          "MySQL"
+        ],
+        "capacity": 0.9721887708505099,
+        "join_date": "2023-01-18T20:57:43.114409"
+      },
+      {
+        "user_id": "user_a3dd100b",
+        "name": "Jordan Smith",
+        "role": "DevOps Engineer",
+        "seniority_level": "mid",
+        "skills": [
+          "Angular",
+          "MySQL",
+          "Node.js",
+          "React",
+          "PostgreSQL",
+          "TypeScript"
+        ],
+        "capacity": 0.9356705150446423,
+        "join_date": "2021-09-23T20:57:43.114419"
+      }
+    ],
+    "created_date": "2024-06-07T20:57:43.114421",
+    "tech_stack": [
+      "Vue",
+      "Node.js",
+      "MySQL",
+      "MongoDB",
+      "Kubernetes",
+      "AWS",
+      "Jira"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_f2952102",
+    "name": "Enterprise API Gateway Team",
+    "department": "Security",
+    "project": "API Gateway",
+    "size": "small",
+    "members": [
+      {
+        "user_id": "user_07ad07c3",
+        "name": "Casey Allen",
+        "role": "QA Engineer",
+        "seniority_level": "mid",
+        "skills": [
+          "TypeScript",
+          "Vue",
+          "Node.js",
+          "Redis",
+          "Confluence"
+        ],
+        "capacity": 0.9175596434557752,
+        "join_date": "2022-10-23T20:57:43.114451"
+      },
+      {
+        "user_id": "user_f26ec237",
+        "name": "Taylor Davis",
+        "role": "Designer",
+        "seniority_level": "junior",
+        "skills": [
+          "GCP",
+          "Docker",
+          "Node.js",
+          "JavaScript",
+          "C#",
+          "Redis",
+          "React",
+          "MySQL"
+        ],
+        "capacity": 0.6962256955226174,
+        "join_date": "2023-01-14T20:57:43.114462"
+      },
+      {
+        "user_id": "user_54bea402",
+        "name": "Riley Lewis",
+        "role": "Senior Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "GCP",
+          "Kubernetes",
+          "React"
+        ],
+        "capacity": 0.7561814930240256,
+        "join_date": "2022-09-27T20:57:43.114475"
+      },
+      {
+        "user_id": "user_2c3159b5",
+        "name": "Jordan Clark",
+        "role": "Data Scientist",
+        "seniority_level": "senior",
+        "skills": [
+          "Terraform",
+          "React",
+          "MySQL",
+          "Angular",
+          "Node.js"
+        ],
+        "capacity": 0.8931764085802567,
+        "join_date": "2021-11-07T20:57:43.114485"
+      }
+    ],
+    "created_date": "2025-01-30T20:57:43.114487",
+    "tech_stack": [
+      "Vue",
+      "React",
+      "C#",
+      "Node.js",
+      "MySQL",
+      "MongoDB",
+      "Redis",
+      "Kubernetes",
+      "Azure",
+      "AWS",
+      "Jenkins"
+    ],
+    "methodology": "scrum"
+  },
+  {
+    "team_id": "team_6371a13e",
+    "name": "Global Core Platform Team",
+    "department": "Product",
+    "project": "QA",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_8dcd104c",
+        "name": "Drew Green",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "GCP",
+          "MongoDB",
+          "Kubernetes",
+          "Azure",
+          "Go"
+        ],
+        "capacity": 0.8073241543073817,
+        "join_date": "2020-10-30T20:57:43.114517"
+      },
+      {
+        "user_id": "user_c850ec5d",
+        "name": "Avery Miller",
+        "role": "DevOps Engineer",
+        "seniority_level": "junior",
+        "skills": [
+          "PostgreSQL",
+          "Go",
+          "TypeScript",
+          "MySQL",
+          "Redis",
+          "MongoDB",
+          "AWS",
+          "Docker"
+        ],
+        "capacity": 0.7356146513632642,
+        "join_date": "2024-04-29T20:57:43.114530"
+      },
+      {
+        "user_id": "user_7dc6ba5f",
+        "name": "Jamie Walker",
+        "role": "Designer",
+        "seniority_level": "senior",
+        "skills": [
+          "Go",
+          "Angular",
+          "Redis",
+          "Jenkins",
+          "Git",
+          "Python",
+          "Kubernetes"
+        ],
+        "capacity": 0.7175065676009995,
+        "join_date": "2024-10-18T20:57:43.114541"
+      },
+      {
+        "user_id": "user_85bb2baf",
+        "name": "Taylor Moore",
+        "role": "QA Engineer",
+        "seniority_level": "senior",
+        "skills": [
+          "Jira",
+          "Jenkins",
+          "Redis",
+          "Python",
+          "AWS",
+          "MySQL"
+        ],
+        "capacity": 0.7788518638681029,
+        "join_date": "2021-04-19T20:57:43.114551"
+      },
+      {
+        "user_id": "user_333782e2",
+        "name": "Tanner Green",
+        "role": "DevOps Engineer",
+        "seniority_level": "lead",
+        "skills": [
+          "Confluence",
+          "Vue",
+          "Angular",
+          "Git",
+          "MongoDB"
+        ],
+        "capacity": 0.7453244522603929,
+        "join_date": "2020-11-18T20:57:43.114561"
+      },
+      {
+        "user_id": "user_bce5a4f5",
+        "name": "Sage Lewis",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "Jira",
+          "Git",
+          "AWS",
+          "Vue"
+        ],
+        "capacity": 0.6504920097209017,
+        "join_date": "2024-01-19T20:57:43.114571"
+      }
+    ],
+    "created_date": "2023-07-26T20:57:43.114574",
+    "tech_stack": [
+      "Angular",
+      "TypeScript",
+      "C#",
+      "Redis",
+      "GCP",
+      "Kubernetes",
+      "Terraform"
+    ],
+    "methodology": "scrum"
+  },
+  {
+    "team_id": "team_1ff76715",
+    "name": "Scalable Customer Portal Team",
+    "department": "Data",
+    "project": "Monitoring",
+    "size": "large",
+    "members": [
+      {
+        "user_id": "user_74c61898",
+        "name": "Quinn Davis",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Terraform",
+          "Python",
+          "Azure"
+        ],
+        "capacity": 0.9035490548416785,
+        "join_date": "2021-04-22T20:57:43.114610"
+      },
+      {
+        "user_id": "user_fc4b0860",
+        "name": "Casey Martinez",
+        "role": "QA Engineer",
+        "seniority_level": "lead",
+        "skills": [
+          "Jira",
+          "C#",
+          "Jenkins",
+          "Azure"
+        ],
+        "capacity": 0.6800713363964481,
+        "join_date": "2024-08-12T20:57:43.114627"
+      },
+      {
+        "user_id": "user_df370ba1",
+        "name": "Tanner Chen",
+        "role": "Designer",
+        "seniority_level": "mid",
+        "skills": [
+          "AWS",
+          "Angular",
+          "Git",
+          "PostgreSQL",
+          "MySQL",
+          "Jenkins",
+          "Kubernetes",
+          "C#"
+        ],
+        "capacity": 0.9565326729415555,
+        "join_date": "2020-08-07T20:57:43.114644"
+      },
+      {
+        "user_id": "user_625b1f35",
+        "name": "Riley Walker",
+        "role": "Tech Lead",
+        "seniority_level": "senior",
+        "skills": [
+          "Node.js",
+          "TypeScript",
+          "Java",
+          "JavaScript",
+          "Terraform",
+          "Azure",
+          "React"
+        ],
+        "capacity": 0.7443586097777528,
+        "join_date": "2022-03-01T20:57:43.114660"
+      },
+      {
+        "user_id": "user_379ed180",
+        "name": "Emery Thomas",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "C#",
+          "MongoDB",
+          "Jenkins"
+        ],
+        "capacity": 0.8875478639562877,
+        "join_date": "2022-06-05T20:57:43.114683"
+      },
+      {
+        "user_id": "user_e5f42cee",
+        "name": "Harper Allen",
+        "role": "Data Scientist",
+        "seniority_level": "junior",
+        "skills": [
+          "PostgreSQL",
+          "Confluence",
+          "Angular",
+          "AWS"
+        ],
+        "capacity": 0.7863332798484235,
+        "join_date": "2022-06-22T20:57:43.114698"
+      },
+      {
+        "user_id": "user_575cdd68",
+        "name": "Emery Garcia",
+        "role": "Tech Lead",
+        "seniority_level": "mid",
+        "skills": [
+          "GCP",
+          "Vue",
+          "TypeScript",
+          "Terraform",
+          "JavaScript",
+          "C#"
+        ],
+        "capacity": 0.6658628319560497,
+        "join_date": "2023-07-26T20:57:43.114722"
+      },
+      {
+        "user_id": "user_6ecd3637",
+        "name": "Tyler Walker",
+        "role": "Product Manager",
+        "seniority_level": "senior",
+        "skills": [
+          "C#",
+          "Angular",
+          "Go",
+          "Java",
+          "Kubernetes",
+          "Git",
+          "JavaScript"
+        ],
+        "capacity": 0.8500089445794361,
+        "join_date": "2021-12-05T20:57:43.114734"
+      },
+      {
+        "user_id": "user_8d6bc5f3",
+        "name": "Logan Chen",
+        "role": "Tech Lead",
+        "seniority_level": "mid",
+        "skills": [
+          "Git",
+          "Jira",
+          "Terraform",
+          "PostgreSQL"
+        ],
+        "capacity": 0.9370120016453556,
+        "join_date": "2022-03-19T20:57:43.114744"
+      },
+      {
+        "user_id": "user_9739bc38",
+        "name": "Jordan Wright",
+        "role": "Developer",
+        "seniority_level": "junior",
+        "skills": [
+          "Confluence",
+          "Docker",
+          "Go"
+        ],
+        "capacity": 0.8604519909942399,
+        "join_date": "2021-01-27T20:57:43.114754"
+      },
+      {
+        "user_id": "user_93fc7f43",
+        "name": "Parker Taylor",
+        "role": "Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "Kubernetes",
+          "C#",
+          "Confluence",
+          "Jenkins",
+          "Azure",
+          "Node.js",
+          "MongoDB",
+          "Git"
+        ],
+        "capacity": 0.7814176531820685,
+        "join_date": "2021-07-06T20:57:43.114764"
+      },
+      {
+        "user_id": "user_1b271f9f",
+        "name": "Jordan Johnson",
+        "role": "Designer",
+        "seniority_level": "lead",
+        "skills": [
+          "AWS",
+          "Java",
+          "PostgreSQL",
+          "Jira",
+          "JavaScript",
+          "Git"
+        ],
+        "capacity": 0.9445940307329979,
+        "join_date": "2023-08-02T20:57:43.114775"
+      }
+    ],
+    "created_date": "2024-05-28T20:57:43.114777",
+    "tech_stack": [
+      "Vue",
+      "Angular",
+      "Node.js",
+      "Redis",
+      "GCP",
+      "Confluence",
+      "Terraform"
+    ],
+    "methodology": "scrum"
+  },
+  {
+    "team_id": "team_bda832aa",
+    "name": "Next-Gen Customer Portal Team",
+    "department": "Security",
+    "project": "Customer Portal",
+    "size": "small",
+    "members": [
+      {
+        "user_id": "user_a3098e4c",
+        "name": "Tanner Hill",
+        "role": "Tech Lead",
+        "seniority_level": "senior",
+        "skills": [
+          "Terraform",
+          "PostgreSQL",
+          "Java",
+          "Python",
+          "Azure",
+          "GCP",
+          "AWS"
+        ],
+        "capacity": 0.7995038833590616,
+        "join_date": "2023-08-24T20:57:43.114812"
+      },
+      {
+        "user_id": "user_dff0a036",
+        "name": "Jamie Anderson",
+        "role": "Senior Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "AWS",
+          "Node.js",
+          "Java",
+          "Docker",
+          "MySQL",
+          "Vue",
+          "Confluence"
+        ],
+        "capacity": 0.7125425353494114,
+        "join_date": "2022-01-09T20:57:43.114823"
+      },
+      {
+        "user_id": "user_18fac62c",
+        "name": "Teagan Wright",
+        "role": "Designer",
+        "seniority_level": "senior",
+        "skills": [
+          "React",
+          "TypeScript",
+          "Redis",
+          "JavaScript",
+          "Go",
+          "MySQL",
+          "MongoDB"
+        ],
+        "capacity": 0.7463749410070252,
+        "join_date": "2023-02-16T20:57:43.114833"
+      }
+    ],
+    "created_date": "2025-03-25T20:57:43.114836",
+    "tech_stack": [
+      "Angular",
+      "Python",
+      "Go",
+      "Redis",
+      "MongoDB",
+      "MySQL",
+      "Docker",
+      "AWS",
+      "Kubernetes",
+      "Jenkins"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_b1b118ea",
+    "name": "Secure AI/ML Team",
+    "department": "Product",
+    "project": "Infrastructure",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_58400dd9",
+        "name": "Kendall Brown",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Vue",
+          "JavaScript",
+          "Jenkins"
+        ],
+        "capacity": 0.8666081410705535,
+        "join_date": "2021-10-19T20:57:43.114865"
+      },
+      {
+        "user_id": "user_2df65340",
+        "name": "Kendall Thomas",
+        "role": "Tech Lead",
+        "seniority_level": "mid",
+        "skills": [
+          "Jira",
+          "PostgreSQL",
+          "Python",
+          "MongoDB",
+          "Terraform"
+        ],
+        "capacity": 0.9370407709456513,
+        "join_date": "2022-01-17T20:57:43.114881"
+      },
+      {
+        "user_id": "user_a8dca3a0",
+        "name": "Drew White",
+        "role": "Designer",
+        "seniority_level": "senior",
+        "skills": [
+          "React",
+          "MySQL",
+          "PostgreSQL",
+          "TypeScript",
+          "Redis",
+          "Docker"
+        ],
+        "capacity": 0.7230711334847058,
+        "join_date": "2021-04-22T20:57:43.114892"
+      },
+      {
+        "user_id": "user_6c8f5f17",
+        "name": "Tanner Walker",
+        "role": "Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "Confluence",
+          "Docker",
+          "Node.js",
+          "Terraform",
+          "Vue"
+        ],
+        "capacity": 0.833409310819056,
+        "join_date": "2024-06-01T20:57:43.114903"
+      },
+      {
+        "user_id": "user_eca7b804",
+        "name": "Kendall Clark",
+        "role": "Data Scientist",
+        "seniority_level": "mid",
+        "skills": [
+          "Node.js",
+          "Vue",
+          "Docker",
+          "TypeScript",
+          "Java",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ],
+        "capacity": 0.767512119267676,
+        "join_date": "2023-01-22T20:57:43.114914"
+      },
+      {
+        "user_id": "user_39ef95a8",
+        "name": "Rowan Jones",
+        "role": "Data Scientist",
+        "seniority_level": "lead",
+        "skills": [
+          "Terraform",
+          "Vue",
+          "JavaScript",
+          "GCP",
+          "Java",
+          "Kubernetes",
+          "PostgreSQL",
+          "Azure"
+        ],
+        "capacity": 0.8101908605600141,
+        "join_date": "2023-08-13T20:57:43.114925"
+      },
+      {
+        "user_id": "user_67fb4602",
+        "name": "Riley Thomas",
+        "role": "DevOps Engineer",
+        "seniority_level": "senior",
+        "skills": [
+          "Terraform",
+          "Git",
+          "Confluence",
+          "Go",
+          "Jira",
+          "Azure",
+          "Java",
+          "Node.js"
+        ],
+        "capacity": 0.7116025583687027,
+        "join_date": "2023-09-13T20:57:43.114936"
+      },
+      {
+        "user_id": "user_f21acbc9",
+        "name": "Quinn Miller",
+        "role": "QA Engineer",
+        "seniority_level": "mid",
+        "skills": [
+          "Jenkins",
+          "Azure",
+          "PostgreSQL",
+          "Terraform",
+          "MySQL",
+          "Kubernetes",
+          "Go",
+          "C#"
+        ],
+        "capacity": 0.648749642293086,
+        "join_date": "2021-07-31T20:57:43.114947"
+      },
+      {
+        "user_id": "user_1ba6d4ee",
+        "name": "Logan Smith",
+        "role": "Data Scientist",
+        "seniority_level": "senior",
+        "skills": [
+          "C#",
+          "Vue",
+          "Jenkins",
+          "Angular"
+        ],
+        "capacity": 0.7385454056382466,
+        "join_date": "2022-11-23T20:57:43.114957"
+      }
+    ],
+    "created_date": "2023-07-15T20:57:43.114960",
+    "tech_stack": [
+      "TypeScript",
+      "Vue",
+      "C#",
+      "MongoDB",
+      "PostgreSQL",
+      "Docker",
+      "Terraform",
+      "Confluence",
+      "Jira"
+    ],
+    "methodology": "scrum"
+  },
+  {
+    "team_id": "team_a0fd034f",
+    "name": "Robust Infrastructure Team",
+    "department": "Product",
+    "project": "Core Platform",
+    "size": "large",
+    "members": [
+      {
+        "user_id": "user_457f6e23",
+        "name": "Harper Moore",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Azure",
+          "TypeScript",
+          "Git",
+          "JavaScript",
+          "React",
+          "Kubernetes",
+          "Python",
+          "Redis"
+        ],
+        "capacity": 0.93057855954026,
+        "join_date": "2021-10-15T20:57:43.114990"
+      },
+      {
+        "user_id": "user_d96cdb19",
+        "name": "Jamie Clark",
+        "role": "Product Manager",
+        "seniority_level": "senior",
+        "skills": [
+          "C#",
+          "Confluence",
+          "Vue",
+          "Angular",
+          "Docker"
+        ],
+        "capacity": 0.6928880796884068,
+        "join_date": "2021-03-26T20:57:43.115001"
+      },
+      {
+        "user_id": "user_63be7c17",
+        "name": "Sage Lopez",
+        "role": "Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "Python",
+          "Vue",
+          "MongoDB",
+          "Azure",
+          "Terraform",
+          "C#"
+        ],
+        "capacity": 0.9506972671671694,
+        "join_date": "2025-04-28T20:57:43.115013"
+      },
+      {
+        "user_id": "user_01c515c4",
+        "name": "Cameron Wilson",
+        "role": "Senior Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "AWS",
+          "Confluence",
+          "Kubernetes",
+          "GCP",
+          "Azure"
+        ],
+        "capacity": 0.9557039855079665,
+        "join_date": "2024-08-15T20:57:43.115023"
+      },
+      {
+        "user_id": "user_bedd59b4",
+        "name": "Tanner White",
+        "role": "Designer",
+        "seniority_level": "senior",
+        "skills": [
+          "TypeScript",
+          "PostgreSQL",
+          "Python",
+          "Terraform"
+        ],
+        "capacity": 0.7835657884129444,
+        "join_date": "2023-12-07T20:57:43.115032"
+      },
+      {
+        "user_id": "user_2d1ff7a8",
+        "name": "Rowan Johnson",
+        "role": "Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Docker",
+          "Git",
+          "Java",
+          "Python",
+          "Jira"
+        ],
+        "capacity": 0.9424586017093831,
+        "join_date": "2023-02-06T20:57:43.115045"
+      },
+      {
+        "user_id": "user_3de10407",
+        "name": "Sydney Taylor",
+        "role": "DevOps Engineer",
+        "seniority_level": "junior",
+        "skills": [
+          "Git",
+          "TypeScript",
+          "Python",
+          "JavaScript",
+          "Azure",
+          "PostgreSQL"
+        ],
+        "capacity": 0.9743301548005554,
+        "join_date": "2025-05-03T20:57:43.115058"
+      },
+      {
+        "user_id": "user_6feac525",
+        "name": "Blake Smith",
+        "role": "Product Manager",
+        "seniority_level": "lead",
+        "skills": [
+          "PostgreSQL",
+          "C#",
+          "Docker",
+          "Terraform",
+          "React"
+        ],
+        "capacity": 0.7046212603261571,
+        "join_date": "2023-05-11T20:57:43.115069"
+      },
+      {
+        "user_id": "user_a31c9515",
+        "name": "Rowan Lee",
+        "role": "Developer",
+        "seniority_level": "junior",
+        "skills": [
+          "C#",
+          "Python",
+          "MongoDB",
+          "GCP",
+          "Terraform",
+          "TypeScript"
+        ],
+        "capacity": 0.8554845300797533,
+        "join_date": "2023-09-20T20:57:43.115079"
+      },
+      {
+        "user_id": "user_973000cf",
+        "name": "Emery Young",
+        "role": "Product Manager",
+        "seniority_level": "mid",
+        "skills": [
+          "Azure",
+          "JavaScript",
+          "AWS",
+          "Terraform"
+        ],
+        "capacity": 0.9955351847581235,
+        "join_date": "2023-04-12T20:57:43.115089"
+      }
+    ],
+    "created_date": "2024-03-17T20:57:43.115091",
+    "tech_stack": [
+      "JavaScript",
+      "Vue",
+      "C#",
+      "Redis",
+      "GCP",
+      "AWS",
+      "Docker",
+      "Jira"
+    ],
+    "methodology": "hybrid"
+  },
+  {
+    "team_id": "team_cdc3184e",
+    "name": "Global Data Pipeline Team",
+    "department": "Security",
+    "project": "Analytics",
+    "size": "large",
+    "members": [
+      {
+        "user_id": "user_9eec23b5",
+        "name": "Drew Lopez",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "AWS",
+          "TypeScript",
+          "Git",
+          "Java",
+          "Docker",
+          "Azure",
+          "Angular"
+        ],
+        "capacity": 0.9797778703426947,
+        "join_date": "2021-12-16T20:57:43.115121"
+      },
+      {
+        "user_id": "user_8772b515",
+        "name": "Skylar Brown",
+        "role": "Designer",
+        "seniority_level": "mid",
+        "skills": [
+          "Redis",
+          "AWS",
+          "Docker",
+          "Vue",
+          "Kubernetes",
+          "Jenkins",
+          "C#"
+        ],
+        "capacity": 0.889312031930001,
+        "join_date": "2023-02-26T20:57:43.115132"
+      },
+      {
+        "user_id": "user_81a590b4",
+        "name": "Blake Wright",
+        "role": "Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "Angular",
+          "Vue",
+          "Redis",
+          "MySQL",
+          "Terraform",
+          "Kubernetes",
+          "Jenkins"
+        ],
+        "capacity": 0.9738331195539786,
+        "join_date": "2024-12-26T20:57:43.115143"
+      },
+      {
+        "user_id": "user_b9b0710c",
+        "name": "Tyler Thompson",
+        "role": "Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "Confluence",
+          "Git",
+          "Redis",
+          "MySQL"
+        ],
+        "capacity": 0.9971426394323516,
+        "join_date": "2023-03-25T20:57:43.115153"
+      },
+      {
+        "user_id": "user_ee812d67",
+        "name": "Hayden Lopez",
+        "role": "Data Scientist",
+        "seniority_level": "lead",
+        "skills": [
+          "Git",
+          "Kubernetes",
+          "JavaScript"
+        ],
+        "capacity": 0.8614136393674807,
+        "join_date": "2023-06-04T20:57:43.115163"
+      },
+      {
+        "user_id": "user_d345f737",
+        "name": "Casey Johnson",
+        "role": "Data Scientist",
+        "seniority_level": "mid",
+        "skills": [
+          "Node.js",
+          "React",
+          "Jenkins",
+          "C#",
+          "AWS",
+          "Kubernetes",
+          "Redis",
+          "MongoDB"
+        ],
+        "capacity": 0.9293441749503137,
+        "join_date": "2023-12-27T20:57:43.115174"
+      },
+      {
+        "user_id": "user_3e93ee3f",
+        "name": "Hayden Rodriguez",
+        "role": "Tech Lead",
+        "seniority_level": "senior",
+        "skills": [
+          "Terraform",
+          "TypeScript",
+          "Vue",
+          "Git"
+        ],
+        "capacity": 0.7676962393967008,
+        "join_date": "2021-01-29T20:57:43.115183"
+      },
+      {
+        "user_id": "user_02d7b2f5",
+        "name": "Tyler Hill",
+        "role": "Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "Angular",
+          "TypeScript",
+          "Jira",
+          "Vue"
+        ],
+        "capacity": 0.7785764264994409,
+        "join_date": "2021-08-09T20:57:43.115193"
+      },
+      {
+        "user_id": "user_16f3727b",
+        "name": "Rowan Lopez",
+        "role": "Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "Vue",
+          "MongoDB",
+          "AWS",
+          "Node.js",
+          "Kubernetes",
+          "Java",
+          "Terraform",
+          "JavaScript"
+        ],
+        "capacity": 0.8015583395763738,
+        "join_date": "2023-10-02T20:57:43.115204"
+      },
+      {
+        "user_id": "user_3b8070fc",
+        "name": "Quinn Wright",
+        "role": "DevOps Engineer",
+        "seniority_level": "senior",
+        "skills": [
+          "C#",
+          "JavaScript",
+          "Git",
+          "GCP"
+        ],
+        "capacity": 0.6884170961784131,
+        "join_date": "2023-09-09T20:57:43.115213"
+      },
+      {
+        "user_id": "user_d2718d14",
+        "name": "Blake Brown",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Azure",
+          "Vue",
+          "MySQL",
+          "Confluence",
+          "MongoDB",
+          "GCP",
+          "PostgreSQL"
+        ],
+        "capacity": 0.878523362923636,
+        "join_date": "2023-01-31T20:57:43.115227"
+      }
+    ],
+    "created_date": "2024-12-15T20:57:43.115229",
+    "tech_stack": [
+      "TypeScript",
+      "Vue",
+      "Java",
+      "C#",
+      "MySQL",
+      "Redis",
+      "Docker",
+      "Jenkins",
+      "Confluence"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_d63d11d5",
+    "name": "Modern Infrastructure Team",
+    "department": "Data",
+    "project": "Monitoring",
+    "size": "small",
+    "members": [
+      {
+        "user_id": "user_a16005fa",
+        "name": "Tyler Thomas",
+        "role": "DevOps Engineer",
+        "seniority_level": "junior",
+        "skills": [
+          "Terraform",
+          "Java",
+          "Vue",
+          "Go",
+          "MongoDB",
+          "Git",
+          "Angular"
+        ],
+        "capacity": 0.6752653175731022,
+        "join_date": "2021-02-07T20:57:43.115259"
+      },
+      {
+        "user_id": "user_7d3c9990",
+        "name": "Parker Hall",
+        "role": "Product Manager",
+        "seniority_level": "lead",
+        "skills": [
+          "PostgreSQL",
+          "C#",
+          "React",
+          "Java"
+        ],
+        "capacity": 0.9748639052808991,
+        "join_date": "2021-03-20T20:57:43.115270"
+      },
+      {
+        "user_id": "user_9cf4a3fb",
+        "name": "Casey Hall",
+        "role": "Designer",
+        "seniority_level": "mid",
+        "skills": [
+          "Jira",
+          "Jenkins",
+          "Java",
+          "MongoDB",
+          "Node.js",
+          "Kubernetes",
+          "PostgreSQL",
+          "C#"
+        ],
+        "capacity": 0.752264697749169,
+        "join_date": "2022-05-20T20:57:43.115281"
+      }
+    ],
+    "created_date": "2023-07-22T20:57:43.115283",
+    "tech_stack": [
+      "Angular",
+      "JavaScript",
+      "C#",
+      "Go",
+      "PostgreSQL",
+      "MongoDB",
+      "GCP",
+      "Azure",
+      "Git",
+      "Jenkins"
+    ],
+    "methodology": "scrum"
+  },
+  {
+    "team_id": "team_f8f845eb",
+    "name": "Intelligent DevOps Team",
+    "department": "Product",
+    "project": "Core Platform",
+    "size": "large",
+    "members": [
+      {
+        "user_id": "user_d42cb9d5",
+        "name": "Logan Green",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Docker",
+          "Redis",
+          "C#",
+          "JavaScript",
+          "Java",
+          "PostgreSQL",
+          "Node.js"
+        ],
+        "capacity": 0.8759679549482309,
+        "join_date": "2023-01-29T20:57:43.115313"
+      },
+      {
+        "user_id": "user_9a57588e",
+        "name": "Jamie Williams",
+        "role": "DevOps Engineer",
+        "seniority_level": "senior",
+        "skills": [
+          "Terraform",
+          "Confluence",
+          "Azure",
+          "AWS",
+          "Python",
+          "MySQL"
+        ],
+        "capacity": 0.6677062843440726,
+        "join_date": "2021-05-02T20:57:43.115333"
+      },
+      {
+        "user_id": "user_3dc91afe",
+        "name": "Logan Thompson",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "Vue",
+          "Angular",
+          "Git",
+          "Terraform",
+          "React",
+          "Redis",
+          "JavaScript"
+        ],
+        "capacity": 0.9370178867301394,
+        "join_date": "2024-01-29T20:57:43.115345"
+      },
+      {
+        "user_id": "user_b3571632",
+        "name": "Taylor Walker",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "GCP",
+          "AWS",
+          "MySQL",
+          "Vue"
+        ],
+        "capacity": 0.8471340943507212,
+        "join_date": "2021-08-20T20:57:43.115355"
+      },
+      {
+        "user_id": "user_18d73599",
+        "name": "Tyler Young",
+        "role": "Designer",
+        "seniority_level": "lead",
+        "skills": [
+          "React",
+          "Kubernetes",
+          "Redis"
+        ],
+        "capacity": 0.604740387251157,
+        "join_date": "2022-05-28T20:57:43.115365"
+      },
+      {
+        "user_id": "user_d74c6afd",
+        "name": "Sage Martinez",
+        "role": "QA Engineer",
+        "seniority_level": "junior",
+        "skills": [
+          "Jenkins",
+          "Git",
+          "Redis",
+          "Python",
+          "TypeScript",
+          "Jira",
+          "GCP"
+        ],
+        "capacity": 0.6595589942961002,
+        "join_date": "2024-04-18T20:57:43.115375"
+      },
+      {
+        "user_id": "user_e133f612",
+        "name": "Peyton White",
+        "role": "QA Engineer",
+        "seniority_level": "senior",
+        "skills": [
+          "MongoDB",
+          "Angular",
+          "MySQL",
+          "AWS",
+          "Docker"
+        ],
+        "capacity": 0.6972831576771528,
+        "join_date": "2021-06-19T20:57:43.115386"
+      },
+      {
+        "user_id": "user_b5c74ab9",
+        "name": "Quinn Miller",
+        "role": "Senior Developer",
+        "seniority_level": "junior",
+        "skills": [
+          "MongoDB",
+          "Kubernetes",
+          "Azure"
+        ],
+        "capacity": 0.6224459756515862,
+        "join_date": "2025-04-27T20:57:43.115396"
+      },
+      {
+        "user_id": "user_7880462c",
+        "name": "Rowan Johnson",
+        "role": "Senior Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "Confluence",
+          "PostgreSQL",
+          "Docker",
+          "TypeScript",
+          "GCP",
+          "Vue"
+        ],
+        "capacity": 0.6919065988404067,
+        "join_date": "2020-07-04T20:57:43.115409"
+      },
+      {
+        "user_id": "user_ccc19d2c",
+        "name": "Rowan Hill",
+        "role": "Designer",
+        "seniority_level": "senior",
+        "skills": [
+          "Angular",
+          "Git",
+          "Go"
+        ],
+        "capacity": 0.9597246603460035,
+        "join_date": "2022-03-19T20:57:43.115419"
+      },
+      {
+        "user_id": "user_9116da16",
+        "name": "River Brown",
+        "role": "Tech Lead",
+        "seniority_level": "senior",
+        "skills": [
+          "Java",
+          "Docker",
+          "JavaScript"
+        ],
+        "capacity": 0.900901787938746,
+        "join_date": "2021-05-18T20:57:43.115428"
+      },
+      {
+        "user_id": "user_f4548741",
+        "name": "Sydney Smith",
+        "role": "Senior Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Docker",
+          "Node.js",
+          "MongoDB",
+          "Git"
+        ],
+        "capacity": 0.9586103068010879,
+        "join_date": "2023-07-07T20:57:43.115438"
+      }
+    ],
+    "created_date": "2024-04-18T20:57:43.115440",
+    "tech_stack": [
+      "React",
+      "Python",
+      "C#",
+      "MySQL",
+      "PostgreSQL",
+      "Docker",
+      "Kubernetes",
+      "Jira",
+      "Git"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_e28639a6",
+    "name": "Intelligent AI/ML Team",
+    "department": "Security",
+    "project": "Customer Portal",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_d25a84e6",
+        "name": "Riley Lewis",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Git",
+          "MongoDB",
+          "Angular",
+          "Jira",
+          "C#",
+          "Node.js",
+          "Terraform"
+        ],
+        "capacity": 0.8164076019346298,
+        "join_date": "2023-08-05T20:57:43.115471"
+      },
+      {
+        "user_id": "user_224cab42",
+        "name": "Finley Walker",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "MySQL",
+          "TypeScript",
+          "Angular",
+          "React",
+          "C#"
+        ],
+        "capacity": 0.7778943459985181,
+        "join_date": "2021-02-07T20:57:43.115482"
+      },
+      {
+        "user_id": "user_fdea0c8d",
+        "name": "Blake Davis",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "Redis",
+          "AWS",
+          "Kubernetes",
+          "GCP"
+        ],
+        "capacity": 0.763217670033255,
+        "join_date": "2025-03-24T20:57:43.115492"
+      },
+      {
+        "user_id": "user_05fe06d3",
+        "name": "Taylor Rodriguez",
+        "role": "Senior Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "React",
+          "C#",
+          "Redis",
+          "MongoDB",
+          "Angular",
+          "Kubernetes"
+        ],
+        "capacity": 0.9620830297253435,
+        "join_date": "2024-01-05T20:57:43.115503"
+      },
+      {
+        "user_id": "user_8a90a609",
+        "name": "Parker White",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "JavaScript",
+          "Go",
+          "C#",
+          "Azure"
+        ],
+        "capacity": 0.6583739282586191,
+        "join_date": "2024-06-08T20:57:43.115513"
+      },
+      {
+        "user_id": "user_50139dc8",
+        "name": "Harper Martinez",
+        "role": "Data Scientist",
+        "seniority_level": "senior",
+        "skills": [
+          "Angular",
+          "MySQL",
+          "Go",
+          "Node.js",
+          "Azure",
+          "Java"
+        ],
+        "capacity": 0.7831446531622779,
+        "join_date": "2024-08-12T20:57:43.115523"
+      },
+      {
+        "user_id": "user_fe63bfd3",
+        "name": "Cameron Anderson",
+        "role": "Data Scientist",
+        "seniority_level": "senior",
+        "skills": [
+          "MongoDB",
+          "PostgreSQL",
+          "AWS",
+          "Jenkins",
+          "Redis",
+          "JavaScript",
+          "C#"
+        ],
+        "capacity": 0.7282660621500351,
+        "join_date": "2021-06-23T20:57:43.115534"
+      },
+      {
+        "user_id": "user_5fb4b8f3",
+        "name": "Avery Thompson",
+        "role": "DevOps Engineer",
+        "seniority_level": "mid",
+        "skills": [
+          "PostgreSQL",
+          "C#",
+          "Confluence",
+          "Azure",
+          "Docker",
+          "Node.js"
+        ],
+        "capacity": 0.7303544949771622,
+        "join_date": "2023-10-20T20:57:43.115544"
+      },
+      {
+        "user_id": "user_0765a01b",
+        "name": "Sydney King",
+        "role": "Data Scientist",
+        "seniority_level": "senior",
+        "skills": [
+          "Docker",
+          "Java",
+          "Kubernetes"
+        ],
+        "capacity": 0.6719708850434799,
+        "join_date": "2021-01-25T20:57:43.115554"
+      }
+    ],
+    "created_date": "2023-10-31T20:57:43.115556",
+    "tech_stack": [
+      "TypeScript",
+      "Go",
+      "PostgreSQL",
+      "MySQL",
+      "Kubernetes",
+      "Azure",
+      "GCP",
+      "Confluence",
+      "Git"
+    ],
+    "methodology": "hybrid"
+  },
+  {
+    "team_id": "team_a0c9e902",
+    "name": "Strategic Frontend Team",
+    "department": "Platform",
+    "project": "Mobile App",
+    "size": "small",
+    "members": [
+      {
+        "user_id": "user_327ef633",
+        "name": "Peyton Thompson",
+        "role": "Data Scientist",
+        "seniority_level": "lead",
+        "skills": [
+          "Vue",
+          "MySQL",
+          "Kubernetes",
+          "Jira",
+          "Angular",
+          "TypeScript",
+          "Node.js"
+        ],
+        "capacity": 0.8630406578323062,
+        "join_date": "2023-05-20T20:57:43.115590"
+      },
+      {
+        "user_id": "user_c6de58e1",
+        "name": "Riley Clark",
+        "role": "Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "Redis",
+          "TypeScript",
+          "React",
+          "Go",
+          "Node.js"
+        ],
+        "capacity": 0.8042704962100179,
+        "join_date": "2022-06-19T20:57:43.115601"
+      },
+      {
+        "user_id": "user_af7ebfcd",
+        "name": "Logan Wilson",
+        "role": "Product Manager",
+        "seniority_level": "lead",
+        "skills": [
+          "MongoDB",
+          "AWS",
+          "Git",
+          "Docker",
+          "Jenkins"
+        ],
+        "capacity": 0.8001863126478939,
+        "join_date": "2023-06-10T20:57:43.115612"
+      },
+      {
+        "user_id": "user_94e46aec",
+        "name": "Alex Thompson",
+        "role": "Senior Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Angular",
+          "TypeScript",
+          "JavaScript",
+          "MySQL",
+          "C#",
+          "PostgreSQL"
+        ],
+        "capacity": 0.7821330540903508,
+        "join_date": "2024-03-19T20:57:43.115622"
+      }
+    ],
+    "created_date": "2023-11-30T20:57:43.115624",
+    "tech_stack": [
+      "Angular",
+      "TypeScript",
+      "Go",
+      "Redis",
+      "MySQL",
+      "PostgreSQL",
+      "AWS",
+      "Docker",
+      "Git"
+    ],
+    "methodology": "hybrid"
+  },
+  {
+    "team_id": "team_34aa967e",
+    "name": "Future QA Team",
+    "department": "Product",
+    "project": "API Gateway",
+    "size": "small",
+    "members": [
+      {
+        "user_id": "user_a3cad440",
+        "name": "Logan Johnson",
+        "role": "DevOps Engineer",
+        "seniority_level": "lead",
+        "skills": [
+          "Node.js",
+          "MongoDB",
+          "Confluence",
+          "Python",
+          "Git",
+          "Redis"
+        ],
+        "capacity": 0.7582329512512453,
+        "join_date": "2021-03-28T20:57:43.115654"
+      },
+      {
+        "user_id": "user_e28c23ee",
+        "name": "Peyton Hill",
+        "role": "Product Manager",
+        "seniority_level": "lead",
+        "skills": [
+          "Redis",
+          "MongoDB",
+          "React",
+          "Java",
+          "Confluence",
+          "Go",
+          "Angular"
+        ],
+        "capacity": 0.830939162080741,
+        "join_date": "2020-11-21T20:57:43.115665"
+      },
+      {
+        "user_id": "user_96ddcbe8",
+        "name": "Tanner Williams",
+        "role": "Tech Lead",
+        "seniority_level": "senior",
+        "skills": [
+          "Java",
+          "AWS",
+          "TypeScript",
+          "Go",
+          "Git"
+        ],
+        "capacity": 0.945054618982923,
+        "join_date": "2022-06-01T20:57:43.115675"
+      }
+    ],
+    "created_date": "2023-08-01T20:57:43.115677",
+    "tech_stack": [
+      "JavaScript",
+      "TypeScript",
+      "C#",
+      "Python",
+      "MongoDB",
+      "MySQL",
+      "Azure",
+      "GCP",
+      "Kubernetes",
+      "Jira",
+      "Confluence",
+      "Jenkins"
+    ],
+    "methodology": "scrum"
+  },
+  {
+    "team_id": "team_8de9043a",
+    "name": "Next-Gen Mobile App Team",
+    "department": "Product",
+    "project": "AI/ML",
+    "size": "small",
+    "members": [
+      {
+        "user_id": "user_a5437c56",
+        "name": "Morgan White",
+        "role": "Data Scientist",
+        "seniority_level": "lead",
+        "skills": [
+          "JavaScript",
+          "Docker",
+          "MongoDB",
+          "Redis",
+          "Python",
+          "Azure",
+          "Kubernetes"
+        ],
+        "capacity": 0.877373170611742,
+        "join_date": "2021-10-03T20:57:43.115714"
+      },
+      {
+        "user_id": "user_8eed3a78",
+        "name": "Tyler Johnson",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "JavaScript",
+          "Python",
+          "PostgreSQL",
+          "AWS",
+          "Jira"
+        ],
+        "capacity": 0.6214445050523347,
+        "join_date": "2023-05-12T20:57:43.115726"
+      },
+      {
+        "user_id": "user_d047eed0",
+        "name": "Alex Thompson",
+        "role": "Tech Lead",
+        "seniority_level": "mid",
+        "skills": [
+          "Kubernetes",
+          "GCP",
+          "Confluence",
+          "Azure",
+          "Redis",
+          "Git"
+        ],
+        "capacity": 0.7662521741096447,
+        "join_date": "2020-08-30T20:57:43.115737"
+      },
+      {
+        "user_id": "user_a4a84476",
+        "name": "Hayden Thompson",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "React",
+          "Node.js",
+          "C#",
+          "Vue",
+          "Go",
+          "Jenkins",
+          "Kubernetes"
+        ],
+        "capacity": 0.7154681240564852,
+        "join_date": "2020-12-30T20:57:43.115747"
+      },
+      {
+        "user_id": "user_433c216d",
+        "name": "Hayden Wilson",
+        "role": "Designer",
+        "seniority_level": "junior",
+        "skills": [
+          "TypeScript",
+          "Go",
+          "Kubernetes",
+          "MySQL",
+          "Git",
+          "Vue",
+          "AWS"
+        ],
+        "capacity": 0.8185413098887858,
+        "join_date": "2022-12-28T20:57:43.115758"
+      }
+    ],
+    "created_date": "2025-02-01T20:57:43.115760",
+    "tech_stack": [
+      "Angular",
+      "Go",
+      "MongoDB",
+      "PostgreSQL",
+      "AWS",
+      "Azure",
+      "Terraform"
+    ],
+    "methodology": "hybrid"
+  },
+  {
+    "team_id": "team_6411bb52",
+    "name": "Strategic Analytics Team",
+    "department": "Security",
+    "project": "Analytics",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_35d1ba1b",
+        "name": "Sydney Jones",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Docker",
+          "MySQL",
+          "Kubernetes"
+        ],
+        "capacity": 0.8562170037580397,
+        "join_date": "2021-06-08T20:57:43.115793"
+      },
+      {
+        "user_id": "user_2b47aea4",
+        "name": "Riley Moore",
+        "role": "QA Engineer",
+        "seniority_level": "senior",
+        "skills": [
+          "Go",
+          "GCP",
+          "Git",
+          "TypeScript",
+          "JavaScript",
+          "Redis",
+          "Vue"
+        ],
+        "capacity": 0.9969944902578698,
+        "join_date": "2020-07-06T20:57:43.115807"
+      },
+      {
+        "user_id": "user_99f67c95",
+        "name": "Reese Garcia",
+        "role": "Tech Lead",
+        "seniority_level": "mid",
+        "skills": [
+          "Jenkins",
+          "PostgreSQL",
+          "Node.js",
+          "Git"
+        ],
+        "capacity": 0.7570803001208863,
+        "join_date": "2024-07-29T20:57:43.115818"
+      },
+      {
+        "user_id": "user_6d3689bf",
+        "name": "Parker Clark",
+        "role": "QA Engineer",
+        "seniority_level": "lead",
+        "skills": [
+          "AWS",
+          "Angular",
+          "Confluence",
+          "Jenkins",
+          "MongoDB",
+          "GCP"
+        ],
+        "capacity": 0.899920953149276,
+        "join_date": "2021-06-24T20:57:43.115828"
+      },
+      {
+        "user_id": "user_d4f1bcfb",
+        "name": "Tyler Hill",
+        "role": "DevOps Engineer",
+        "seniority_level": "lead",
+        "skills": [
+          "PostgreSQL",
+          "Docker",
+          "React",
+          "Angular",
+          "AWS",
+          "MySQL"
+        ],
+        "capacity": 0.9400424959162792,
+        "join_date": "2020-11-29T20:57:43.115840"
+      },
+      {
+        "user_id": "user_e737f98b",
+        "name": "Logan Smith",
+        "role": "Product Manager",
+        "seniority_level": "lead",
+        "skills": [
+          "Azure",
+          "Go",
+          "PostgreSQL",
+          "C#"
+        ],
+        "capacity": 0.735102062068315,
+        "join_date": "2022-02-18T20:57:43.115863"
+      },
+      {
+        "user_id": "user_3d362c20",
+        "name": "Morgan Wilson",
+        "role": "Designer",
+        "seniority_level": "senior",
+        "skills": [
+          "Vue",
+          "Terraform",
+          "TypeScript",
+          "Confluence",
+          "AWS",
+          "React",
+          "Git",
+          "Python"
+        ],
+        "capacity": 0.7765143795505707,
+        "join_date": "2025-05-15T20:57:43.115880"
+      }
+    ],
+    "created_date": "2024-03-04T20:57:43.115884",
+    "tech_stack": [
+      "Vue",
+      "Java",
+      "Node.js",
+      "MongoDB",
+      "AWS",
+      "GCP",
+      "Confluence",
+      "Jira",
+      "Terraform"
+    ],
+    "methodology": "hybrid"
+  },
+  {
+    "team_id": "team_c9716787",
+    "name": "Intelligent Customer Portal Team",
+    "department": "Engineering",
+    "project": "DevOps",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_8de45b66",
+        "name": "Alex Jones",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Angular",
+          "JavaScript",
+          "Docker",
+          "Node.js",
+          "GCP",
+          "AWS"
+        ],
+        "capacity": 0.801857389521692,
+        "join_date": "2020-07-22T20:57:43.115929"
+      },
+      {
+        "user_id": "user_94dca4ed",
+        "name": "Drew Wright",
+        "role": "Senior Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "JavaScript",
+          "Azure",
+          "Angular",
+          "Node.js",
+          "MongoDB",
+          "Git",
+          "TypeScript",
+          "Kubernetes"
+        ],
+        "capacity": 0.7253405909763625,
+        "join_date": "2023-09-12T20:57:43.115947"
+      },
+      {
+        "user_id": "user_63aea32b",
+        "name": "Morgan Smith",
+        "role": "Tech Lead",
+        "seniority_level": "mid",
+        "skills": [
+          "GCP",
+          "Docker",
+          "React"
+        ],
+        "capacity": 0.8441276957095272,
+        "join_date": "2024-06-14T20:57:43.115962"
+      },
+      {
+        "user_id": "user_f0e2267e",
+        "name": "Hayden Rodriguez",
+        "role": "Product Manager",
+        "seniority_level": "mid",
+        "skills": [
+          "Jira",
+          "Git",
+          "AWS",
+          "Java",
+          "Angular",
+          "TypeScript"
+        ],
+        "capacity": 0.6560052566303183,
+        "join_date": "2024-09-06T20:57:43.115978"
+      },
+      {
+        "user_id": "user_65c87f1a",
+        "name": "Parker Hall",
+        "role": "Data Scientist",
+        "seniority_level": "senior",
+        "skills": [
+          "PostgreSQL",
+          "JavaScript",
+          "Node.js",
+          "Go",
+          "Angular",
+          "Git"
+        ],
+        "capacity": 0.8213586527138921,
+        "join_date": "2022-01-04T20:57:43.115998"
+      },
+      {
+        "user_id": "user_b23295c5",
+        "name": "Sage Young",
+        "role": "QA Engineer",
+        "seniority_level": "junior",
+        "skills": [
+          "C#",
+          "Java",
+          "GCP",
+          "Jira",
+          "Git",
+          "Jenkins",
+          "MongoDB",
+          "Terraform"
+        ],
+        "capacity": 0.8584679098563466,
+        "join_date": "2020-12-23T20:57:43.116018"
+      }
+    ],
+    "created_date": "2024-09-13T20:57:43.116022",
+    "tech_stack": [
+      "TypeScript",
+      "React",
+      "Go",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "GCP",
+      "Azure",
+      "Terraform",
+      "Jenkins"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_7becd303",
+    "name": "Future Frontend Team",
+    "department": "Platform",
+    "project": "Frontend",
+    "size": "large",
+    "members": [
+      {
+        "user_id": "user_9c5e3b30",
+        "name": "Alex Wilson",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "React",
+          "Go",
+          "Java"
+        ],
+        "capacity": 0.807965372387438,
+        "join_date": "2024-02-13T20:57:43.116057"
+      },
+      {
+        "user_id": "user_42a542d7",
+        "name": "Skylar Smith",
+        "role": "QA Engineer",
+        "seniority_level": "lead",
+        "skills": [
+          "Jenkins",
+          "MongoDB",
+          "Angular",
+          "Confluence",
+          "Kubernetes",
+          "Jira"
+        ],
+        "capacity": 0.8464188222666992,
+        "join_date": "2023-10-26T20:57:43.116069"
+      },
+      {
+        "user_id": "user_7872fc64",
+        "name": "Taylor Miller",
+        "role": "Senior Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "Kubernetes",
+          "PostgreSQL",
+          "MongoDB",
+          "Docker"
+        ],
+        "capacity": 0.8537176989413027,
+        "join_date": "2020-09-10T20:57:43.116080"
+      },
+      {
+        "user_id": "user_00c927e0",
+        "name": "Reese Lewis",
+        "role": "Senior Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Redis",
+          "Node.js",
+          "Vue",
+          "Jenkins",
+          "Angular",
+          "Terraform",
+          "TypeScript",
+          "AWS"
+        ],
+        "capacity": 0.8449187177682889,
+        "join_date": "2025-01-24T20:57:43.116093"
+      },
+      {
+        "user_id": "user_4d12c258",
+        "name": "Cameron Lewis",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "Jenkins",
+          "JavaScript",
+          "React"
+        ],
+        "capacity": 0.665533052374163,
+        "join_date": "2023-06-06T20:57:43.116103"
+      },
+      {
+        "user_id": "user_371b2bff",
+        "name": "Kendall White",
+        "role": "QA Engineer",
+        "seniority_level": "mid",
+        "skills": [
+          "JavaScript",
+          "Terraform",
+          "Go",
+          "TypeScript",
+          "React"
+        ],
+        "capacity": 0.7340044105264778,
+        "join_date": "2022-12-19T20:57:43.116114"
+      },
+      {
+        "user_id": "user_cd7014c6",
+        "name": "Blake White",
+        "role": "Senior Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Docker",
+          "Confluence",
+          "Angular",
+          "Azure",
+          "AWS",
+          "GCP",
+          "MySQL",
+          "Vue"
+        ],
+        "capacity": 0.7998440023045533,
+        "join_date": "2022-03-13T20:57:43.116125"
+      },
+      {
+        "user_id": "user_1f2c98d7",
+        "name": "Riley Rodriguez",
+        "role": "Tech Lead",
+        "seniority_level": "senior",
+        "skills": [
+          "Docker",
+          "Git",
+          "Terraform"
+        ],
+        "capacity": 0.6461334414136541,
+        "join_date": "2021-03-21T20:57:43.116135"
+      },
+      {
+        "user_id": "user_eb8708ad",
+        "name": "Kendall Anderson",
+        "role": "Developer",
+        "seniority_level": "junior",
+        "skills": [
+          "Vue",
+          "Azure",
+          "MySQL",
+          "MongoDB"
+        ],
+        "capacity": 0.9680906181039949,
+        "join_date": "2024-05-15T20:57:43.116145"
+      },
+      {
+        "user_id": "user_c562ad62",
+        "name": "Tyler Lopez",
+        "role": "Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "PostgreSQL",
+          "Node.js",
+          "Redis",
+          "Terraform"
+        ],
+        "capacity": 0.7279740550257503,
+        "join_date": "2020-09-28T20:57:43.116168"
+      }
+    ],
+    "created_date": "2025-02-26T20:57:43.116170",
+    "tech_stack": [
+      "React",
+      "JavaScript",
+      "Java",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "GCP",
+      "Docker",
+      "Jira",
+      "Jenkins"
+    ],
+    "methodology": "scrum"
+  },
+  {
+    "team_id": "team_5dad441c",
+    "name": "Global Security Team",
+    "department": "Security",
+    "project": "Frontend",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_8c654ef3",
+        "name": "Sage Young",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "AWS",
+          "MySQL",
+          "Docker",
+          "Azure"
+        ],
+        "capacity": 0.9995574232527811,
+        "join_date": "2023-05-12T20:57:43.116199"
+      },
+      {
+        "user_id": "user_08646dd6",
+        "name": "Sage Hill",
+        "role": "Product Manager",
+        "seniority_level": "mid",
+        "skills": [
+          "Redis",
+          "React",
+          "Node.js"
+        ],
+        "capacity": 0.8166180799794903,
+        "join_date": "2021-10-22T20:57:43.116210"
+      },
+      {
+        "user_id": "user_3c2cbf35",
+        "name": "Sydney Walker",
+        "role": "Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Git",
+          "MongoDB",
+          "Terraform"
+        ],
+        "capacity": 0.8908860156163889,
+        "join_date": "2024-10-16T20:57:43.116223"
+      },
+      {
+        "user_id": "user_2f3c74ba",
+        "name": "Avery White",
+        "role": "Product Manager",
+        "seniority_level": "lead",
+        "skills": [
+          "Vue",
+          "JavaScript",
+          "Go",
+          "Angular",
+          "Terraform",
+          "Node.js"
+        ],
+        "capacity": 0.9589149887725836,
+        "join_date": "2022-06-17T20:57:43.116234"
+      },
+      {
+        "user_id": "user_941011fa",
+        "name": "Harper Walker",
+        "role": "DevOps Engineer",
+        "seniority_level": "lead",
+        "skills": [
+          "Angular",
+          "Docker",
+          "TypeScript",
+          "GCP",
+          "JavaScript",
+          "MongoDB",
+          "Terraform",
+          "Vue"
+        ],
+        "capacity": 0.7739931513739942,
+        "join_date": "2024-08-22T20:57:43.116244"
+      },
+      {
+        "user_id": "user_16dcc17e",
+        "name": "Quinn Miller",
+        "role": "QA Engineer",
+        "seniority_level": "senior",
+        "skills": [
+          "Jenkins",
+          "PostgreSQL",
+          "Terraform",
+          "AWS",
+          "Go",
+          "Node.js"
+        ],
+        "capacity": 0.6298749743209918,
+        "join_date": "2024-03-27T20:57:43.116255"
+      },
+      {
+        "user_id": "user_b2c7d538",
+        "name": "Morgan Allen",
+        "role": "Senior Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "Python",
+          "AWS",
+          "PostgreSQL"
+        ],
+        "capacity": 0.7626050207636855,
+        "join_date": "2022-05-15T20:57:43.116265"
+      },
+      {
+        "user_id": "user_65c98864",
+        "name": "Emery Allen",
+        "role": "Product Manager",
+        "seniority_level": "lead",
+        "skills": [
+          "AWS",
+          "Go",
+          "TypeScript",
+          "Angular",
+          "Python"
+        ],
+        "capacity": 0.9230387618722166,
+        "join_date": "2023-09-01T20:57:43.116275"
+      }
+    ],
+    "created_date": "2023-09-07T20:57:43.116277",
+    "tech_stack": [
+      "Vue",
+      "Java",
+      "Python",
+      "MySQL",
+      "Redis",
+      "MongoDB",
+      "AWS",
+      "GCP",
+      "Azure",
+      "Jira"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_14fa5779",
+    "name": "Secure DevOps Team",
+    "department": "Security",
+    "project": "Infrastructure",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_3ccdaf61",
+        "name": "Hayden Davis",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "TypeScript",
+          "React",
+          "Vue",
+          "Node.js"
+        ],
+        "capacity": 0.8261430475087956,
+        "join_date": "2022-03-18T20:57:43.116307"
+      },
+      {
+        "user_id": "user_6c77d8b4",
+        "name": "Emery Lewis",
+        "role": "Senior Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "React",
+          "Angular",
+          "Java"
+        ],
+        "capacity": 0.9609984327733125,
+        "join_date": "2022-11-20T20:57:43.116318"
+      },
+      {
+        "user_id": "user_54c22dbf",
+        "name": "Skylar Garcia",
+        "role": "Senior Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Vue",
+          "AWS",
+          "Python"
+        ],
+        "capacity": 0.9696526902135736,
+        "join_date": "2022-12-11T20:57:43.116328"
+      },
+      {
+        "user_id": "user_9060d4da",
+        "name": "Sydney Hall",
+        "role": "Data Scientist",
+        "seniority_level": "lead",
+        "skills": [
+          "MongoDB",
+          "Git",
+          "Redis"
+        ],
+        "capacity": 0.6691228847323156,
+        "join_date": "2024-03-03T20:57:43.116337"
+      },
+      {
+        "user_id": "user_2446653f",
+        "name": "Tyler Johnson",
+        "role": "QA Engineer",
+        "seniority_level": "senior",
+        "skills": [
+          "JavaScript",
+          "Vue",
+          "Jira",
+          "Git",
+          "Confluence",
+          "Node.js"
+        ],
+        "capacity": 0.8589113601896321,
+        "join_date": "2022-07-30T20:57:43.116348"
+      },
+      {
+        "user_id": "user_80b3b836",
+        "name": "Harper Hill",
+        "role": "Designer",
+        "seniority_level": "junior",
+        "skills": [
+          "Go",
+          "MongoDB",
+          "JavaScript"
+        ],
+        "capacity": 0.7676939284785325,
+        "join_date": "2021-10-08T20:57:43.116357"
+      }
+    ],
+    "created_date": "2023-11-25T20:57:43.116359",
+    "tech_stack": [
+      "JavaScript",
+      "Go",
+      "MongoDB",
+      "MySQL",
+      "Redis",
+      "Docker",
+      "GCP",
+      "Git",
+      "Confluence"
+    ],
+    "methodology": "scrum"
+  },
+  {
+    "team_id": "team_833ee1e9",
+    "name": "Intelligent Core Platform Team",
+    "department": "Data",
+    "project": "Core Platform",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_6cccb5c8",
+        "name": "Kendall Rodriguez",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Node.js",
+          "Python",
+          "TypeScript",
+          "Terraform",
+          "Confluence",
+          "Go",
+          "Kubernetes"
+        ],
+        "capacity": 0.963257032321747,
+        "join_date": "2024-02-22T20:57:43.116389"
+      },
+      {
+        "user_id": "user_b71cafb9",
+        "name": "Sam Lee",
+        "role": "Data Scientist",
+        "seniority_level": "senior",
+        "skills": [
+          "Python",
+          "Node.js",
+          "Docker",
+          "PostgreSQL"
+        ],
+        "capacity": 0.9224840901437553,
+        "join_date": "2021-06-18T20:57:43.116401"
+      },
+      {
+        "user_id": "user_fbb48eaa",
+        "name": "Emery Green",
+        "role": "Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Docker",
+          "JavaScript",
+          "Terraform",
+          "Java",
+          "Azure",
+          "Kubernetes",
+          "C#"
+        ],
+        "capacity": 0.6702227070642602,
+        "join_date": "2025-02-28T20:57:43.116415"
+      },
+      {
+        "user_id": "user_1a704052",
+        "name": "Taylor Brown",
+        "role": "Product Manager",
+        "seniority_level": "mid",
+        "skills": [
+          "GCP",
+          "Azure",
+          "React"
+        ],
+        "capacity": 0.7326935974296813,
+        "join_date": "2021-12-06T20:57:43.116425"
+      },
+      {
+        "user_id": "user_e23908e1",
+        "name": "Avery King",
+        "role": "Tech Lead",
+        "seniority_level": "senior",
+        "skills": [
+          "Python",
+          "PostgreSQL",
+          "Vue",
+          "React",
+          "JavaScript",
+          "Docker",
+          "Jira",
+          "TypeScript"
+        ],
+        "capacity": 0.9385923550316538,
+        "join_date": "2020-07-19T20:57:43.116436"
+      },
+      {
+        "user_id": "user_80349d3d",
+        "name": "Emery Chen",
+        "role": "DevOps Engineer",
+        "seniority_level": "lead",
+        "skills": [
+          "TypeScript",
+          "PostgreSQL",
+          "C#",
+          "Jenkins",
+          "JavaScript",
+          "Python",
+          "Redis"
+        ],
+        "capacity": 0.9167370099999487,
+        "join_date": "2022-08-23T20:57:43.116446"
+      },
+      {
+        "user_id": "user_30cc2b35",
+        "name": "Reese Moore",
+        "role": "Tech Lead",
+        "seniority_level": "senior",
+        "skills": [
+          "Git",
+          "Docker",
+          "Python",
+          "MongoDB"
+        ],
+        "capacity": 0.7227292917191832,
+        "join_date": "2021-07-06T20:57:43.116474"
+      },
+      {
+        "user_id": "user_055ec84f",
+        "name": "Cameron Garcia",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "Docker",
+          "MongoDB",
+          "Terraform",
+          "Vue",
+          "Python",
+          "PostgreSQL",
+          "Node.js",
+          "TypeScript"
+        ],
+        "capacity": 0.9746751174217017,
+        "join_date": "2024-08-01T20:57:43.116486"
+      },
+      {
+        "user_id": "user_01abb46f",
+        "name": "Drew Hall",
+        "role": "Senior Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "PostgreSQL",
+          "Python",
+          "Confluence",
+          "Angular",
+          "Jenkins"
+        ],
+        "capacity": 0.8680098284456214,
+        "join_date": "2021-04-14T20:57:43.116496"
+      }
+    ],
+    "created_date": "2024-06-07T20:57:43.116513",
+    "tech_stack": [
+      "React",
+      "Angular",
+      "Java",
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "AWS",
+      "Jenkins"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_b30cc79a",
+    "name": "Strategic Analytics Team",
+    "department": "Platform",
+    "project": "Admin Tools",
+    "size": "large",
+    "members": [
+      {
+        "user_id": "user_5de21fba",
+        "name": "Emery Williams",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "TypeScript",
+          "Azure",
+          "Docker",
+          "Confluence",
+          "Node.js",
+          "Python"
+        ],
+        "capacity": 0.890257483830615,
+        "join_date": "2024-04-08T20:57:43.116544"
+      },
+      {
+        "user_id": "user_f3aeac01",
+        "name": "Cameron Anderson",
+        "role": "DevOps Engineer",
+        "seniority_level": "senior",
+        "skills": [
+          "Angular",
+          "PostgreSQL",
+          "Python"
+        ],
+        "capacity": 0.9551725070937213,
+        "join_date": "2024-06-21T20:57:43.116554"
+      },
+      {
+        "user_id": "user_3a2b7e53",
+        "name": "Sage Chen",
+        "role": "Senior Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Jira",
+          "Azure",
+          "React",
+          "Redis",
+          "Python",
+          "Confluence",
+          "Terraform"
+        ],
+        "capacity": 0.6214222970642381,
+        "join_date": "2023-07-08T20:57:43.116566"
+      },
+      {
+        "user_id": "user_144532cd",
+        "name": "Avery Jones",
+        "role": "Data Scientist",
+        "seniority_level": "senior",
+        "skills": [
+          "C#",
+          "Terraform",
+          "Node.js",
+          "TypeScript",
+          "Vue",
+          "MongoDB",
+          "Kubernetes",
+          "Azure"
+        ],
+        "capacity": 0.6614359738066936,
+        "join_date": "2023-05-09T20:57:43.116577"
+      },
+      {
+        "user_id": "user_e2c1a9bc",
+        "name": "Alex Taylor",
+        "role": "Senior Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Confluence",
+          "Jira",
+          "Azure",
+          "Java",
+          "TypeScript",
+          "React",
+          "Terraform",
+          "Python"
+        ],
+        "capacity": 0.8552762636298282,
+        "join_date": "2024-11-30T20:57:43.116587"
+      },
+      {
+        "user_id": "user_4c986583",
+        "name": "Jamie Lopez",
+        "role": "Senior Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Azure",
+          "Terraform",
+          "Git",
+          "Go",
+          "Angular",
+          "Kubernetes"
+        ],
+        "capacity": 0.7550108468081987,
+        "join_date": "2023-04-18T20:57:43.116599"
+      },
+      {
+        "user_id": "user_2208a049",
+        "name": "Teagan Smith",
+        "role": "DevOps Engineer",
+        "seniority_level": "mid",
+        "skills": [
+          "Vue",
+          "Go",
+          "AWS",
+          "Git",
+          "Jenkins",
+          "Node.js"
+        ],
+        "capacity": 0.9348315008537829,
+        "join_date": "2022-03-18T20:57:43.116609"
+      },
+      {
+        "user_id": "user_7017c50c",
+        "name": "Jordan Garcia",
+        "role": "Senior Developer",
+        "seniority_level": "junior",
+        "skills": [
+          "MySQL",
+          "Kubernetes",
+          "Redis",
+          "Docker",
+          "Node.js",
+          "Jenkins",
+          "Vue",
+          "MongoDB"
+        ],
+        "capacity": 0.9273620859461494,
+        "join_date": "2023-01-10T20:57:43.116619"
+      },
+      {
+        "user_id": "user_a833f689",
+        "name": "Logan Lewis",
+        "role": "Designer",
+        "seniority_level": "mid",
+        "skills": [
+          "C#",
+          "Angular",
+          "MongoDB",
+          "Vue",
+          "GCP",
+          "Docker"
+        ],
+        "capacity": 0.9601820245886368,
+        "join_date": "2020-11-19T20:57:43.116631"
+      },
+      {
+        "user_id": "user_ede17c49",
+        "name": "Parker Lewis",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "Python",
+          "Terraform",
+          "Java",
+          "Git",
+          "JavaScript",
+          "Vue"
+        ],
+        "capacity": 0.7693499597262398,
+        "join_date": "2021-07-17T20:57:43.116642"
+      },
+      {
+        "user_id": "user_0f7316ea",
+        "name": "Harper Jones",
+        "role": "Tech Lead",
+        "seniority_level": "senior",
+        "skills": [
+          "Terraform",
+          "Angular",
+          "MongoDB",
+          "Kubernetes",
+          "PostgreSQL"
+        ],
+        "capacity": 0.9426496722584987,
+        "join_date": "2022-06-17T20:57:43.116653"
+      },
+      {
+        "user_id": "user_8c4656fe",
+        "name": "Hayden Green",
+        "role": "Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "Redis",
+          "JavaScript",
+          "Docker"
+        ],
+        "capacity": 0.8351736533125552,
+        "join_date": "2021-02-13T20:57:43.116662"
+      },
+      {
+        "user_id": "user_23d05a04",
+        "name": "Casey Green",
+        "role": "Senior Developer",
+        "seniority_level": "junior",
+        "skills": [
+          "Kubernetes",
+          "MySQL",
+          "Redis",
+          "Go",
+          "MongoDB"
+        ],
+        "capacity": 0.8619150682854199,
+        "join_date": "2022-03-02T20:57:43.116673"
+      }
+    ],
+    "created_date": "2023-09-01T20:57:43.116675",
+    "tech_stack": [
+      "React",
+      "Vue",
+      "Go",
+      "Java",
+      "Redis",
+      "PostgreSQL",
+      "MySQL",
+      "Azure",
+      "AWS",
+      "Jenkins",
+      "Git",
+      "Confluence"
+    ],
+    "methodology": "scrum"
+  },
+  {
+    "team_id": "team_1cac34f5",
+    "name": "Next-Gen Security Team",
+    "department": "Data",
+    "project": "Backend",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_a9b602d9",
+        "name": "Tanner Walker",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "TypeScript",
+          "Node.js",
+          "JavaScript",
+          "C#",
+          "AWS",
+          "PostgreSQL",
+          "Go",
+          "Redis"
+        ],
+        "capacity": 0.9209958264910502,
+        "join_date": "2023-12-16T20:57:43.116737"
+      },
+      {
+        "user_id": "user_5975d372",
+        "name": "Avery Thomas",
+        "role": "Product Manager",
+        "seniority_level": "lead",
+        "skills": [
+          "Azure",
+          "GCP",
+          "MySQL",
+          "Vue",
+          "Jenkins",
+          "Python",
+          "Angular",
+          "C#"
+        ],
+        "capacity": 0.8838277593457557,
+        "join_date": "2023-02-10T20:57:43.116749"
+      },
+      {
+        "user_id": "user_86b0fac2",
+        "name": "Morgan Allen",
+        "role": "Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "Java",
+          "Vue",
+          "Node.js",
+          "AWS"
+        ],
+        "capacity": 0.620223712676856,
+        "join_date": "2023-05-09T20:57:43.116759"
+      },
+      {
+        "user_id": "user_d9cfcea1",
+        "name": "Rowan Jones",
+        "role": "QA Engineer",
+        "seniority_level": "senior",
+        "skills": [
+          "GCP",
+          "MongoDB",
+          "Confluence",
+          "TypeScript",
+          "React",
+          "Node.js"
+        ],
+        "capacity": 0.7489867046141229,
+        "join_date": "2022-01-16T20:57:43.116770"
+      },
+      {
+        "user_id": "user_e2c2321b",
+        "name": "Hayden Johnson",
+        "role": "Designer",
+        "seniority_level": "senior",
+        "skills": [
+          "Python",
+          "Go",
+          "Terraform",
+          "Jenkins",
+          "Angular"
+        ],
+        "capacity": 0.7140277505739048,
+        "join_date": "2023-03-17T20:57:43.116783"
+      },
+      {
+        "user_id": "user_2715ff90",
+        "name": "Jordan Johnson",
+        "role": "Product Manager",
+        "seniority_level": "mid",
+        "skills": [
+          "Node.js",
+          "Git",
+          "Java",
+          "Go",
+          "Redis",
+          "GCP",
+          "React",
+          "Kubernetes"
+        ],
+        "capacity": 0.789638882611738,
+        "join_date": "2024-08-19T20:57:43.116794"
+      },
+      {
+        "user_id": "user_43f861ff",
+        "name": "Reese Johnson",
+        "role": "Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "Jira",
+          "C#",
+          "Jenkins",
+          "Confluence",
+          "Go"
+        ],
+        "capacity": 0.7695227202638476,
+        "join_date": "2023-04-06T20:57:43.116882"
+      },
+      {
+        "user_id": "user_3b26ca65",
+        "name": "Tanner Rodriguez",
+        "role": "Designer",
+        "seniority_level": "senior",
+        "skills": [
+          "AWS",
+          "C#",
+          "Git",
+          "GCP"
+        ],
+        "capacity": 0.9297243285882655,
+        "join_date": "2023-02-23T20:57:43.116896"
+      },
+      {
+        "user_id": "user_0d3e7bd4",
+        "name": "Parker Davis",
+        "role": "Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Confluence",
+          "Jira",
+          "Jenkins",
+          "C#",
+          "Terraform",
+          "TypeScript",
+          "Azure"
+        ],
+        "capacity": 0.625534821558844,
+        "join_date": "2023-10-28T20:57:43.116908"
+      }
+    ],
+    "created_date": "2023-07-31T20:57:43.116911",
+    "tech_stack": [
+      "Angular",
+      "JavaScript",
+      "Java",
+      "C#",
+      "MySQL",
+      "PostgreSQL",
+      "Redis",
+      "GCP",
+      "Azure",
+      "Docker",
+      "Jenkins"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_e31fd40b",
+    "name": "Strategic Customer Portal Team",
+    "department": "Platform",
+    "project": "DevOps",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_e2021846",
+        "name": "Parker Walker",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Java",
+          "PostgreSQL",
+          "Node.js",
+          "Kubernetes",
+          "Azure",
+          "MySQL",
+          "GCP"
+        ],
+        "capacity": 0.8600389657101322,
+        "join_date": "2023-07-03T20:57:43.116943"
+      },
+      {
+        "user_id": "user_f6b2c37a",
+        "name": "Sydney Lewis",
+        "role": "Tech Lead",
+        "seniority_level": "senior",
+        "skills": [
+          "Azure",
+          "JavaScript",
+          "Terraform"
+        ],
+        "capacity": 0.7034607402240831,
+        "join_date": "2020-11-03T20:57:43.116954"
+      },
+      {
+        "user_id": "user_ee1f4d9c",
+        "name": "Logan Allen",
+        "role": "Tech Lead",
+        "seniority_level": "senior",
+        "skills": [
+          "Angular",
+          "Node.js",
+          "MySQL",
+          "Jenkins",
+          "C#",
+          "Redis",
+          "PostgreSQL",
+          "Git"
+        ],
+        "capacity": 0.7042236941622815,
+        "join_date": "2023-09-22T20:57:43.116965"
+      },
+      {
+        "user_id": "user_67414723",
+        "name": "Hayden Lopez",
+        "role": "Senior Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "Confluence",
+          "Docker",
+          "Jira"
+        ],
+        "capacity": 0.6284862949616303,
+        "join_date": "2024-04-13T20:57:43.116974"
+      },
+      {
+        "user_id": "user_8575c0d1",
+        "name": "Kendall Davis",
+        "role": "Data Scientist",
+        "seniority_level": "senior",
+        "skills": [
+          "Vue",
+          "JavaScript",
+          "Jenkins",
+          "Java",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "capacity": 0.9948766397518026,
+        "join_date": "2022-10-22T20:57:43.116985"
+      },
+      {
+        "user_id": "user_f3cb10c9",
+        "name": "Morgan Moore",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "PostgreSQL",
+          "Confluence",
+          "Python",
+          "Terraform",
+          "Vue",
+          "React"
+        ],
+        "capacity": 0.7808212914273973,
+        "join_date": "2024-03-14T20:57:43.116995"
+      }
+    ],
+    "created_date": "2024-11-25T20:57:43.116998",
+    "tech_stack": [
+      "TypeScript",
+      "Java",
+      "Redis",
+      "MongoDB",
+      "MySQL",
+      "Kubernetes",
+      "Docker",
+      "Jira",
+      "Terraform"
+    ],
+    "methodology": "hybrid"
+  },
+  {
+    "team_id": "team_03a95ec9",
+    "name": "Scalable Core Platform Team",
+    "department": "Data",
+    "project": "Frontend",
+    "size": "small",
+    "members": [
+      {
+        "user_id": "user_66f09c64",
+        "name": "Avery Anderson",
+        "role": "Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "Jenkins",
+          "MySQL",
+          "C#",
+          "JavaScript"
+        ],
+        "capacity": 0.6410832893358185,
+        "join_date": "2022-07-21T20:57:43.117028"
+      },
+      {
+        "user_id": "user_48b020ec",
+        "name": "Parker Miller",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "C#",
+          "AWS",
+          "Terraform"
+        ],
+        "capacity": 0.8081153648983536,
+        "join_date": "2022-06-08T20:57:43.117037"
+      },
+      {
+        "user_id": "user_d6cccdbc",
+        "name": "Drew Taylor",
+        "role": "Tech Lead",
+        "seniority_level": "senior",
+        "skills": [
+          "MySQL",
+          "Java",
+          "Python",
+          "MongoDB",
+          "React",
+          "Node.js"
+        ],
+        "capacity": 0.6897285453294778,
+        "join_date": "2024-08-21T20:57:43.117048"
+      },
+      {
+        "user_id": "user_719d76fd",
+        "name": "Avery Hall",
+        "role": "Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "MySQL",
+          "Jenkins",
+          "Confluence"
+        ],
+        "capacity": 0.916850862018357,
+        "join_date": "2023-04-09T20:57:43.117057"
+      },
+      {
+        "user_id": "user_b245e3c9",
+        "name": "Teagan Clark",
+        "role": "QA Engineer",
+        "seniority_level": "junior",
+        "skills": [
+          "Vue",
+          "Git",
+          "TypeScript",
+          "Confluence",
+          "React",
+          "Terraform",
+          "Jenkins"
+        ],
+        "capacity": 0.7667102260718175,
+        "join_date": "2023-03-30T20:57:43.117068"
+      }
+    ],
+    "created_date": "2025-01-10T20:57:43.117073",
+    "tech_stack": [
+      "TypeScript",
+      "Vue",
+      "Python",
+      "Redis",
+      "MongoDB",
+      "Docker",
+      "Terraform",
+      "Confluence"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_bafc4e56",
+    "name": "Robust DevOps Team",
+    "department": "Security",
+    "project": "Mobile App",
+    "size": "small",
+    "members": [
+      {
+        "user_id": "user_3b21020c",
+        "name": "Casey King",
+        "role": "Senior Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "Jira",
+          "Java",
+          "Go",
+          "GCP"
+        ],
+        "capacity": 0.9892478889276778,
+        "join_date": "2023-05-14T20:57:43.117102"
+      },
+      {
+        "user_id": "user_89345302",
+        "name": "Rowan Taylor",
+        "role": "QA Engineer",
+        "seniority_level": "mid",
+        "skills": [
+          "Kubernetes",
+          "Azure",
+          "Java"
+        ],
+        "capacity": 0.8752815661821494,
+        "join_date": "2022-09-05T20:57:43.117111"
+      },
+      {
+        "user_id": "user_d46b57df",
+        "name": "Drew Lee",
+        "role": "Developer",
+        "seniority_level": "junior",
+        "skills": [
+          "Angular",
+          "TypeScript",
+          "Docker",
+          "Azure",
+          "JavaScript",
+          "Terraform",
+          "GCP",
+          "Git"
+        ],
+        "capacity": 0.8894254467593916,
+        "join_date": "2024-10-21T20:57:43.117122"
+      },
+      {
+        "user_id": "user_b1b4e8fc",
+        "name": "Teagan Martinez",
+        "role": "Product Manager",
+        "seniority_level": "lead",
+        "skills": [
+          "Go",
+          "AWS",
+          "Vue",
+          "TypeScript",
+          "Python"
+        ],
+        "capacity": 0.9496561796648637,
+        "join_date": "2020-08-05T20:57:43.117132"
+      }
+    ],
+    "created_date": "2024-07-23T20:57:43.117134",
+    "tech_stack": [
+      "Angular",
+      "TypeScript",
+      "Python",
+      "PostgreSQL",
+      "Azure",
+      "Git",
+      "Jenkins"
+    ],
+    "methodology": "hybrid"
+  },
+  {
+    "team_id": "team_c1ec337f",
+    "name": "Cloud AI/ML Team",
+    "department": "Data",
+    "project": "Analytics",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_fb72a715",
+        "name": "Finley Smith",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Go",
+          "MongoDB",
+          "Azure",
+          "Redis",
+          "Python",
+          "TypeScript"
+        ],
+        "capacity": 0.826502315247312,
+        "join_date": "2024-02-16T20:57:43.117163"
+      },
+      {
+        "user_id": "user_a76e1f80",
+        "name": "Tanner Johnson",
+        "role": "Senior Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "Azure",
+          "Docker",
+          "Git",
+          "AWS",
+          "Python",
+          "MongoDB",
+          "MySQL"
+        ],
+        "capacity": 0.8445433677101619,
+        "join_date": "2020-07-15T20:57:43.117175"
+      },
+      {
+        "user_id": "user_ca1eef86",
+        "name": "River Hill",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "TypeScript",
+          "Redis",
+          "AWS",
+          "Vue",
+          "Angular",
+          "Go"
+        ],
+        "capacity": 0.861989427549356,
+        "join_date": "2025-04-21T20:57:43.117185"
+      },
+      {
+        "user_id": "user_c2d6a0e7",
+        "name": "Rowan Lopez",
+        "role": "Product Manager",
+        "seniority_level": "senior",
+        "skills": [
+          "GCP",
+          "Jenkins",
+          "Jira",
+          "TypeScript",
+          "Redis",
+          "Node.js",
+          "Azure"
+        ],
+        "capacity": 0.7382997949830015,
+        "join_date": "2021-07-31T20:57:43.117196"
+      },
+      {
+        "user_id": "user_ecda6f43",
+        "name": "Reese Smith",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "Confluence",
+          "Python",
+          "GCP"
+        ],
+        "capacity": 0.9395382299104003,
+        "join_date": "2020-08-06T20:57:43.117205"
+      },
+      {
+        "user_id": "user_b1dbadb0",
+        "name": "Jamie Lopez",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "PostgreSQL",
+          "Node.js",
+          "Terraform",
+          "Go",
+          "Vue",
+          "GCP"
+        ],
+        "capacity": 0.6890826092675196,
+        "join_date": "2021-10-07T20:57:43.117215"
+      }
+    ],
+    "created_date": "2024-04-24T20:57:43.117217",
+    "tech_stack": [
+      "Vue",
+      "React",
+      "Go",
+      "C#",
+      "Redis",
+      "GCP",
+      "AWS",
+      "Jira",
+      "Terraform"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_4ce4349a",
+    "name": "Agile API Gateway Team",
+    "department": "Security",
+    "project": "Core Platform",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_6138ed28",
+        "name": "Skylar Young",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Confluence",
+          "C#",
+          "GCP",
+          "Kubernetes",
+          "Java",
+          "AWS",
+          "PostgreSQL"
+        ],
+        "capacity": 0.8726684955139622,
+        "join_date": "2024-02-25T20:57:43.117249"
+      },
+      {
+        "user_id": "user_d222fd61",
+        "name": "Sydney Lee",
+        "role": "Designer",
+        "seniority_level": "senior",
+        "skills": [
+          "Jira",
+          "Terraform",
+          "Azure",
+          "MySQL",
+          "AWS",
+          "TypeScript",
+          "Docker"
+        ],
+        "capacity": 0.9037279804316468,
+        "join_date": "2024-02-17T20:57:43.117261"
+      },
+      {
+        "user_id": "user_99cc74da",
+        "name": "Alex Moore",
+        "role": "DevOps Engineer",
+        "seniority_level": "senior",
+        "skills": [
+          "GCP",
+          "MySQL",
+          "TypeScript",
+          "Vue",
+          "Python",
+          "Azure",
+          "JavaScript"
+        ],
+        "capacity": 0.9287354639674905,
+        "join_date": "2021-03-18T20:57:43.117272"
+      },
+      {
+        "user_id": "user_ca282de7",
+        "name": "Sage Taylor",
+        "role": "Senior Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Java",
+          "Terraform",
+          "TypeScript",
+          "MongoDB",
+          "Jenkins",
+          "AWS",
+          "Jira"
+        ],
+        "capacity": 0.8867151657877372,
+        "join_date": "2024-10-08T20:57:43.117282"
+      },
+      {
+        "user_id": "user_71b541ed",
+        "name": "Sam Taylor",
+        "role": "Developer",
+        "seniority_level": "junior",
+        "skills": [
+          "AWS",
+          "Git",
+          "Docker",
+          "GCP",
+          "JavaScript",
+          "Azure"
+        ],
+        "capacity": 0.6017350510667692,
+        "join_date": "2021-03-31T20:57:43.117292"
+      },
+      {
+        "user_id": "user_24c9d7ae",
+        "name": "Jordan Williams",
+        "role": "Data Scientist",
+        "seniority_level": "lead",
+        "skills": [
+          "Python",
+          "Jenkins",
+          "Docker",
+          "Terraform",
+          "JavaScript",
+          "TypeScript",
+          "MongoDB"
+        ],
+        "capacity": 0.8630087244526923,
+        "join_date": "2021-12-22T20:57:43.117306"
+      }
+    ],
+    "created_date": "2024-06-21T20:57:43.117308",
+    "tech_stack": [
+      "TypeScript",
+      "Vue",
+      "Go",
+      "Node.js",
+      "Redis",
+      "PostgreSQL",
+      "Kubernetes",
+      "Terraform",
+      "Git",
+      "Jenkins"
+    ],
+    "methodology": "hybrid"
+  },
+  {
+    "team_id": "team_ea4236ed",
+    "name": "Secure Monitoring Team",
+    "department": "Product",
+    "project": "Infrastructure",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_32269d39",
+        "name": "Peyton Walker",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Git",
+          "MySQL",
+          "JavaScript",
+          "Jenkins",
+          "Confluence"
+        ],
+        "capacity": 0.995035898623357,
+        "join_date": "2023-06-17T20:57:43.117338"
+      },
+      {
+        "user_id": "user_c01bd569",
+        "name": "Kendall Williams",
+        "role": "DevOps Engineer",
+        "seniority_level": "junior",
+        "skills": [
+          "Kubernetes",
+          "Azure",
+          "Docker",
+          "Git",
+          "Jenkins"
+        ],
+        "capacity": 0.7669911732502087,
+        "join_date": "2021-03-07T20:57:43.117354"
+      },
+      {
+        "user_id": "user_d7158b99",
+        "name": "Teagan Wright",
+        "role": "QA Engineer",
+        "seniority_level": "lead",
+        "skills": [
+          "GCP",
+          "TypeScript",
+          "React"
+        ],
+        "capacity": 0.7523481254140338,
+        "join_date": "2025-01-28T20:57:43.117364"
+      },
+      {
+        "user_id": "user_eab9a2b0",
+        "name": "River Brown",
+        "role": "Product Manager",
+        "seniority_level": "senior",
+        "skills": [
+          "C#",
+          "Git",
+          "Go",
+          "JavaScript"
+        ],
+        "capacity": 0.9357527257860685,
+        "join_date": "2021-07-02T20:57:43.117373"
+      },
+      {
+        "user_id": "user_a444626e",
+        "name": "Skylar Miller",
+        "role": "Product Manager",
+        "seniority_level": "junior",
+        "skills": [
+          "AWS",
+          "TypeScript",
+          "Jira",
+          "Git",
+          "Terraform"
+        ],
+        "capacity": 0.8247539933468148,
+        "join_date": "2024-02-12T20:57:43.117383"
+      },
+      {
+        "user_id": "user_956b4dc2",
+        "name": "Sage Clark",
+        "role": "Data Scientist",
+        "seniority_level": "mid",
+        "skills": [
+          "Jenkins",
+          "C#",
+          "Git",
+          "Vue",
+          "MongoDB",
+          "Jira",
+          "Redis"
+        ],
+        "capacity": 0.9826807880047307,
+        "join_date": "2021-07-13T20:57:43.117394"
+      },
+      {
+        "user_id": "user_134528fb",
+        "name": "Drew Williams",
+        "role": "Developer",
+        "seniority_level": "junior",
+        "skills": [
+          "Go",
+          "Java",
+          "Jira",
+          "AWS",
+          "Node.js",
+          "MySQL",
+          "Kubernetes",
+          "Jenkins"
+        ],
+        "capacity": 0.9104586980489329,
+        "join_date": "2024-04-15T20:57:43.117408"
+      }
+    ],
+    "created_date": "2024-07-19T20:57:43.117410",
+    "tech_stack": [
+      "Vue",
+      "React",
+      "Java",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "GCP",
+      "Docker",
+      "Confluence"
+    ],
+    "methodology": "hybrid"
+  },
+  {
+    "team_id": "team_232020e5",
+    "name": "Advanced AI/ML Team",
+    "department": "Platform",
+    "project": "DevOps",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_7b7bc719",
+        "name": "Jordan Garcia",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Jira",
+          "Vue",
+          "Confluence",
+          "Git",
+          "C#"
+        ],
+        "capacity": 0.8981101882307353,
+        "join_date": "2021-03-31T20:57:43.117440"
+      },
+      {
+        "user_id": "user_29a7b2d4",
+        "name": "Logan Rodriguez",
+        "role": "Senior Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Node.js",
+          "Python",
+          "GCP",
+          "Angular",
+          "Git",
+          "Jenkins",
+          "Redis"
+        ],
+        "capacity": 0.8172320620329259,
+        "join_date": "2023-02-10T20:57:43.117451"
+      },
+      {
+        "user_id": "user_f7286242",
+        "name": "Taylor Rodriguez",
+        "role": "Product Manager",
+        "seniority_level": "mid",
+        "skills": [
+          "PostgreSQL",
+          "Terraform",
+          "MySQL",
+          "C#",
+          "Java",
+          "GCP",
+          "Azure",
+          "React"
+        ],
+        "capacity": 0.645888780560906,
+        "join_date": "2023-06-08T20:57:43.117462"
+      },
+      {
+        "user_id": "user_dc1a2813",
+        "name": "Hayden Lee",
+        "role": "Product Manager",
+        "seniority_level": "junior",
+        "skills": [
+          "PostgreSQL",
+          "MongoDB",
+          "TypeScript",
+          "Jenkins",
+          "Go",
+          "Kubernetes",
+          "C#",
+          "React"
+        ],
+        "capacity": 0.9645343706514472,
+        "join_date": "2020-10-06T20:57:43.117473"
+      },
+      {
+        "user_id": "user_5c32410b",
+        "name": "Sam Rodriguez",
+        "role": "Designer",
+        "seniority_level": "lead",
+        "skills": [
+          "C#",
+          "Confluence",
+          "Java"
+        ],
+        "capacity": 0.7281251028594217,
+        "join_date": "2024-11-29T20:57:43.117483"
+      },
+      {
+        "user_id": "user_35eec89f",
+        "name": "Casey Johnson",
+        "role": "Developer",
+        "seniority_level": "junior",
+        "skills": [
+          "Git",
+          "Confluence",
+          "Java",
+          "Redis"
+        ],
+        "capacity": 0.9342660310981477,
+        "join_date": "2024-03-21T20:57:43.117493"
+      },
+      {
+        "user_id": "user_6f4ffaa4",
+        "name": "Logan Wright",
+        "role": "Data Scientist",
+        "seniority_level": "junior",
+        "skills": [
+          "Git",
+          "JavaScript",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Vue",
+          "Angular",
+          "Kubernetes"
+        ],
+        "capacity": 0.6217072283565764,
+        "join_date": "2020-12-02T20:57:43.117504"
+      }
+    ],
+    "created_date": "2024-09-01T20:57:43.117506",
+    "tech_stack": [
+      "JavaScript",
+      "Node.js",
+      "Redis",
+      "MySQL",
+      "Kubernetes",
+      "Docker",
+      "Azure",
+      "Jenkins"
+    ],
+    "methodology": "hybrid"
+  },
+  {
+    "team_id": "team_3196e7fe",
+    "name": "Secure Core Platform Team",
+    "department": "Security",
+    "project": "Mobile App",
+    "size": "small",
+    "members": [
+      {
+        "user_id": "user_8fb2a4e1",
+        "name": "Parker Brown",
+        "role": "Senior Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "TypeScript",
+          "C#",
+          "Git",
+          "Jenkins",
+          "Jira",
+          "Angular",
+          "Confluence"
+        ],
+        "capacity": 0.906109696408185,
+        "join_date": "2022-12-02T20:57:43.117536"
+      },
+      {
+        "user_id": "user_70e2b052",
+        "name": "Finley Smith",
+        "role": "Developer",
+        "seniority_level": "lead",
+        "skills": [
+          "Kubernetes",
+          "Node.js",
+          "JavaScript",
+          "Terraform"
+        ],
+        "capacity": 0.7563970261715961,
+        "join_date": "2020-11-25T20:57:43.117545"
+      },
+      {
+        "user_id": "user_5d36e2dc",
+        "name": "Tanner Williams",
+        "role": "QA Engineer",
+        "seniority_level": "mid",
+        "skills": [
+          "Git",
+          "Terraform",
+          "Confluence",
+          "MySQL",
+          "React"
+        ],
+        "capacity": 0.8214096751057116,
+        "join_date": "2022-04-06T20:57:43.117556"
+      },
+      {
+        "user_id": "user_2fb2591a",
+        "name": "Morgan Davis",
+        "role": "Developer",
+        "seniority_level": "junior",
+        "skills": [
+          "Jira",
+          "MongoDB",
+          "Kubernetes",
+          "Git",
+          "Angular",
+          "C#",
+          "Java"
+        ],
+        "capacity": 0.8993186346931173,
+        "join_date": "2021-04-21T20:57:43.117568"
+      },
+      {
+        "user_id": "user_60fea1a6",
+        "name": "Emery Jones",
+        "role": "Data Scientist",
+        "seniority_level": "mid",
+        "skills": [
+          "Python",
+          "Node.js",
+          "Jira",
+          "Go"
+        ],
+        "capacity": 0.6777304861385302,
+        "join_date": "2024-05-10T20:57:43.117578"
+      }
+    ],
+    "created_date": "2023-06-29T20:57:43.117581",
+    "tech_stack": [
+      "JavaScript",
+      "C#",
+      "Python",
+      "PostgreSQL",
+      "MySQL",
+      "Azure",
+      "Terraform",
+      "Jenkins",
+      "Confluence"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_4d923505",
+    "name": "Intelligent Mobile App Team",
+    "department": "Data",
+    "project": "Data Pipeline",
+    "size": "small",
+    "members": [
+      {
+        "user_id": "user_21ca51db",
+        "name": "Teagan Jones",
+        "role": "DevOps Engineer",
+        "seniority_level": "lead",
+        "skills": [
+          "PostgreSQL",
+          "Jira",
+          "Git",
+          "C#",
+          "Docker",
+          "JavaScript"
+        ],
+        "capacity": 0.8262208031620439,
+        "join_date": "2023-05-01T20:57:43.117613"
+      },
+      {
+        "user_id": "user_198cd827",
+        "name": "Skylar Moore",
+        "role": "Data Scientist",
+        "seniority_level": "mid",
+        "skills": [
+          "PostgreSQL",
+          "Node.js",
+          "Jenkins"
+        ],
+        "capacity": 0.8959264863754467,
+        "join_date": "2022-12-05T20:57:43.117623"
+      },
+      {
+        "user_id": "user_97f5b951",
+        "name": "Blake Wright",
+        "role": "DevOps Engineer",
+        "seniority_level": "mid",
+        "skills": [
+          "Terraform",
+          "PostgreSQL",
+          "Azure",
+          "AWS",
+          "Confluence",
+          "MySQL",
+          "C#",
+          "Git"
+        ],
+        "capacity": 0.8206687304640788,
+        "join_date": "2024-05-22T20:57:43.117634"
+      }
+    ],
+    "created_date": "2023-07-25T20:57:43.117636",
+    "tech_stack": [
+      "Angular",
+      "C#",
+      "MongoDB",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "Jira",
+      "Jenkins",
+      "Git"
+    ],
+    "methodology": "scrum"
+  },
+  {
+    "team_id": "team_9fb37131",
+    "name": "Secure Security Team",
+    "department": "Security",
+    "project": "QA",
+    "size": "small",
+    "members": [
+      {
+        "user_id": "user_cc5d2d45",
+        "name": "Jamie Clark",
+        "role": "Tech Lead",
+        "seniority_level": "senior",
+        "skills": [
+          "Node.js",
+          "Docker",
+          "C#",
+          "JavaScript",
+          "AWS",
+          "GCP"
+        ],
+        "capacity": 0.8041647973375142,
+        "join_date": "2023-02-24T20:57:43.117666"
+      },
+      {
+        "user_id": "user_52cb2f49",
+        "name": "Emery White",
+        "role": "Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "Git",
+          "Python",
+          "GCP",
+          "JavaScript",
+          "AWS",
+          "Jenkins",
+          "Docker"
+        ],
+        "capacity": 0.8265429018399472,
+        "join_date": "2022-03-15T20:57:43.117677"
+      },
+      {
+        "user_id": "user_86493849",
+        "name": "River Lopez",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Vue",
+          "Node.js",
+          "Azure",
+          "Angular",
+          "Go"
+        ],
+        "capacity": 0.7477740741789898,
+        "join_date": "2025-02-18T20:57:43.117688"
+      },
+      {
+        "user_id": "user_33bb6f57",
+        "name": "River Jones",
+        "role": "DevOps Engineer",
+        "seniority_level": "lead",
+        "skills": [
+          "AWS",
+          "Vue",
+          "Jenkins",
+          "Confluence",
+          "PostgreSQL",
+          "TypeScript"
+        ],
+        "capacity": 0.8814945011390489,
+        "join_date": "2022-06-14T20:57:43.117701"
+      },
+      {
+        "user_id": "user_fcfff5ff",
+        "name": "Reese Wright",
+        "role": "QA Engineer",
+        "seniority_level": "senior",
+        "skills": [
+          "Kubernetes",
+          "Docker",
+          "Python",
+          "MongoDB",
+          "Confluence",
+          "MySQL",
+          "Angular"
+        ],
+        "capacity": 0.8066651590215754,
+        "join_date": "2023-04-07T20:57:43.117718"
+      }
+    ],
+    "created_date": "2024-09-30T20:57:43.117720",
+    "tech_stack": [
+      "Angular",
+      "JavaScript",
+      "Go",
+      "Python",
+      "MySQL",
+      "Redis",
+      "PostgreSQL",
+      "AWS",
+      "Git",
+      "Confluence",
+      "Jira"
+    ],
+    "methodology": "scrum"
+  },
+  {
+    "team_id": "team_39c7357d",
+    "name": "Scalable Data Pipeline Team",
+    "department": "Engineering",
+    "project": "Monitoring",
+    "size": "small",
+    "members": [
+      {
+        "user_id": "user_7a27d501",
+        "name": "Harper King",
+        "role": "DevOps Engineer",
+        "seniority_level": "junior",
+        "skills": [
+          "Git",
+          "Azure",
+          "Jenkins",
+          "Java",
+          "Docker",
+          "Python"
+        ],
+        "capacity": 0.858903693656221,
+        "join_date": "2023-01-26T20:57:43.117753"
+      },
+      {
+        "user_id": "user_7f8a4fe0",
+        "name": "Alex Lee",
+        "role": "Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "Docker",
+          "Python",
+          "JavaScript",
+          "Confluence",
+          "GCP",
+          "Vue",
+          "Git"
+        ],
+        "capacity": 0.6223648016641776,
+        "join_date": "2023-12-05T20:57:43.117764"
+      },
+      {
+        "user_id": "user_020ec7ae",
+        "name": "Tyler Johnson",
+        "role": "Data Scientist",
+        "seniority_level": "junior",
+        "skills": [
+          "Terraform",
+          "Git",
+          "C#",
+          "Angular",
+          "Java",
+          "AWS",
+          "Azure",
+          "Kubernetes"
+        ],
+        "capacity": 0.6682267135958785,
+        "join_date": "2020-09-19T20:57:43.117775"
+      }
+    ],
+    "created_date": "2024-03-22T20:57:43.117777",
+    "tech_stack": [
+      "JavaScript",
+      "C#",
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "Docker",
+      "AWS",
+      "Jenkins"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_a73c4950",
+    "name": "Digital Core Platform Team",
+    "department": "Product",
+    "project": "API Gateway",
+    "size": "small",
+    "members": [
+      {
+        "user_id": "user_0aee5b27",
+        "name": "River Taylor",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "Azure",
+          "Jira",
+          "Vue",
+          "Kubernetes"
+        ],
+        "capacity": 0.8013316832553838,
+        "join_date": "2024-09-18T20:57:43.117806"
+      },
+      {
+        "user_id": "user_1453f3b4",
+        "name": "Taylor Thompson",
+        "role": "Tech Lead",
+        "seniority_level": "junior",
+        "skills": [
+          "Confluence",
+          "Redis",
+          "GCP",
+          "Jenkins",
+          "MySQL",
+          "Vue",
+          "Git",
+          "Terraform"
+        ],
+        "capacity": 0.6917945025516201,
+        "join_date": "2020-11-15T20:57:43.117818"
+      },
+      {
+        "user_id": "user_bad61876",
+        "name": "Jamie King",
+        "role": "Data Scientist",
+        "seniority_level": "senior",
+        "skills": [
+          "Terraform",
+          "Jenkins",
+          "Docker",
+          "TypeScript",
+          "Redis",
+          "JavaScript",
+          "Go"
+        ],
+        "capacity": 0.790856494801816,
+        "join_date": "2024-01-26T20:57:43.117828"
+      },
+      {
+        "user_id": "user_e9d718f1",
+        "name": "Tyler Lopez",
+        "role": "Senior Developer",
+        "seniority_level": "senior",
+        "skills": [
+          "Kubernetes",
+          "Redis",
+          "Go",
+          "Java",
+          "React",
+          "Jira",
+          "GCP"
+        ],
+        "capacity": 0.6471314415924604,
+        "join_date": "2025-05-02T20:57:43.117838"
+      },
+      {
+        "user_id": "user_2dd48d75",
+        "name": "Finley Clark",
+        "role": "Product Manager",
+        "seniority_level": "senior",
+        "skills": [
+          "MySQL",
+          "TypeScript",
+          "JavaScript",
+          "Redis",
+          "Docker",
+          "Go"
+        ],
+        "capacity": 0.7045211579053906,
+        "join_date": "2022-05-15T20:57:43.117848"
+      }
+    ],
+    "created_date": "2024-03-09T20:57:43.117851",
+    "tech_stack": [
+      "JavaScript",
+      "Angular",
+      "Java",
+      "Go",
+      "Redis",
+      "PostgreSQL",
+      "MySQL",
+      "Docker",
+      "Kubernetes",
+      "Azure",
+      "Terraform",
+      "Git"
+    ],
+    "methodology": "hybrid"
+  },
+  {
+    "team_id": "team_570fdbd6",
+    "name": "Enterprise Backend Team",
+    "department": "Engineering",
+    "project": "DevOps",
+    "size": "medium",
+    "members": [
+      {
+        "user_id": "user_a79dffc4",
+        "name": "Hayden King",
+        "role": "Tech Lead",
+        "seniority_level": "lead",
+        "skills": [
+          "Python",
+          "TypeScript",
+          "Java",
+          "GCP",
+          "MongoDB",
+          "PostgreSQL",
+          "Kubernetes",
+          "Vue"
+        ],
+        "capacity": 0.8321476018266435,
+        "join_date": "2020-11-21T20:57:43.117881"
+      },
+      {
+        "user_id": "user_7536e35d",
+        "name": "Alex King",
+        "role": "Senior Developer",
+        "seniority_level": "mid",
+        "skills": [
+          "Jira",
+          "Redis",
+          "Angular",
+          "Git",
+          "Go",
+          "Node.js"
+        ],
+        "capacity": 0.7483340504170648,
+        "join_date": "2021-12-16T20:57:43.117892"
+      },
+      {
+        "user_id": "user_bbda533e",
+        "name": "Jordan Hall",
+        "role": "Data Scientist",
+        "seniority_level": "lead",
+        "skills": [
+          "Confluence",
+          "GCP",
+          "C#",
+          "Jira",
+          "Vue",
+          "Python",
+          "Azure"
+        ],
+        "capacity": 0.7755888194164944,
+        "join_date": "2024-03-29T20:57:43.117905"
+      },
+      {
+        "user_id": "user_fb1d2bad",
+        "name": "Tanner Lewis",
+        "role": "QA Engineer",
+        "seniority_level": "mid",
+        "skills": [
+          "Jira",
+          "GCP",
+          "Jenkins"
+        ],
+        "capacity": 0.6926683891272246,
+        "join_date": "2024-06-03T20:57:43.117916"
+      },
+      {
+        "user_id": "user_81afc92d",
+        "name": "River Brown",
+        "role": "DevOps Engineer",
+        "seniority_level": "mid",
+        "skills": [
+          "React",
+          "Python",
+          "Angular",
+          "Go",
+          "MongoDB",
+          "MySQL",
+          "Jira",
+          "Kubernetes"
+        ],
+        "capacity": 0.8344320660838794,
+        "join_date": "2022-06-21T20:57:43.117926"
+      },
+      {
+        "user_id": "user_2978f2aa",
+        "name": "Alex Hall",
+        "role": "Senior Developer",
+        "seniority_level": "junior",
+        "skills": [
+          "C#",
+          "Kubernetes",
+          "Docker",
+          "MySQL",
+          "Confluence",
+          "Go",
+          "Node.js"
+        ],
+        "capacity": 0.8425453631969009,
+        "join_date": "2024-04-13T20:57:43.117937"
+      },
+      {
+        "user_id": "user_fdaa0408",
+        "name": "Hayden Green",
+        "role": "Data Scientist",
+        "seniority_level": "junior",
+        "skills": [
+          "Python",
+          "Redis",
+          "GCP",
+          "TypeScript",
+          "Kubernetes"
+        ],
+        "capacity": 0.6289543882106815,
+        "join_date": "2023-09-22T20:57:43.117947"
+      }
+    ],
+    "created_date": "2024-06-02T20:57:43.117949",
+    "tech_stack": [
+      "JavaScript",
+      "C#",
+      "Node.js",
+      "Redis",
+      "MySQL",
+      "MongoDB",
+      "GCP",
+      "Jenkins",
+      "Jira"
+    ],
+    "methodology": "kanban"
+  },
+  {
+    "team_id": "team_4635363b",
+    "name": "Modern Mobile App Team",
+    "department": "Platform",
+    "project": "Monitoring",
+    "size": "small",
+    "members": [
+      {
+        "user_id": "user_8d47c7d6",
+        "name": "River Walker",
+        "role": "Product Manager",
+        "seniority_level": "senior",
+        "skills": [
+          "MySQL",
+          "GCP",
+          "Kubernetes",
+          "React",
+          "Go",
+          "Node.js"
+        ],
+        "capacity": 0.7149158331543488,
+        "join_date": "2023-02-19T20:57:43.117979"
+      },
+      {
+        "user_id": "user_fe2bed78",
+        "name": "River Hall",
+        "role": "DevOps Engineer",
+        "seniority_level": "junior",
+        "skills": [
+          "Python",
+          "Azure",
+          "PostgreSQL",
+          "MySQL",
+          "Java",
+          "Docker",
+          "Go"
+        ],
+        "capacity": 0.67311378105616,
+        "join_date": "2021-03-10T20:57:43.117990"
+      },
+      {
+        "user_id": "user_cbb0c91f",
+        "name": "River Green",
+        "role": "Product Manager",
+        "seniority_level": "lead",
+        "skills": [
+          "Java",
+          "Node.js",
+          "Jenkins",
+          "Go",
+          "Terraform",
+          "Git",
+          "Jira",
+          "Docker"
+        ],
+        "capacity": 0.9345338839846757,
+        "join_date": "2023-05-18T20:57:43.118004"
+      }
+    ],
+    "created_date": "2024-12-08T20:57:43.118006",
+    "tech_stack": [
+      "React",
+      "Go",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "GCP",
+      "Docker",
+      "Terraform",
+      "Git"
+    ],
+    "methodology": "kanban"
+  }
+]
