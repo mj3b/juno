@@ -8,6 +8,7 @@ import sys
 import json
 import pytest
 requests = pytest.importorskip("requests")
+pytest.importorskip("openai")
 import time
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../../src'))
