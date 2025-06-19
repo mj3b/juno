@@ -112,22 +112,22 @@ Choose your deployment path:
 ## JUNO Phases Overview
 
 ### Phase 1: Analytics Foundation
-- **Status**: ✅ Production Ready
+- **Status**: 🚧 Prototype
 - **Focus**: Immediate analytics value with existing Jira data
 - **Documentation**: [Phase 1 Deployment](./deployment/phase1-analytics-foundation.md)
 
 ### Phase 2: Agentic AI Workflow Management
-- **Status**: ✅ Production Ready
+- **Status**: 🚧 Prototype
 - **Focus**: Autonomous decision-making with governance oversight
 - **Documentation**: [Phase 2 Deployment](./deployment/phase2-agentic-ai.md)
 
 ### Phase 3: Multi-Agent Orchestration
-- **Status**: ✅ Production Ready
+- **Status**: 🚧 Prototype
 - **Focus**: Organization-wide workflow coordination
 - **Documentation**: [Phase 3 Deployment](./deployment/phase3-multi-agent-orchestration.md)
 
 ### Phase 4: AI-Native Operations
-- **Status**: ✅ Production Ready
+- **Status**: 🚧 Prototype
 - **Focus**: Autonomous infrastructure and operations management
 - **Documentation**: [Phase 4 Deployment](./deployment/phase4-ai-native-operations.md)
 
@@ -149,7 +149,7 @@ Choose your deployment path:
 - **API Documentation**: Auto-generated from code annotations
 - **Component Documentation**: Detailed README in each directory
 - **Architecture Diagrams**: Visual representations of system design
-- **Deployment Examples**: Production-ready configuration samples
+- **Deployment Examples**: reference configuration samples
 
 ## Getting Help
 
