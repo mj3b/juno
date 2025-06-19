@@ -49,6 +49,13 @@ class MemoryLayer:
     def __init__(self, db_path: str = "juno_memory.db"):
         self.db_path = db_path
         self._init_database()
+
+    @staticmethod
+    def _json_serializer(obj: Any) -> Any:
+        """Serialize objects that are not JSON serializable by default."""
+        if isinstance(obj, datetime):
+            return obj.isoformat()
+        return str(obj)
         
     def _init_database(self):
         """Initialize the memory database schema."""
@@ -97,12 +104,12 @@ class MemoryLayer:
             """, (
                 memory.id,
                 memory.memory_type.value,
-                json.dumps(memory.content),
-                json.dumps(memory.context),
+                json.dumps(memory.content, default=self._json_serializer),
+                json.dumps(memory.context, default=self._json_serializer),
                 memory.confidence,
                 memory.timestamp.isoformat(),
                 memory.expires_at.isoformat() if memory.expires_at else None,
-                json.dumps(memory.tags)
+                json.dumps(memory.tags, default=self._json_serializer)
             ))
             
             conn.commit()
