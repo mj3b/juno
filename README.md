@@ -2,8 +2,8 @@
 <img src="docs/images/juno-readme-banner-rectangular.png" alt="JUNO - Agentic AI Platform for Jira Intelligence" width="100%"/>
 </div>
 
-[![Tests](https://img.shields.io/badge/tests-109%20passed-brightgreen.svg)](./tests/TEST_RESULTS.md)
-[![Coverage](https://img.shields.io/badge/coverage-96.3%25-green.svg)](./tests/)
+[![Tests](https://img.shields.io/badge/tests-5%20passed-brightgreen.svg)](./tests/TEST_RESULTS.md)
+[![Coverage](https://img.shields.io/badge/coverage-N/A-lightgrey.svg)](./tests/)
 [![Performance](https://img.shields.io/badge/latency-127ms%20avg-blue.svg)](./tests/TEST_RESULTS.md)
 [![Phase](https://img.shields.io/badge/phases-1--4%20ready-orange.svg)](./docs/)
 [![Enterprise](https://img.shields.io/badge/enterprise-ready-purple.svg)](./docs/deployment/enterprise-implementation.md)
@@ -561,9 +561,7 @@ python -m pytest tests/test_performance/ -v # Performance tests
 
 ### Test Results
 
-The automated test suite is presently incomplete and fails during collection. See
-[`tests/TEST_RESULTS.md`](./tests/TEST_RESULTS.md) for additional context. Contributions
-to restore comprehensive testing are welcome.
+The project currently includes a small smoke suite. Running `pytest` yields five passing tests and twelve skipped. See [`tests/TEST_RESULTS.md`](./tests/TEST_RESULTS.md) for the full report.
 
 ## Contributing
 

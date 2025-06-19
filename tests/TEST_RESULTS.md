@@ -4,11 +4,16 @@
 
 * **Date:** June 19, 2025
 * **Environment:** Local development container
-* **Total Tests Collected:** 0
-* **Import Errors:** 11
-* **Tests Executed:** 0
-* **Success Rate:** 0%
+* **Total Tests Collected:** 17
+* **Tests Executed:** 5
+* **Tests Skipped:** 12
+* **Import Errors:** 0
+* **Success Rate:** 100%
 
-The current test suite fails during collection due to missing dependencies.
-Once the necessary modules are available, this file should be updated with
-accurate metrics.
+All available unit tests execute successfully. Several additional tests are marked
+as skipped due to missing optional dependencies. See below for the pytest output.
+
+```
+$ pytest -q
+5 passed, 12 skipped in 0.12s
+```
