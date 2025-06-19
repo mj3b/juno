@@ -2,7 +2,7 @@
 <img src="docs/images/juno-readme-banner-rectangular.png" alt="JUNO - Agentic AI Platform for Jira Intelligence" width="100%"/>
 </div>
 
-[![Tests](https://img.shields.io/badge/tests-5%20passed-brightgreen.svg)](./tests/TEST_RESULTS.md)
+[![Tests](https://img.shields.io/badge/tests-0%20passed-lightgrey.svg)](./tests/TEST_RESULTS.md)
 [![Coverage](https://img.shields.io/badge/coverage-N/A-lightgrey.svg)](./tests/)
 [![Performance](https://img.shields.io/badge/latency-127ms%20avg-blue.svg)](./tests/TEST_RESULTS.md)
 [![Phase](https://img.shields.io/badge/phases-1--4%20ready-orange.svg)](./docs/)
@@ -592,7 +592,7 @@ mypy juno-agent/
 - **Code Style**: Black formatter with 88-character line length
 - **Type Hints**: Full type annotation with mypy validation
 - **Documentation**: Comprehensive docstrings with examples
-- **Testing**: >90% code coverage requirement
+- **Testing**: Aim for high coverage once optional dependencies are installed
 
 ### Contribution Process
 
