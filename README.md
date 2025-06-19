@@ -8,9 +8,9 @@
 [![Phase](https://img.shields.io/badge/phases-1--4%20ready-orange.svg)](./docs/)
 [![Enterprise](https://img.shields.io/badge/enterprise-ready-purple.svg)](./docs/deployment/enterprise-implementation.md)
 
-**JUNO: The AI Analyst for Jira.** Powered by Enterprise GPT, JUNO adds a natural language layer to Jira, delivering granular reports, defect trends, velocity insights, and more. JIRA tracks. JUNO explains. Ask in plain English—get real answers. It's your Jira whisperer for smarter workflows and faster decision-making.
+**JUNO: AI-driven analytics for Jira.** This repository hosts the agentic platform that augments Jira with natural language queries and data-driven insights. Built on Enterprise GPT, JUNO translates Jira activity into actionable reports covering defects, velocity trends, and project health. Ask questions in plain English to obtain rigorous answers backed by your issue tracker.
 
-**⭐Optimized for Cloud Jira**: Enhanced performance, security, and scalability with cloud-native deployment patterns. JUNO leverages Atlassian Cloud's robust APIs, automatic updates, and enterprise security framework for seamless integration and optimal performance.
+**Optimized for Atlassian Cloud**: JUNO is designed for secure, high-performance deployments. It leverages Atlassian's APIs and cloud-native practices to integrate seamlessly with enterprise environments.
 
 ---
 
@@ -77,14 +77,14 @@
 
 ## Overview
 
-**Core Value Proposition**: Shift from "AI answers questions" to "AI prevents problems and optimizes outcomes."
+**Core Value Proposition**: JUNO elevates AI from simply answering questions to proactively preventing problems and optimizing project outcomes.
 
 ---
 
 
 ## How JUNO Was Born
 
-Curious about JUNO's origin story? Read the full background in [docs/history.md](./docs/history.md).
+For a detailed history of the project, consult [docs/history.md](./docs/history.md).
 
 ## Why JUNO is Agentic AI, Not Just AI Agents
 
@@ -561,8 +561,9 @@ python -m pytest tests/test_performance/ -v # Performance tests
 
 ### Test Results
 
-Automated tests are currently not maintained and fail during collection. See
-[`tests/TEST_RESULTS.md`](./tests/TEST_RESULTS.md) for details.
+The automated test suite is presently incomplete and fails during collection. See
+[`tests/TEST_RESULTS.md`](./tests/TEST_RESULTS.md) for additional context. Contributions
+to restore comprehensive testing are welcome.
 
 ## Contributing
 
@@ -627,7 +628,7 @@ For enterprise deployment assistance, custom integrations, or technical support:
 
 ---
 
-**JUNO: Where AI stops being a tool and starts being a teammate.**
+**JUNO: Transforming AI from tool to collaborator.**
 
 *Built for enterprise-scale agentic AI transformation.*
 
