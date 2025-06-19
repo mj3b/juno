@@ -8,6 +8,7 @@ import asyncio
 from unittest.mock import Mock, patch, AsyncMock
 import pytest
 pytest.importorskip("numpy")
+pytest.importorskip("tensorflow")
 import numpy as np
 import time
 import json
