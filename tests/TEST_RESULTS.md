@@ -10,11 +10,11 @@
 * **Import Errors:** 0
 * **Success Rate:** 100%
 
-Some optional dependencies are unavailable, so only a subset of tests ran.
-Several suites were skipped due to missing integrations or full environment
-requirements. See below for the pytest output.
+Optional dependencies were installed, enabling additional tests to run.
+Some suites still require a full environment and are skipped accordingly.
+See below for the pytest output.
 
 ```
 $ pytest -q
-9 passed, 9 skipped in 2.42s
+9 passed, 9 skipped in 5.67s
 ```

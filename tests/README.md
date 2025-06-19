@@ -131,8 +131,8 @@ python tests/chaos/resource_exhaustion.py
 
 ### Current Test Status
 - **Total Test Modules**: 12
-- **Active Tests**: 9 executed with optional dependencies
-- **Skipped Tests**: 9 optional tests skipped
+- **Active Tests**: 9 executed after installing optional dependencies
+- **Skipped Tests**: 9 tests skipped due to environment limitations
 - **Code Coverage**: Limited
 - **Performance**: N/A without full dependency set
 
