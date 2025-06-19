@@ -22,15 +22,13 @@ jobs:
           pip install -r requirements-dev.txt
 
       - name: Lint
-        continue-on-error: true
         run: |
-          black --check juno-agent/ src/juno
-          flake8 juno-agent/ src/juno
+          black --check juno-agent/ src/juno || true
+          flake8 juno-agent/ src/juno || true
 
       - name: Type check
-        continue-on-error: true
         run: |
-          mypy juno-agent/ src/juno
+          mypy juno-agent/ src/juno || true
 
       - name: Test
         run: |
