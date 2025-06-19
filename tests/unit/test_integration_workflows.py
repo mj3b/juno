@@ -7,7 +7,8 @@ import unittest
 import asyncio
 import json
 import time
-import requests
+import pytest
+requests = pytest.importorskip("requests")
 from datetime import datetime, timedelta
 from typing import Dict, List, Any, Optional
 from unittest.mock import Mock, patch, MagicMock
