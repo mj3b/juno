@@ -1,6 +1,4 @@
-<div align="center">
-<img src="docs/images/juno-readme-banner-rectangular.png" alt="JUNO - Agentic AI Platform for Jira Intelligence" width="100%"/>
-</div>
+# JUNO
 
 [![Tests](https://img.shields.io/badge/tests-0%20passed-lightgrey.svg)](./tests/TEST_RESULTS.md)
 [![Coverage](https://img.shields.io/badge/coverage-N/A-lightgrey.svg)](./tests/)
