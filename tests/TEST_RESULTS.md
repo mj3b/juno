@@ -4,16 +4,18 @@
 
 * **Date:** June 19, 2025
 * **Environment:** Local development container
-* **Total Tests Collected:** 17
-* **Tests Executed:** 5
-* **Tests Skipped:** 12
-* **Import Errors:** 0
-* **Success Rate:** 100%
+* **Total Tests Collected:** 5
+* **Tests Executed:** 0 (collection error)
+* **Tests Skipped:** 9
+* **Import Errors:** 1
+* **Success Rate:** 0%
 
-All available unit tests execute successfully. Several additional tests are marked
-as skipped due to missing optional dependencies. See below for the pytest output.
+Tests could not run because required packages like `requests` are not installed.
+Most test modules are skipped when dependencies are missing. See below for the
+pytest output.
 
 ```
 $ pytest -q
-5 passed, 12 skipped in 0.12s
+ERROR tests/unit/test_jira_integration.py
+9 skipped, 1 error in 0.19s
 ```

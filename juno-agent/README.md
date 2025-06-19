@@ -188,15 +188,15 @@ python -m pytest tests/test_performance/ -v
 
 ### Test Results and Validation
 
-**✅ Comprehensive Test Coverage**: 109 tests with 100% pass rate
-- **View Complete Test Results**: [tests/TEST_RESULTS.md](../tests/TEST_RESULTS.md)
+**⚠ Limited Test Coverage**: most test modules are skipped without optional dependencies
+- **View Test Results**: [tests/TEST_RESULTS.md](../tests/TEST_RESULTS.md)
 - **Test Strategy Documentation**: [tests/TEST_STRATEGY.md](../tests/TEST_STRATEGY.md)
-- **Performance Benchmarks**: 96.3% code coverage, 22 minutes execution time
+- **Performance Benchmarks**: N/A without full dependency set
 
 **How Engineers Can Validate the Code Works**:
 1. **Run Test Suite**: Execute `python -m pytest tests/ -v` for full validation
-2. **Check Test Results**: Review [comprehensive test results](../tests/TEST_RESULTS.md) with 109 passing tests
-3. **Performance Validation**: All phases meet performance targets (see test results)
+2. **Check Test Results**: Review [latest test results](../tests/TEST_RESULTS.md)
+3. **Performance Validation**: Requires full environment and optional dependencies
 4. **Integration Testing**: End-to-end workflows validated across all phases
 5. **Security Testing**: SOC 2, GDPR, ISO 27001 compliance validated
 
@@ -288,7 +288,7 @@ curl http://localhost:5000/ready
 ### Code Standards
 - **Documentation**: All functions must have docstrings
 - **Type Hints**: Full type annotation required
-- **Testing**: >90% code coverage
+- **Testing**: Aim for high coverage once dependencies are available
 - **Security**: Security review for all changes
 
 ---

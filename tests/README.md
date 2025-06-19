@@ -130,10 +130,11 @@ python tests/chaos/resource_exhaustion.py
 ## Test Results
 
 ### Current Test Status
-- **Total Tests**: 47 comprehensive tests
-- **Success Rate**: 100% (47/47 passing)
-- **Code Coverage**: 94.7%
-- **Performance**: All benchmarks within SLA targets
+- **Total Test Modules**: 12
+- **Active Tests**: 5 executed in a minimal environment
+- **Skipped Tests**: 9 due to missing optional dependencies
+- **Code Coverage**: Not measurable (most tests are skipped)
+- **Performance**: N/A without full dependency set
 
 ### Detailed Results
 See [TEST_RESULTS.md](./TEST_RESULTS.md) for comprehensive test results including:
@@ -278,6 +279,6 @@ python tests/metrics/coverage_analysis.py
 
 ---
 
-**Test Status**: ✅ Comprehensive Coverage  
-**Quality Assurance**: Enterprise-grade testing with 94.7% coverage  
+**Test Status**: ⚠ Partial Coverage
+**Quality Assurance**: Tests require additional dependencies to run fully
 **Continuous Integration**: Automated testing on all commits
