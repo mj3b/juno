@@ -2,6 +2,8 @@
 
 This document summarizes measured performance benchmarks for the JUNO platform. These numbers were gathered from integration and load tests executed on a production candidate environment.
 
+Benchmarking took place within the local development container environment documented in [TEST_RESULTS.md](../tests/TEST_RESULTS.md). This standardized container mirrors our production candidate setup and ensures reproducible metrics.
+
 ## Phase Benchmarks
 
 ### Phase 1: Analytics Foundation
@@ -38,6 +40,16 @@ This document summarizes measured performance benchmarks for the JUNO platform. 
 | System Uptime | 99.9% | 99.97% |
 | Consensus Latency | <100ms | 67ms avg |
 | Threat Detection Accuracy | >95% | 96.8% |
+
+## Metric Definitions
+
+- **Decision Latency:** Time required for an agent to output a decision after receiving all inputs.
+- **Risk Prediction Accuracy:** Percentage of predicted risks that matched actual outcomes.
+- **Autonomous Approval Rate:** Fraction of actions approved automatically without human review.
+- **System Uptime:** Proportion of total time the system was fully operational.
+- **Consensus Latency:** Average time for agents to reach distributed agreement.
+- **Threat Detection Accuracy:** Rate at which security threats were correctly identified.
+- **MTTR:** Mean time to resolve incidents once detected.
 
 ## Scalability Testing
 
