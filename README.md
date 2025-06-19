@@ -266,56 +266,23 @@ juno-repo/
 
 ## Quick Start
 
-### Prerequisites
-
-- Python 3.11+
-- Docker and Docker Compose
-- Kubernetes cluster (for production)
-- **Cloud Jira instance** (recommended for optimal performance and security) - [Cloud Jira Setup Guide](./docs/deployment/cloud-jira-deployment.md)
-- OpenAI API key (see [Enterprise GPT Integration Guide](./docs/reference/enterprise-gpt-integration.md))
-
-### Local Development Setup
+A minimal setup to launch JUNO locally. For the full environment setup and
+detailed instructions, see the
+[Quick Start guide](./docs/getting-started/quick-start.md).
 
 ```bash
 # Clone repository
 git clone https://github.com/mj3b/juno.git
 cd juno
 
-# One-click deployment
+# Install dependencies and prepare the environment
 ./deploy.sh
 
-# Start JUNO Phase 2
+# Start JUNO Phase 2 locally
 ./start_juno.sh
 
-# Access dashboard
+# Open the dashboard
 open http://localhost:5000
-```
-
-### Configuration
-
-```bash
-# Copy environment template
-cp .env.phase2.example .env
-
-# Configure required settings
-export OPENAI_API_KEY="your-openai-key"  # See Enterprise GPT Integration Guide
-export JIRA_URL="https://your-company.atlassian.net"  # Cloud Jira URL
-export JIRA_USERNAME="your-email@company.com"  # Cloud Jira email
-export JIRA_API_TOKEN="your-api-token"  # Cloud Jira API token
-export JUNO_PHASE=2
-```
-
-### Verification
-
-```bash
-# Run comprehensive test suite
-python -m pytest tests/ -v
-
-# Check system health
-./health_check.sh
-
-# Run demo scenarios
-python demo_scenarios.py
 ```
 
 ## Code Structure
