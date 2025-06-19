@@ -55,6 +55,7 @@ Choose your deployment path:
 - **APIs:** [API Reference](./reference/api-reference.md) - Complete API documentation
 - **Integrations:** [Integration Guide](./reference/integration-guide.md) - Third-party system integration
 - **Enterprise GPT:** [Enterprise GPT Integration](./reference/enterprise-gpt-integration.md) - OpenAI Enterprise GPT implementation guide
+- **Performance Benchmarks:** [Performance Benchmarks](./performance-benchmarks.md) - Validated latency and scalability metrics
 
 ## Documentation by Role
 
