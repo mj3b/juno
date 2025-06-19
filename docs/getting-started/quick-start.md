@@ -25,6 +25,9 @@ source venv/bin/activate  # Linux/Mac
 
 # Install dependencies
 pip install -r juno-agent/requirements.txt
+
+# For a one-click setup you can also run:
+./deploy.sh
 ```
 
 ### Step 2: Configure (5 minutes)
@@ -62,6 +65,11 @@ python juno-agent/src/phase2/quick_setup.py
 
 # Run tests to verify installation
 python juno-agent/src/phase2/test_suite.py --quick
+
+# Optional full verification
+python -m pytest tests/ -v
+./health_check.sh
+python demo_scenarios.py
 ```
 
 ### Step 4: Start Services (1 minute)
@@ -69,6 +77,9 @@ python juno-agent/src/phase2/test_suite.py --quick
 ```bash
 # Start JUNO Phase 2
 python juno-agent/app.py --phase=2
+
+# Or use the helper script
+./start_juno.sh
 
 # Open browser to http://localhost:5000
 ```
