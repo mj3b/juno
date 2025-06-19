@@ -5,8 +5,9 @@ Production-grade testing for autonomous operations and self-healing systems. mj3
 
 import unittest
 import asyncio
-import pytest
 from unittest.mock import Mock, patch, AsyncMock
+import pytest
+pytest.importorskip("numpy")
 import numpy as np
 import time
 import json

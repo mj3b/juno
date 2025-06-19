@@ -6,7 +6,9 @@ Comprehensive security testing for authentication, authorization, data protectio
 import unittest
 import hashlib
 import hmac
-import jwt
+import pytest
+jwt = pytest.importorskip("jwt")
+pytest.importorskip("cryptography")
 import time
 import json
 import ssl

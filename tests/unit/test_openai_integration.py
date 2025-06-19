@@ -6,7 +6,8 @@ Test script for OpenAI integration and enhanced NLP capabilities.
 import os
 import sys
 import json
-import requests
+import pytest
+requests = pytest.importorskip("requests")
 import time
 
 # Add the src directory to the path

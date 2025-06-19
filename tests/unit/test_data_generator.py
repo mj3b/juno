@@ -12,7 +12,8 @@ from typing import Dict, List, Any, Optional, Tuple
 from dataclasses import dataclass, asdict
 from enum import Enum
 import uuid
-import numpy as np
+import pytest
+np = pytest.importorskip("numpy")
 from pathlib import Path
 import logging
 
