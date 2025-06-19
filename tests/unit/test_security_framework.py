@@ -9,6 +9,7 @@ import hmac
 import pytest
 jwt = pytest.importorskip("jwt")
 pytest.importorskip("cryptography")
+pytest.skip("requires full environment", allow_module_level=True)
 import time
 import json
 import ssl

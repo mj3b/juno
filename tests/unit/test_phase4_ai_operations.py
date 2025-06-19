@@ -5,9 +5,20 @@ Production-grade testing for autonomous operations and self-healing systems. mj3
 
 import unittest
 import asyncio
-from unittest.mock import Mock, patch, AsyncMock
+from unittest.mock import AsyncMock, Mock, patch
 import pytest
+
 pytest.importorskip("numpy")
+pytest.importorskip("pandas")
+pytest.importorskip("sklearn")
+try:
+    import aioredis  # noqa: F401
+except Exception:  # pragma: no cover - optional dependency missing
+    pytest.skip("aioredis not available", allow_module_level=True)
+try:
+    import tensorflow  # noqa: F401
+except Exception:  # pragma: no cover - optional dependency missing
+    pytest.skip("tensorflow not available", allow_module_level=True)
 import numpy as np
 import time
 import json

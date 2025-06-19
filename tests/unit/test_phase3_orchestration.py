@@ -8,6 +8,10 @@ import asyncio
 import pytest
 from unittest.mock import Mock, patch, AsyncMock
 requests = pytest.importorskip("requests")
+try:
+    import aioredis
+except Exception:  # pragma: no cover - optional dependency missing
+    pytest.skip("aioredis not available", allow_module_level=True)
 import time
 import json
 from datetime import datetime, timedelta
