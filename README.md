@@ -54,6 +54,7 @@
   - [Compliance Frameworks](#compliance-frameworks)
   - [Audit Trail](#audit-trail)
 - [Documentation](#documentation)
+  - [Directory Structure](#directory-structure)
   - [For Executives](#for-executives)
   - [For Engineering Managers](#for-engineering-managers)
   - [For Developers](#for-developers)
@@ -492,7 +493,9 @@ CREATE TABLE audit_trail (
 );
 ```
 
-## Documentation Structure
+## Documentation
+
+### Directory Structure
 
 ```
 docs/
@@ -507,8 +510,6 @@ docs/
 ├── reference/                               # API and integration documentation
 └── getting-started/                         # Quick setup and first steps
 ```
-
-## Documentation
 
 ### For Executives
 - [Enterprise Implementation Guide](./docs/deployment/enterprise-implementation.md) - Strategic deployment roadmap
