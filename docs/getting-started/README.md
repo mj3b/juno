@@ -35,7 +35,7 @@ After completing the quick start guide, you'll have:
 After completing the quick start:
 
 - **Explore Features**: Try different natural language queries and explore the dashboard
-- **Production Deployment**: Move to [Phase 2 Deployment Guide](../deployment/phase2-agentic-ai.md)
+- **Reference Deployment**: Move to [Phase 2 Deployment Guide](../deployment/phase2-agentic-ai.md)
 - **Enterprise Planning**: Review [Enterprise Implementation Strategy](../deployment/enterprise-implementation.md)
 - **Technical Deep Dive**: Study [System Architecture](../architecture/system-overview.md)
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-Production-ready deployment infrastructure for JUNO Phase 3 Multi-Agent Orchestration with enterprise-grade monitoring, scaling, and fault tolerance.
+Reference deployment infrastructure for JUNO Phase 3 Multi-Agent Orchestration with enterprise-grade monitoring, scaling, and fault tolerance.
 
 ## Architecture
 
@@ -26,7 +26,7 @@ Production-ready deployment infrastructure for JUNO Phase 3 Multi-Agent Orchestr
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## Production Features
+## Key Features
 
 ### Consensus Protocol
 - **Raft-based distributed consensus** with leader election
@@ -321,7 +321,7 @@ docker version
 kubectl config current-context
 ```
 
-### Production Deployment
+### Reference Deployment
 ```bash
 # Clone repository
 git clone https://github.com/mj3b/juno.git
