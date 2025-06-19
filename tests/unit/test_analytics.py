@@ -1,4 +1,4 @@
-#!/usr/bin/env python3 mj3b
+#!/usr/bin/env python3
 """
 Test script for Advanced Analytics functionality.
 This script tests the analytics engine and visualization capabilities.
