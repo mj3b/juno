@@ -630,17 +630,11 @@ python -m pytest tests/test_integration/ -v # Integration tests
 python -m pytest tests/test_performance/ -v # Performance tests
 ```
 
-### Test Results Summary
 
-- **Total Tests**: 109
-- **Success Rate**: 100% (109/109 tests passed)
-- **Code Coverage**: 96.3%
-- **Execution Time**: 22 minutes 14 seconds
-- **Performance Tests**: All targets met across all phases
-- **Integration Tests**: Full end-to-end validation for complete platform
-- **Security Tests**: SOC 2, GDPR, ISO 27001 compliance validated
+### Test Results
 
-See [detailed test results](./tests/TEST_RESULTS.md) for comprehensive metrics and [test strategy](./tests/TEST_STRATEGY.md) for testing approach.
+Automated tests are currently not maintained and fail during collection. See
+[`tests/TEST_RESULTS.md`](./tests/TEST_RESULTS.md) for details.
 
 ## Contributing
 
