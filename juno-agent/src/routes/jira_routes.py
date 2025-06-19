@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify, request
-from src.jira_connector import JiraAPIConnector
-from src.data_extractor import JiraDataExtractor
+from juno.infrastructure.jira_integration.connector import JiraAPIConnector
+from juno.infrastructure.jira_integration.extractor import JiraDataExtractor
 from src.models.jira_models import JiraIssue, JiraUser, JiraProject, JiraCustomField, db
 import logging
 import os

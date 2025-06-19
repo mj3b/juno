@@ -9,11 +9,10 @@ import json
 import requests
 import time
 
-# Add the src directory to the path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
-
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../../src'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../../juno-agent/src'))
 from src.enhanced_nlp_processor import EnhancedNLPProcessor
-from src.openai_integration import OpenAIIntegration
+from juno.infrastructure.openai_integration.openai_client import OpenAIIntegration
 
 def test_openai_integration():
     """Test OpenAI integration directly."""

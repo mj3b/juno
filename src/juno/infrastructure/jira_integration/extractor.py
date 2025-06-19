@@ -2,7 +2,7 @@ import json
 import logging
 from datetime import datetime
 from typing import Dict, List, Optional, Any
-from src.jira_connector import JiraAPIConnector
+from juno.infrastructure.jira_integration.connector import JiraAPIConnector
 from src.models.jira_models import JiraIssue, JiraUser, JiraProject, JiraCustomField, db
 
 logger = logging.getLogger(__name__)
