@@ -194,10 +194,12 @@ juno-repo/
 ## Phase Implementation
 
 ### Phase 1: Analytics Foundation
-**Status**: 🚧 Prototype  
-**Capabilities**: Reactive analytics, insights, and reporting  
-**Deployment**: 2 weeks  
-**Use Case**: Establish baseline metrics and team adoption  
+<details><summary><strong>Expand Phase 1 details</strong></summary>
+
+**Status**: 🚧 Prototype
+**Capabilities**: Reactive analytics, insights, and reporting
+**Deployment**: 2 weeks
+**Use Case**: Establish baseline metrics and team adoption
 
 **Core Components**:
 - **Data Extractor**: Jira API integration and data normalization
@@ -211,11 +213,15 @@ juno-repo/
 - Query accuracy: 94.8%
 - System uptime: 99.95%
 
+</details>
+
 ### Phase 2: Agentic Workflow Management
-**Status**: 🚧 Prototype  
-**Capabilities**: Autonomous decision-making with governance oversight  
-**Deployment**: 6-8 weeks  
-**Use Case**: Transform workflows from reactive to proactive  
+<details><summary><strong>Expand Phase 2 details</strong></summary>
+
+**Status**: 🚧 Prototype
+**Capabilities**: Autonomous decision-making with governance oversight
+**Deployment**: 6-8 weeks
+**Use Case**: Transform workflows from reactive to proactive
 
 **Core Components**:
 - **Memory Layer**: Episodic, semantic, procedural, and working memory
@@ -229,11 +235,15 @@ juno-repo/
 - Autonomous action approval rate: 87.2%
 - System uptime: 99.97%
 
+</details>
+
 ### Phase 3: Multi-Agent Orchestration
-**Status**: 🚧 Prototype  
-**Capabilities**: Cross-team workflow coordination and distributed consensus  
-**Deployment**: 3-6 months  
-**Use Case**: Organization-wide workflow automation  
+<details><summary><strong>Expand Phase 3 details</strong></summary>
+
+**Status**: 🚧 Prototype
+**Capabilities**: Cross-team workflow coordination and distributed consensus
+**Deployment**: 3-6 months
+**Use Case**: Organization-wide workflow automation
 
 **Core Components**:
 - **Consensus Protocol**: Raft-based distributed agreement
@@ -247,11 +257,15 @@ juno-repo/
 - Scalability: Linear to 50+ agents
 - Coordination efficiency: >95%
 
+</details>
+
 ### Phase 4: AI-Native Operations
-**Status**: 🚧 Prototype  
-**Capabilities**: Self-optimizing, self-healing operations  
-**Deployment**: 6-12 months  
-**Use Case**: Autonomous infrastructure and process optimization  
+<details><summary><strong>Expand Phase 4 details</strong></summary>
+
+**Status**: 🚧 Prototype
+**Capabilities**: Self-optimizing, self-healing operations
+**Deployment**: 6-12 months
+**Use Case**: Autonomous infrastructure and process optimization
 
 **Core Components**:
 - **Reinforcement Learning**: Continuous system optimization
@@ -264,6 +278,8 @@ juno-repo/
 - Threat detection accuracy: >96%
 - Automated resolution rate: >89%
 - MTTR: <5 minutes
+
+</details>
 
 ---
 
