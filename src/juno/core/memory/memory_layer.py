@@ -51,14 +51,12 @@ class MemoryLayer:
         self._init_database()
 
     def initialize(self) -> None:
-        """Backward compatible initialization hook."""
+        """Public initialization hook for compatibility with older tests."""
         self._init_database()
 
     def close(self) -> None:
-        """Backward compatible cleanup hook."""
-        # Database connections are opened and closed per operation so this is
-        # effectively a no-op. It exists for API compatibility with older tests.
-        return None
+        """Placeholder close method for API parity."""
+        pass
 
     @staticmethod
     def _json_serializer(obj: Any) -> Any:
