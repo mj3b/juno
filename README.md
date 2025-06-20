@@ -1,6 +1,6 @@
 # JUNO
 
-[![Tests](https://img.shields.io/badge/tests-0%20passed-lightgrey.svg)](./tests/TEST_RESULTS.md)
+[![Tests](https://img.shields.io/badge/tests-11%20passed-brightgreen.svg)](./tests/TEST_RESULTS.md)
 [![Coverage](https://img.shields.io/badge/coverage-N/A-lightgrey.svg)](./tests/)
 [![Performance](https://img.shields.io/badge/latency-127ms%20avg-blue.svg)](./tests/TEST_RESULTS.md)
 [![Phase](https://img.shields.io/badge/phases-1--4%20ready-orange.svg)](./docs/)
