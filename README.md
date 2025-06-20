@@ -16,8 +16,11 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [How JUNO Was Born](./docs/history.md)
-- [Why JUNO is Agentic AI, Not Just AI Agents](#why-juno-is-agentic-ai-not-just-ai-agents)
+- [Problem Statement & Solution Architecture](#problem-statement--solution-architecture)
+- [Phase-Based Agentic AI Maturity Model](#phase-based-agentic-ai-maturity-model)
+- [Why This Architecture Matters](#why-this-architecture-matters)
+- [Strategic Outcome](#strategic-outcome)
+- [How to Add These Sections in Your README.md](#how-to-add-these-sections-in-your-readmemd)
 - [Architecture](#architecture)
   - [Microservices Architecture](#microservices-architecture)
   - [Technology Stack](#technology-stack)
@@ -81,23 +84,105 @@
 ---
 
 
-## How JUNO Was Born
+## 🧠 Problem Statement & Solution Architecture
 
-For a detailed history of the project, consult [docs/history.md](./docs/history.md).
+**The Problem: Jira Tracks—But It Doesn’t Think**
 
-## Why JUNO is Agentic AI, Not Just AI Agents
+Engineering teams rely on Jira to track sprints, defects, and delivery metrics. But as systems scale, Jira becomes a passive ledger, not a reasoning partner. Teams are burdened with chasing down failure patterns across environments, dashboards, and tools.
 
-**[📖 Essential Reading: AI Agents vs Agentic AI Educational Guide](./docs/guides/ai-agents-vs-agentic-ai.md)**
+Common breakdowns:
+- Sprint retros take hours to synthesize from Jira exports
+- Velocity stalls traced to defects—but root causes remain unclear
+- Test failures are logged but not categorized across test data, environment (NPE), script quality, or tech debt
+- Engineering leaders drown in dashboards but lack decision-ready insight
 
-JUNO represents true **agentic AI** - autonomous systems that reason through multiple valid paths to achieve optimal outcomes. Unlike traditional AI agents that follow fixed workflows, JUNO's agentic approach enables:
+Despite Jira’s extensibility, it delivers information—not understanding.
 
-- **Multiple Valid Solution Paths**: JUNO can resolve sprint risks through reassignment, scope adjustment, or stakeholder escalation - choosing the optimal approach based on context
-- **Proactive Intelligence**: Predicts and prevents issues rather than just responding to them
-- **Autonomous Reasoning**: Makes informed decisions within defined boundaries without constant human oversight
-- **Self-Optimizing**: Learns from outcomes to improve future decision-making
-- **Multi-Agent Orchestration**: Coordinates specialized agents for complex workflow management
+**The Solution: JUNO as an Agentic AI Analyst**
 
-**For Engineers**: Understanding this distinction is critical for implementing, evaluating, and scaling JUNO effectively. [Read the full guide →](./docs/guides/ai-agents-vs-agentic-ai.md)
+JUNO transforms Jira into a vertical AI system that doesn’t just summarize data—it reasons through it. Powered by Enterprise GPT, JUNO performs multi-dimensional defect analysis across:
+- Test Script Failures (broken automation logic, brittle assertions)
+- Test Data Gaps (expired or missing synthetic records)
+- Non-Prod Environment (NPE) Instability (lab-specific defects)
+- Structural Tech Debt (recurring code smells or legacy gaps)
+
+Instead of manual categorization and root-cause hunting, teams ask:
+
+“Why did regression failures spike last sprint?”
+“Which NPE is introducing the most flakiness?”
+“Are stale test scripts slowing velocity?”
+
+JUNO parses Jira exports, applies reasoning, and responds with correlated insights, visual trends, and defensible recommendations.
+
+---
+
+## 🧭 Phase-Based Agentic AI Maturity Model
+
+JUNO’s development follows a modular framework rooted in agentic AI design: memory, autonomy, reasoning, and observability.
+
+| Phase | Objective | Key Capabilities | Agentic Alignment |
+| ----- | --------- | ---------------- | ---------------- |
+| **Phase 1: Analytics Foundation** | Summarize and structure Jira data | Natural language queries, sprint metrics, defect heatmaps | 📊 Insight Delivery |
+| **Phase 2: Agentic Workflow Management** | Reason about blockers and delivery risk | Risk forecasts, memory layers, test defect diagnostics | 🧠 Autonomous Reasoning + Episodic Memory |
+| **Phase 3: Multi-Agent Orchestration** | Align insights across squads and platforms | Coordination agents, consensus, fault recovery | 🔁 Distributed Cognition |
+| **Phase 4: AI-Native Operations** | Predict and prevent delivery failure | RL optimization, anomaly detection, self-healing logic | ⚙️ Autonomy at Scale |
+
+---
+
+## 🧩 Why This Architecture Matters
+
+JUNO adheres to enterprise-grade AI standards:
+- Memory Hierarchies: episodic (per sprint), semantic (per workflow), procedural (per test)
+- Transparent Reasoning: confidence scores, traceable audits
+- Governance: role-based approval, secure data flow
+- Observability: latency metrics, defect category accuracy, risk deltas
+
+It doesn’t just categorize failure—it understands it.
+
+---
+
+## 📐 Strategic Outcome
+
+JUNO closes the gap between defect logging and engineering intelligence. It transforms Jira into a decision engine that reduces risk, accelerates retros, and clarifies velocity blockers at scale.
+
+It’s not another Jira app. It’s the analyst we needed—but could never hire.
+
+---
+
+## ✅ How to Add These Sections in Your README.md
+
+GitHub doesn’t support these natively in raw Markdown, but you can simulate them using blockquotes:
+
+> **Note**  
+> OAuth 2.0 is more complex to set up but provides enhanced security features. For most users, API Token authentication (Method A) is simpler and sufficient.
+
+> **Important**  
+> Include `offline_access` in scope for persistent auth (e.g., `read:jira-work write:jira-work offline_access`)
+
+### 📦 Installation
+
+MCP Atlassian is distributed as a Docker image. This is the recommended way...
+
+> 💡 **Tip**  
+> For Claude Desktop: Locate and edit the configuration file directly:
+
+---
+
+### 🧪 Bonus: Custom Styling (if hosted elsewhere)
+
+If you’re using a framework like Docusaurus, MkDocs, or Docsify, they often support:
+
+:::note
+This is a note box
+:::
+
+:::tip
+Helpful tip goes here.
+:::
+
+:::warning
+Something important!
+:::
 
 ---
 
