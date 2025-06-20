@@ -14,7 +14,7 @@ import threading
 import time
 
 # Import Phase 2 components
-from .memory_layer import JUNOMemoryLayer
+from juno.core.memory.memory_layer import MemoryLayer as JUNOMemoryLayer
 from .reasoning_engine import JUNOReasoningEngine
 from .sprint_risk_forecast import SprintRiskForecaster
 from .velocity_analysis import VelocityAnalyzer

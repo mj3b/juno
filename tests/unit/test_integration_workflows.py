@@ -19,10 +19,7 @@ import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Import JUNO Phase 2 components
-import sys
-sys.path.append('../juno-agent/src/phase2')
-
-from memory_layer import MemoryLayer, MemoryType, MemoryEntry
+from juno.core.memory.memory_layer import MemoryLayer, MemoryType, MemoryEntry
 try:
     from reasoning_engine import ReasoningEngine, DecisionContext
 except Exception:  # pragma: no cover - optional dependency missing

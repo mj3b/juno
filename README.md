@@ -368,7 +368,7 @@ juno/
 
 | Component | Location | Purpose |
 |-----------|----------|---------|
-| **Memory Layer** | `src/phase2/memory_layer.py` | Episodic, semantic, procedural memory management |
+| **Memory Layer** | `src/juno/core/memory/memory_layer.py` | Episodic, semantic, procedural memory management |
 | **Reasoning Engine** | `src/phase2/reasoning_engine.py` | Multi-factor decision making with confidence scoring |
 | **Risk Forecasting** | `src/phase2/sprint_risk_forecast.py` | Predictive analytics for sprint completion |
 | **Governance Framework** | `src/phase2/governance_framework.py` | Role-based approval workflows |
@@ -384,8 +384,8 @@ juno/
 - [`query_processor.py`](./juno-agent/src/query_processor.py) - Natural language query processing
 - [`jira_connector.py`](./src/juno/infrastructure/jira_integration/connector.py) - Jira API connectivity and authentication
 
-**Phase 2: Agentic Workflow Management**
-- [`memory_layer.py`](./juno-agent/src/phase2/memory_layer.py) - Advanced memory management system
+-**Phase 2: Agentic Workflow Management**
+- [`memory_layer.py`](./src/juno/core/memory/memory_layer.py) - Advanced memory management system
 - [`reasoning_engine.py`](./juno-agent/src/phase2/reasoning_engine.py) - Transparent decision making
 - [`sprint_risk_forecast.py`](./juno-agent/src/phase2/sprint_risk_forecast.py) - Predictive risk analysis
 - [`velocity_analysis.py`](./juno-agent/src/phase2/velocity_analysis.py) - Team performance analytics

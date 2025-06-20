@@ -50,6 +50,14 @@ class MemoryLayer:
         self.db_path = db_path
         self._init_database()
 
+    def initialize(self) -> None:
+        """Public initialization hook for compatibility with older tests."""
+        self._init_database()
+
+    def close(self) -> None:
+        """Placeholder close method for API parity."""
+        pass
+
     @staticmethod
     def _json_serializer(obj: Any) -> Any:
         """Serialize objects that are not JSON serializable by default."""

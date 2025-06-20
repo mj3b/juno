@@ -16,7 +16,7 @@ from unittest.mock import Mock, patch, MagicMock
 import logging
 
 # Import JUNO Phase 2 components
-from memory_layer import MemoryLayer, MemoryType, MemoryEntry
+from juno.core.memory.memory_layer import MemoryLayer, MemoryType, MemoryEntry
 from reasoning_engine import ReasoningEngine, ReasoningLevel, DecisionContext
 from sprint_risk_forecast import SprintRiskForecaster, RiskLevel
 from velocity_analysis import VelocityAnalyzer, TrendDirection
