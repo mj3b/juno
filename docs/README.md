@@ -198,3 +198,6 @@ git push origin docs/update-feature-docs
 **Last Updated**: Current with latest code release  
 **Maintenance**: Actively maintained with regular updates
 mj3b
+
+> **Disclaimer:** JUNO's AI recommendations may be inaccurate and are provided without warranty.
+> Validate outputs independently before relying on them.

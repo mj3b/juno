@@ -359,3 +359,6 @@ Implement regular reviews of AI performance, bias metrics, and ethical complianc
 
 *This enterprise implementation guide provides comprehensive strategies for deploying JUNO at scale while maintaining security, compliance, and operational excellence. Organizations should adapt these recommendations to their specific requirements and regulatory environment.*  mj3b
 
+
+> **Disclaimer:** JUNO's AI recommendations may be inaccurate and are provided without warranty.
+> Validate outputs independently before relying on them.
