@@ -4,7 +4,7 @@ import numpy as np
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Any, Tuple
 from dataclasses import dataclass
-from src.models.jira_models import JiraIssue, JiraUser, JiraProject, db
+from juno.core.models.jira_models import JiraIssue, JiraUser, JiraProject, db
 import logging
 
 logger = logging.getLogger(__name__)

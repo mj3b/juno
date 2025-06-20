@@ -1,7 +1,7 @@
 from typing import Dict, List, Optional, Any, Tuple
 from datetime import datetime
 from src.nlp_processor import ParsedQuery, QueryIntent, JiraNLUProcessor
-from src.models.jira_models import JiraIssue, JiraUser, JiraProject, JiraCustomField, db
+from juno.core.models.jira_models import JiraIssue, JiraUser, JiraProject, JiraCustomField, db
 import logging
 
 logger = logging.getLogger(__name__)

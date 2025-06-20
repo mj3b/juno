@@ -14,8 +14,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 from flask import Flask, send_from_directory
 from flask_cors import CORS
-from src.models.user import db
-from src.models.jira_models import JiraIssue, JiraUser, JiraProject, JiraCustomField
+from juno.core.models.user import db
+from juno.core.models.jira_models import JiraIssue, JiraUser, JiraProject, JiraCustomField
 from src.routes.user import user_bp
 from src.routes.jira_routes import jira_bp
 from src.routes.nlp_routes import nlp_bp
