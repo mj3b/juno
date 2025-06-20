@@ -84,7 +84,7 @@
 ---
 
 
-## 🧠 Problem Statement & Solution Architecture
+## Problem Statement & Solution Architecture
 
 **The Problem: Jira Tracks—But It Doesn’t Think**
 
@@ -116,7 +116,7 @@ JUNO parses Jira exports, applies reasoning, and responds with correlated insigh
 
 ---
 
-## 🧭 Phase-Based Agentic AI Maturity Model
+## Phase-Based Agentic AI Maturity Model
 
 JUNO’s development follows a modular framework rooted in agentic AI design: memory, autonomy, reasoning, and observability.
 
@@ -129,7 +129,7 @@ JUNO’s development follows a modular framework rooted in agentic AI design: me
 
 ---
 
-## 🧩 Why This Architecture Matters
+## Why This Architecture Matters
 
 JUNO adheres to enterprise-grade AI standards:
 - Memory Hierarchies: episodic (per sprint), semantic (per workflow), procedural (per test)
@@ -141,48 +141,11 @@ It doesn’t just categorize failure—it understands it.
 
 ---
 
-## 📐 Strategic Outcome
+## Strategic Outcome
 
 JUNO closes the gap between defect logging and engineering intelligence. It transforms Jira into a decision engine that reduces risk, accelerates retros, and clarifies velocity blockers at scale.
 
 It’s not another Jira app. It’s the analyst we needed—but could never hire.
-
----
-
-## ✅ How to Add These Sections in Your README.md
-
-GitHub doesn’t support these natively in raw Markdown, but you can simulate them using blockquotes:
-
-> **Note**  
-> OAuth 2.0 is more complex to set up but provides enhanced security features. For most users, API Token authentication (Method A) is simpler and sufficient.
-
-> **Important**  
-> Include `offline_access` in scope for persistent auth (e.g., `read:jira-work write:jira-work offline_access`)
-
-### 📦 Installation
-
-MCP Atlassian is distributed as a Docker image. This is the recommended way...
-
-> 💡 **Tip**  
-> For Claude Desktop: Locate and edit the configuration file directly:
-
----
-
-### 🧪 Bonus: Custom Styling (if hosted elsewhere)
-
-If you’re using a framework like Docusaurus, MkDocs, or Docsify, they often support:
-
-:::note
-This is a note box
-:::
-
-:::tip
-Helpful tip goes here.
-:::
-
-:::warning
-Something important!
-:::
 
 ---
 
