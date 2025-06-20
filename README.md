@@ -196,10 +196,17 @@ juno-repo/
 ### Phase 1: Analytics Foundation
 <details><summary><strong>Expand Phase 1 details</strong></summary>
 
-**Status**: 🚧 Prototype
-**Capabilities**: Reactive analytics, insights, and reporting
-**Deployment**: 2 weeks
-**Use Case**: Establish baseline metrics and team adoption
+**Status**: 
+🚧 Prototype
+
+**Capabilities**: R
+eactive analytics, insights, and reporting
+
+**Deployment**: 
+2 weeks
+
+**Use Case**: 
+Establish baseline metrics and team adoption
 
 **Core Components**:
 - **Data Extractor**: Jira API integration and data normalization
@@ -218,10 +225,17 @@ juno-repo/
 ### Phase 2: Agentic Workflow Management
 <details><summary><strong>Expand Phase 2 details</strong></summary>
 
-**Status**: 🚧 Prototype
-**Capabilities**: Autonomous decision-making with governance oversight
-**Deployment**: 6-8 weeks
-**Use Case**: Transform workflows from reactive to proactive
+**Status**: 
+🚧 Prototype
+
+**Capabilities**: 
+Autonomous decision-making with governance oversight
+
+**Deployment**: 
+6-8 weeks
+
+**Use Case**: 
+Transform workflows from reactive to proactive
 
 **Core Components**:
 - **Memory Layer**: Episodic, semantic, procedural, and working memory
@@ -240,10 +254,17 @@ juno-repo/
 ### Phase 3: Multi-Agent Orchestration
 <details><summary><strong>Expand Phase 3 details</strong></summary>
 
-**Status**: 🚧 Prototype
-**Capabilities**: Cross-team workflow coordination and distributed consensus
-**Deployment**: 3-6 months
-**Use Case**: Organization-wide workflow automation
+**Status**: 
+🚧 Prototype
+
+**Capabilities**: 
+Cross-team workflow coordination and distributed consensus
+
+**Deployment**: 
+3-6 months
+
+**Use Case**: 
+Organization-wide workflow automation
 
 **Core Components**:
 - **Consensus Protocol**: Raft-based distributed agreement
@@ -262,10 +283,17 @@ juno-repo/
 ### Phase 4: AI-Native Operations
 <details><summary><strong>Expand Phase 4 details</strong></summary>
 
-**Status**: 🚧 Prototype
-**Capabilities**: Self-optimizing, self-healing operations
-**Deployment**: 6-12 months
-**Use Case**: Autonomous infrastructure and process optimization
+**Status**: 
+🚧 Prototype
+
+**Capabilities**: 
+Self-optimizing, self-healing operations
+
+**Deployment**: 
+6-12 months
+
+**Use Case**: 
+Autonomous infrastructure and process optimization
 
 **Core Components**:
 - **Reinforcement Learning**: Continuous system optimization
