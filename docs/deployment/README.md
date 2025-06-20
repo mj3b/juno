@@ -42,7 +42,7 @@ This directory contains comprehensive deployment guides for all JUNO phases, fro
 | Phase | Complexity | Team Size | Deployment Time | Key Benefits |
 |-------|------------|-----------|-----------------|--------------|
 | **Phase 1** | Low | 1-20 teams | 1-2 weeks | Analytics baseline, team adoption |
-| **Phase 2** | Medium | 5-50 teams | 2-4 weeks | Autonomous decisions, risk prediction |
+| **Phase 2** | Medium | 5-50 teams | 2-4 weeks | Autonomous decisions, risk prediction, test defect diagnostics |
 | **Phase 3** | High | 10-100 teams | 4-8 weeks | Cross-team coordination, distributed consensus |
 | **Phase 4** | Very High | 50+ teams | 8-12 weeks | Self-healing, predictive scaling, ML optimization |
 | **Enterprise** | Expert | Organization-wide | 12-36 weeks | Complete AI transformation, governance |
@@ -60,6 +60,7 @@ This directory contains comprehensive deployment guides for all JUNO phases, fro
 - **AI Services**: OpenAI API or Azure OpenAI
 - **Monitoring**: Prometheus, Grafana
 - **Security**: OAuth 2.0, RBAC, audit logging
+- **Test Defect Diagnostics**: Automated analysis of failing tests
 
 ### Phase 3: Multi-Agent Orchestration
 - **Additional Requirements**: Consul for service discovery

@@ -18,6 +18,7 @@ phase2/
 ├── reasoning_engine.py          # Transparent decision making with confidence scoring
 ├── sprint_risk_forecast.py      # Predictive risk analysis and completion probability
 ├── velocity_analysis.py         # Team performance analytics and trend detection
+├── defect_diagnostics.py        # Test failure analysis and defect categorization
 ├── stale_triage_resolution.py   # Autonomous ticket management and resolution
 ├── governance_framework.py      # Enterprise governance and approval workflows
 ├── database_setup.py           # Database schema and initialization

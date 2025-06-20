@@ -100,6 +100,7 @@ python juno-agent/app.py --phase=2
 - Predicts sprint risks before they happen
 - Takes autonomous actions with your approval
 - Explains every decision with confidence scores
+- Analyzes failing tests with defect diagnostics
 
 **Governance & Control**
 - All autonomous actions require approval

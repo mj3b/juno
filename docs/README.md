@@ -119,7 +119,7 @@ Choose your deployment path:
 
 ### Phase 2: Agentic AI Workflow Management
 - **Status**: 🚧 Prototype
-- **Focus**: Autonomous decision-making with governance oversight
+ - **Focus**: Autonomous decision-making with governance oversight and test defect diagnostics
 - **Documentation**: [Phase 2 Deployment](./deployment/phase2-agentic-ai.md)
 
 ### Phase 3: Multi-Agent Orchestration
