@@ -41,6 +41,7 @@ graph TB
     JUNO -->|Multiple Valid Paths| Solutions[✅ Optimal Solutions]
     Solutions -->|Outcome Validation| User
 ```
+*Figure 1: Agentic AI system architecture.*
 
 ## JUNO Evolution Timeline
 
@@ -60,6 +61,7 @@ graph LR
     P3 --> F3[🎼 Lead Orchestrator<br/>🤝 Specialized Sub-agents<br/>🔄 Consensus Mechanisms]
     P4 --> F4[🔮 Self-Healing<br/>📈 Reinforcement Learning<br/>🛡️ Threat Detection]
 ```
+*Figure 2: Evolution across JUNO phases.*
 
 ## Traditional AI Agents vs JUNO Agentic AI
 
@@ -96,6 +98,7 @@ graph TB
     
     Traditional -.->|Evolution| Agentic
 ```
+*Figure 3: Traditional agents vs agentic AI.*
 
 ## JUNO Human Evaluation Framework
 
@@ -153,6 +156,7 @@ graph TB
     
     Feedback --> JUNO
 ```
+*Figure 4: Multilayer human evaluation framework.*
 
 ## Outcome-Focused Evaluation Process
 
@@ -183,6 +187,7 @@ graph LR
     
     Outcome --> Success[✅ Risk Mitigated<br/>✅ Issues Resolved<br/>✅ Workflow Optimized]
 ```
+*Figure 5: Outcome-focused evaluation flow.*
 
 ## JUNO Supervisor Roles and Responsibilities
 
@@ -220,6 +225,7 @@ graph TB
     
     Integration --> Cycles[📅 Review Cycles<br/>• Weekly Reviews<br/>• Monthly Assessment<br/>• Quarterly Evaluation<br/>• Continuous Improvement]
 ```
+*Figure 6: Supervisor roles and focus areas.*
 
 ## Phase-Specific Evaluation Criteria
 
@@ -260,6 +266,7 @@ graph TB
     
     Evaluation --> Outcome[✅ Continuous Value Delivery]
 ```
+*Figure 7: Phase-specific evaluation metrics.*
 
 ## Implementation Roadmap for Human Evaluation
 

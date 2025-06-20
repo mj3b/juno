@@ -112,6 +112,16 @@ Choose your deployment path:
 
 ## JUNO Phases Overview
 
+```mermaid
+graph LR
+    P1[Phase 1<br/>Analytics Foundation]
+    P2[Phase 2<br/>Agentic Workflows]
+    P3[Phase 3<br/>Multi-Agent Orchestration]
+    P4[Phase 4<br/>AI-Native Operations]
+    P1 --> P2 --> P3 --> P4
+```
+*Figure: Phase evolution overview.*
+
 ### Phase 1: Analytics Foundation
 - **Status**: 🚧 Prototype
 - **Focus**: Immediate analytics value with existing Jira data
