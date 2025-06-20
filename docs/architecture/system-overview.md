@@ -35,6 +35,7 @@ graph TB
     Backend -->|Results| UI
     UI -->|Visualization| User
 ```
+*Figure: High-level system architecture.*
 
 ---
 
