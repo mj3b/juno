@@ -20,6 +20,7 @@ For full documentation and deployment guides, see the [docs directory](./docs/).
 - [Problem Statement & Solution Architecture](#problem-statement--solution-architecture)
 - [Phase-Based Agentic AI Maturity Model](#phase-based-agentic-ai-maturity-model)
 - [Architecture](#architecture)
+- [🗺️ JUNO ML Engine Map](#juno-ml-engine-map)
 - [Phase Implementation](#phase-implementation)
 - [Quick Start](#quick-start)
 - [Code Structure](#code-structure)
@@ -128,6 +129,41 @@ juno-repo/
 ├── data/                        # Training & evaluation data
 └── tests/                       # Comprehensive test suite
 ```
+
+### 🗺️ JUNO ML Engine Map
+
+![JUNO ML Engine Map](data:image/png;base64,.iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsCAIAAABi1XKVAAAIw0lEQVR4nO3bT4iU9QPH8Wd3w90x0KWiTOvmSUVpF6HUGVcx8GAShEKwUtClQ14Mp0CiOokKdjMIRKIgIWIR7I+IJiIhGZKIhz1soZ4KFrWDrjr6dBgcptkt/5X9Pv1er9M83/0+z/OdPbyZ57uzXWVZFgAJuv/tBQDcKcECYggWEEOwgBiCBcQQLCCGYAExBAuIIVhADMECYggWEEOwgBiCBcQQLCCGYAExBAuIIVhADMECYggWEEOwgBiCBcQQLCCGYAExBAuIIVhADMECYggWEEOwgBiCBcQQLCCGYAExBAuIIVhADMECYggWEEOwgBiCBcQQLCCGYAExBAuIIVhADMECYggWEEOwgBiCBcQQLCCGYAExBAuIIVhADMECYggWEEOwgBiCBcQQLCCGYAExBAuIIVhADMECYggWEEOwgBiCBcQQLCCGYAExBAuIIVhADMECYggWEEOwgBiCBcQQLCCGYAExBAuIIVhADMECYggWEEOwgBiCBcQQLCCGYAExBAuIIVhADMECYggWEEOwgBiCBcQQLCCGYAExBAuIIVhADMECYggWEEOwgBiCBcQQLCCGYAExBAuIIVhADMECYggWEEOwgBiCBcQQLCCGYAExBAuIIVhADMECYggWEEOwgBiCBcQQLCCGYAExBAuIIVhADMECYggWEEOwgBiCBcQQLCCGYAExBAuIIVhADMECYggWEEOwgBiCBcQQLCCGYAExBAuIIVhADMECYggWEEOwgBiCBcQQLCCGYAExBAuIIVhADMECYggWEEOwgBiCBcT424LV39/f8aL9daVSWbFixeTxPXv2DA4OPvfcc4ODgx9//HH7BSuVyvr161uHw8PDlUpl8i3aTZ8+feiWnTt33uHKz5w58+GHH97h5DtcIfBPeOjB3Ka3t7fRaBw5cmRoaKg1eODAgd27dx86dKi/v//ixYtr1qyZM2fOqlWrWqeMjo7euHGjp6enLMuxsbHe3t6/vsu0adOOHDlyt2ubP3/+/Pnz7/ase1shcD8e3CPh+++//+6777aP7NixY8eOHc2PS/39/du3b9+2bVv7hIGBgRMnThRF8eOPPy5cuPAebtrf379ly5bly5cvWrRoZGSkKIpffvll7dq11Wp1w4YNjz32WGvan82/cOHC8PDwqlWrarXa999/33H9KVd45syZZcuWLViw4IMPPmhddvPmzdVqtVar/fzzz/fwRoCiKIrybzJz5syOF5MHa7Xa4cOHW4ezZ8++cuVKa/KVK1dmz57dfu5nn3323nvvlWW5devWL774YspbTLmGlkqlsnPnzrIsx8bGnn766bIsh4eHP/3007IsR0ZGent7O06cPP+11147fvx4WZZnz55dtGhRx+2mXOHrr79+9OjR8fHxJ598sjmzr69v7969ZVl+8sknL7744pSLB27rgQbr22+/rVar5Z8E6/Lly3PmzGk/d3x8fNmyZWVZPv/885cuXbptsCqVyvJbvvvuu7Ise3t7L1y40PzpjBkzyrJ86qmnJiYmyrK8fv369OnTOy445fzWNefOndtoNG67wt9+++2jjz6q1+sPP/xwa2FXr14ty3JiYuKJJ574y18k8Kfudw+rVqsdPXq0faS7u7u5rdNoNB566A/XHxoa6unpOXz4cPNw3rx5J0+eXLJkSfPw5MmTHXtJjzzySHd39/nz54uimDFjxm0XM3kPa9q0aa3Hva6urqIorl271jy8efNmWZaTr9Axv9FofPPNN319fTdv3jx27FhPT89tV7hu3bqXXnpp48aNrb387u7u1on2ueCe3e8e1vj4+Pnz58fGxmbNmtUcWbx48cGDB4uiOHDgwOLFizvmt+9kbd68uV6vX7p0qSiKixcvvvXWW/V6vWP+6tWrt2zZ0tqJv1vd3Z1vcMmSJfv27SuKYmRkZHKwJs9funRpczPr66+/3rp16+RbTF7hDz/8sH79+omJiatXrzZHGo3GV199VRTF559/3v7XUuDu3OcntP379w8MDAwODn755ZfNkdHR0doto6OjzcH2h7iVK1f29fU1X+/evfuZZ5559tlnBwYG9uzZ037l5imnTp3q6uo6ffp0+cedpqW31Ov11intj4Rvv/12OdXz6U8//VStVqvVar1ef/TRRzuWN3n+uXPnVq9eXavVVq5cOTY2dicrfOedd+bNm/fyyy8//vjjzcfPmTNnvvLKK9Vq9YUXXvj111/v7FcLdOoqJ33K+G979dVXN23atHDhwhMnTrz55psdz7P/kOb3Nh7AjeC/7QF9D+t/x8aNG994441KpXLt2rVdu3b928sB7sL/3ScsIJf/JQRiCBYQQ7CAGIIFxBAsIIZgATEEC4ghWEAMwQJiCBYQQ7CAGIIFxBAsIIZgATEEC4ghWEAMwQJiCBYQQ7CAGIIFxBAsIIZgATEEC4ghWEAMwQJiCBYQQ7CAGIIFxBAsIIZgATEEC4ghWEAMwQJiCBYQQ7CAGIIFxBAsIIZgATEEC4ghWEAMwQJiCBYQQ7CAGIIFxBAsIIZgATEEC4ghWEAMwQJiCBYQQ7CAGIIFxBAsIIZgATEEC4ghWEAMwQJiCBYQQ7CAGIIFxBAsIIZgATEEC4ghWEAMwQJiCBYQQ7CAGIIFxBAsIIZgATEEC4ghWEAMwQJiCBYQQ7CAGIIFxBAsIIZgATEEC4ghWEAMwQJiCBYQQ7CAGIIFxBAsIIZgATEEC4ghWEAMwQJiCBYQQ7CAGIIFxBAsIIZgATEEC4ghWEAMwQJiCBYQQ7CAGIIFxBAsIIZgATEEC4ghWEAMwQJiCBYQQ7CAGIIFxBAsIIZgATEEC4ghWEAMwQJiCBYQQ7CAGIIFxBAsIIZgATEEC4ghWEAMwQJiCBYQQ7CAGIIFxBAsIIZgATEEC4ghWEAMwQJiCBYQQ7CAGIIFxBAsIIZgATEEC4ghWEAMwQJiCBYQQ7CAGIIFxBAsIIZgATEEC4ghWEAMwQJiCBYQQ7CAGL8Div3U4mLfIswAAAAASUVORK5CYII=)
+
+> 🧠 This diagram illustrates how test data, GPT analysis, and Jira metadata converge within JUNO’s machine learning engine—enabling it to reason through defects, forecast risk, and surface engineering insights at scale.
+
+<details>
+  <summary><strong>🧠 JUNO ML Engine Overview (Click to expand)</strong></summary>
+
+### 🔍 Text Analytics  
+Used for parsing Jira tickets, failure logs, and comments.  
+- `Word2Vec`, `N-Gram`, `Feature Hashing`
+
+### ⚖️ Classification  
+For defect type and sprint risk predictions.  
+- Two-Class & Multiclass: Logistic Regression, Boosted Trees, Neural Nets
+
+### 📈 Regression  
+For sprint velocity forecasting and workload trends.  
+- Linear, Decision Tree, Neural Regression
+
+### 🧭 Anomaly Detection  
+To catch test flakiness, NPE instability, or unexplained drops.  
+- PCA, One-Class SVM
+
+### 🔗 Clustering  
+To group similar regressions or stale test paths.  
+- `K-Means`
+
+### 🎯 Recommenders (Phase 4 Preview)  
+To suggest remediation paths, assignments, or de-prioritization.  
+- Wide & Deep Recommender, SVD
+
+</details>
 
 ### Agent Project Benefits
 - **Clear Separation**: Core logic, applications, and infrastructure properly isolated
