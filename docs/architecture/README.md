@@ -6,6 +6,7 @@ This directory contains comprehensive architecture documentation for JUNO, cover
 
 - **[system-overview.md](./system-overview.md)** - High-level system architecture and design patterns
 - **[technical-specifications.md](./technical-specifications.md)** - Detailed technical specifications and requirements
+- **[request-flow.md](./request-flow.md)** - Request path from dashboard to database
 
 ## Architecture Overview
 
