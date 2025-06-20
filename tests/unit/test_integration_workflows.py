@@ -511,7 +511,6 @@ class TestWorkflowIntegration(unittest.TestCase):
         
         # Initialize components
         self.memory_layer = MemoryLayer(db_path=self.temp_db.name)
-        self.memory_layer.initialize()
         
         self.reasoning_engine = ReasoningEngine()
         self.reasoning_engine.initialize()
