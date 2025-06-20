@@ -69,6 +69,7 @@ JUNO implements a modern microservices architecture designed for enterprise scal
 - Autonomous decision making with governance
 - Risk prediction and proactive recommendations
 - Transparent reasoning with audit trails
+- Test defect diagnostics for root-cause analysis
 
 ### Phase 3: Multi-Agent Orchestration
 - Distributed agent coordination
