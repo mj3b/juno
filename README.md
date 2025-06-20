@@ -739,3 +739,6 @@ For enterprise deployment assistance, custom integrations, or technical support:
 
 *Built for enterprise-scale agentic AI transformation.*
 
+
+> **Disclaimer:** JUNO's AI recommendations may be inaccurate and are provided without warranty.
+> Validate outputs independently before relying on them.
