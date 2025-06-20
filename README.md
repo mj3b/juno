@@ -122,10 +122,10 @@ JUNO’s development follows a modular framework rooted in agentic AI design: me
 
 | Phase | Objective | Key Capabilities | Agentic Alignment |
 | ----- | --------- | ---------------- | ---------------- |
-| **Phase 1: Analytics Foundation** | Summarize and structure Jira data | Natural language queries, sprint metrics, defect heatmaps | 📊 Insight Delivery |
-| **Phase 2: Agentic Workflow Management** | Reason about blockers and delivery risk | Risk forecasts, memory layers, test defect diagnostics | 🧠 Autonomous Reasoning + Episodic Memory |
-| **Phase 3: Multi-Agent Orchestration** | Align insights across squads and platforms | Coordination agents, consensus, fault recovery | 🔁 Distributed Cognition |
-| **Phase 4: AI-Native Operations** | Predict and prevent delivery failure | RL optimization, anomaly detection, self-healing logic | ⚙️ Autonomy at Scale |
+| **Phase 1: Analytics Foundation** | Summarize and structure Jira data | Natural language queries, sprint metrics, defect heatmaps | Insight Delivery |
+| **Phase 2: Agentic Workflow Management** | Reason about blockers and delivery risk | Risk forecasts, memory layers, test defect diagnostics | Autonomous Reasoning + Episodic Memory |
+| **Phase 3: Multi-Agent Orchestration** | Align insights across squads and platforms | Coordination agents, consensus, fault recovery | Distributed Cognition |
+| **Phase 4: AI-Native Operations** | Predict and prevent delivery failure | RL optimization, anomaly detection, self-healing logic | Autonomy at Scale |
 
 ---
 
