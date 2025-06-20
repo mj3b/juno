@@ -244,6 +244,7 @@ Transform workflows from reactive to proactive
 - **Reasoning Engine**: Multi-factor confidence scoring with audit trails
 - **Risk Forecasting**: Predictive analytics with 89%+ accuracy
 - **Governance Framework**: Role-based approval workflows
+- **Test Defect Diagnostics**: Automatic analysis of failing tests
 
 **Performance Metrics**:
 - Decision latency: 127ms average

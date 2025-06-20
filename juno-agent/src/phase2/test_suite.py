@@ -22,6 +22,7 @@ from sprint_risk_forecast import SprintRiskForecaster, RiskLevel
 from velocity_analysis import VelocityAnalyzer, TrendDirection
 from stale_triage_resolution import StaleTriageEngine, TriageAction, StalenessLevel
 from governance_framework import GovernanceRoleManager, ApprovalWorkflowEngine, GovernanceRole
+from defect_diagnostics import TestDefectDiagnostics, TestCaseResult
 
 logger = logging.getLogger(__name__)
 
@@ -35,6 +36,7 @@ class JUNOTestSuite:
         self.test_results = {}
         self.performance_metrics = {}
         self.validation_results = {}
+        self.defect_diagnostics = {}
         
     def run_all_tests(self) -> Dict[str, Any]:
         """Run complete test suite and return results."""
@@ -57,7 +59,10 @@ class JUNOTestSuite:
         
         # Validation tests
         self.validation_results = self._run_validation_tests()
-        
+
+        # Defect diagnostics
+        self.defect_diagnostics = self._run_defect_diagnostics()
+
         # Generate summary
         summary = self._generate_test_summary()
         
@@ -613,8 +618,30 @@ class JUNOTestSuite:
             }
         else:
             validation["triage_recommendation_accuracy"] = {"accuracy": "FAIL", "reason": "No recommendations generated"}
-        
+
         return validation
+
+    def _run_defect_diagnostics(self) -> Dict[str, Any]:
+        """Analyze failed tests and categorize defects."""
+        diagnostics_engine = TestDefectDiagnostics()
+        cases: List[TestCaseResult] = []
+
+        for component, results in self.test_results.items():
+            for entry in results.get("tests", []):
+                cases.append(
+                    TestCaseResult(
+                        name=f"{component}:{entry.get('name')}",
+                        status=entry.get('status', 'UNKNOWN'),
+                        error=entry.get('error'),
+                    )
+                )
+
+        report = diagnostics_engine.analyze(cases)
+        return {
+            "failure_rate": report.failure_rate,
+            "failure_categories": report.failure_categories,
+            "example_failures": report.example_failures,
+        }
     
     def _generate_test_summary(self) -> Dict[str, Any]:
         """Generate comprehensive test summary."""
@@ -649,6 +676,7 @@ class JUNOTestSuite:
             "component_results": self.test_results,
             "performance_metrics": self.performance_metrics,
             "validation_results": self.validation_results,
+            "defect_diagnostics": self.defect_diagnostics,
             "recommendations": self._generate_recommendations()
         }
         
@@ -712,6 +740,15 @@ if __name__ == "__main__":
     for test_name, result in results['validation_results'].items():
         status = "✅" if result.get('accuracy') == 'PASS' else "❌"
         print(f"  {status} {test_name}: {result.get('accuracy', 'N/A')}")
+
+    print("\n🛠 Defect Diagnostics:")
+    print(f"  Failure Rate: {results['defect_diagnostics']['failure_rate']}%")
+    for cat, count in results['defect_diagnostics']['failure_categories'].items():
+        print(f"  - {cat}: {count}")
+    if results['defect_diagnostics']['example_failures']:
+        print("  Examples:")
+        for ex in results['defect_diagnostics']['example_failures']:
+            print(f"    * {ex['test']}: {ex['error']}")
     
     print("\n💡 Recommendations:")
     for rec in results['recommendations']:
