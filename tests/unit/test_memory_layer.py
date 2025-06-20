@@ -17,10 +17,7 @@ import tempfile
 import os
 
 # Import JUNO Phase 2 components
-import sys
-sys.path.append('../juno-agent/src/phase2')
-
-from memory_layer import MemoryLayer, MemoryType, MemoryEntry
+from juno.core.memory.memory_layer import MemoryLayer, MemoryType, MemoryEntry
 
 
 class TestMemoryLayer(unittest.TestCase):
