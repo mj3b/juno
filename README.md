@@ -11,6 +11,7 @@
 **Optimized for Atlassian Cloud**: JUNO is designed for secure, high-performance deployments. It leverages Atlassian's APIs and cloud-native practices to integrate seamlessly with enterprise environments.
 <div style="background-color:#fff5b1;border:1px solid #ffe58f;border-radius:6px;padding:12px;margin-top:8px;margin-bottom:8px"><b>Important Notes:</b> JUNO leverages advanced generative AI. Review the <a href="./docs/architecture/technical-specifications.md">technical specifications</a> and <a href="./docs/deployment/enterprise-implementation.md">enterprise implementation guide</a> before deploying in production.</div>
 
+For full documentation and deployment guides, see the [docs directory](./docs/).
 ---
 
 ## Table of Contents
@@ -18,64 +19,17 @@
 - [Overview](#overview)
 - [Problem Statement & Solution Architecture](#problem-statement--solution-architecture)
 - [Phase-Based Agentic AI Maturity Model](#phase-based-agentic-ai-maturity-model)
-- [Why This Architecture Matters](#why-this-architecture-matters)
-- [Strategic Outcome](#strategic-outcome)
-- [How to Add These Sections in Your README.md](#how-to-add-these-sections-in-your-readmemd)
 - [Architecture](#architecture)
-  - [Microservices Architecture](#microservices-architecture)
-  - [Technology Stack](#technology-stack)
 - [Phase Implementation](#phase-implementation)
-  - [Phase 1: Analytics Foundation](#phase-1-analytics-foundation)
-  - [Phase 2: Agentic Workflow Management](#phase-2-agentic-workflow-management)
-  - [Phase 3: Multi-Agent Orchestration](#phase-3-multi-agent-orchestration)
-  - [Phase 4: AI-Native Operations](#phase-4-ai-native-operations)
 - [Quick Start](#quick-start)
-  - [Prerequisites](#prerequisites)
-  - [Local Development Setup](#local-development-setup)
-  - [Configuration](#configuration)
-  - [Verification](#verification)
 - [Code Structure](#code-structure)
-  - [Directory Overview](#directory-overview)
-  - [Core Components](#core-components)
-- [Visual Interface Showcase](docs/visual-showcase.md)
-  - [Phase-Specific Components](#phase-specific-components)
 - [Enterprise Deployment](#enterprise-deployment)
-  - [Production Architecture](#production-architecture)
-  - [High Availability Configuration](#high-availability-configuration)
-  - [Security Configuration](#security-configuration)
-- [API Reference](#api-reference)
-  - [RESTful API](#restful-api)
-  - [GraphQL API](#graphql-api)
-  - [WebSocket API](#websocket-api)
-- [Performance Benchmarks](#performance-benchmarks)
-<!--
-  - [Validated Performance Results](#validated-performance-results)
-  - [Scalability Testing](#scalability-testing)
-  - [Load Testing Results](#load-testing-results)
--->
-- [Security & Compliance](#security--compliance)
-  - [Security Features](#security-features)
-  - [Compliance Frameworks](#compliance-frameworks)
-  - [Audit Trail](#audit-trail)
 - [Documentation](#documentation)
-  - [Directory Structure](#directory-structure)
-  - [For Executives](#for-executives)
-  - [For Engineering Managers](#for-engineering-managers)
-  - [For Developers](#for-developers)
-  - [For DevOps](#for-devops)
-  - [Enterprise GPT Integration](#enterprise-gpt-integration) ⭐
 - [Testing](#testing)
-  - [Comprehensive Test Suite](#comprehensive-test-suite)
-  - [Test Results Summary](#test-results-summary)
 - [Contributing](#contributing)
-  - [Development Setup](#development-setup)
-  - [Code Standards](#code-standards)
-  - [Contribution Process](#contribution-process)
+
 - [License](#license)
-- [Visual Interface Showcase](docs/visual-showcase.md)
 - [Support](#support)
-  - [Enterprise Support](#enterprise-support)
-  - [Community Support](#community-support)
 
 ## Overview
 
@@ -193,151 +147,23 @@ juno-repo/
 
 ## Phase Implementation
 
-### Phase 1: Analytics Foundation
-<details><summary><strong>Expand Phase 1 details</strong></summary>
+JUNO evolves through four phases:
 
-
-**Status**: 
-🚧 Prototype
-
-**Capabilities**: R
-eactive analytics, insights, and reporting
-
-**Deployment**: 
-2 weeks
-
-**Use Case**: 
-Establish baseline metrics and team adoption
-
-**Core Components**:
-- **Data Extractor**: Jira API integration and data normalization
-- **Analytics Engine**: Statistical analysis and trend detection
-- **Visualization Engine**: Interactive charts and dashboards
-- **Query Processor**: Natural language query interpretation
-
-**Performance Metrics**:
-- Data extraction latency: 45ms average
-- Report generation: 2.3s average
-- Query accuracy: 94.8%
-- System uptime: 99.95%
-
-</details>
-
-### Phase 2: Agentic Workflow Management
-<details><summary><strong>Expand Phase 2 details</strong></summary>
-
-
-**Status**: 
-🚧 Prototype
-
-**Capabilities**: 
-Autonomous decision-making with governance oversight
-
-**Deployment**: 
-6-8 weeks
-
-**Use Case**: 
-Transform workflows from reactive to proactive
-
-**Core Components**:
-- **Memory Layer**: Episodic, semantic, procedural, and working memory
-- **Reasoning Engine**: Multi-factor confidence scoring with audit trails
-- **Risk Forecasting**: Predictive analytics with 89%+ accuracy
-- **Governance Framework**: Role-based approval workflows
-- **Test Defect Diagnostics**: Automatic analysis of failing tests
-
-**Performance Metrics**:
-- Decision latency: 127ms average
-- Risk prediction accuracy: 89.3%
-- Autonomous action approval rate: 87.2%
-- System uptime: 99.97%
-
-</details>
-
-### Phase 3: Multi-Agent Orchestration
-<details><summary><strong>Expand Phase 3 details</strong></summary>
-
-
-**Status**: 
-🚧 Prototype
-
-**Capabilities**: 
-Cross-team workflow coordination and distributed consensus
-
-**Deployment**: 
-3-6 months
-
-**Use Case**: 
-Organization-wide workflow automation
-
-**Core Components**:
-- **Consensus Protocol**: Raft-based distributed agreement
-- **Agent Coordination**: Task distribution and dependency management
-- **Service Discovery**: Dynamic agent registration and health monitoring
-- **Fault Tolerance**: Automatic failover and task redistribution
-
-**Performance Targets**:
-- Consensus latency: <100ms
-- Fault recovery time: <30s
-- Scalability: Linear to 50+ agents
-- Coordination efficiency: >95%
-
-</details>
-
-### Phase 4: AI-Native Operations
-<details><summary><strong>Expand Phase 4 details</strong></summary>
-
-
-**Status**: 
-🚧 Prototype
-
-**Capabilities**: 
-Self-optimizing, self-healing operations
-
-**Deployment**: 
-6-12 months
-
-**Use Case**: 
-Autonomous infrastructure and process optimization
-
-**Core Components**:
-- **Reinforcement Learning**: Continuous system optimization
-- **Threat Detection**: ML-based security monitoring
-- **Predictive Scaling**: Workload-based resource allocation
-- **Self-Healing**: Automated incident response and recovery
-
-**Performance Targets**:
-- Optimization improvement: >15%
-- Threat detection accuracy: >96%
-- Automated resolution rate: >89%
-- MTTR: <5 minutes
-
-</details>
-
----
+1. **Phase 1 – Analytics Foundation** – summarize Jira data and expose metrics. [Guide](./docs/deployment/phase1-analytics-foundation.md)
+2. **Phase 2 – Agentic Workflow Management** – add reasoning and memory layers. [Guide](./docs/deployment/phase2-agentic-ai.md)
+3. **Phase 3 – Multi-Agent Orchestration** – coordinate insights across teams. [Guide](./docs/deployment/phase3-multi-agent-orchestration.md)
+4. **Phase 4 – AI-Native Operations** – enable self-healing, autonomous workflows. [Guide](./docs/deployment/phase4-ai-native-operations.md)
 
 ## Quick Start
-<details><summary><strong>Expand Quick Start instructions</strong></summary>
 
-A minimal setup to launch JUNO locally. For the full environment setup and
-detailed instructions, see the
-[Quick Start guide](./docs/getting-started/quick-start.md).
+Clone the repository and run the deployment script to start JUNO locally. For detailed setup instructions, see the [Quick Start guide](./docs/getting-started/quick-start.md).
 
 ```bash
-# Clone repository
 git clone https://github.com/mj3b/juno.git
 cd juno
-
-# Install dependencies and prepare the environment
 ./deploy.sh
-
-# Start JUNO Phase 2 locally
 ./start_juno.sh
-
-# Open the dashboard
-open http://localhost:5000
 ```
-</details>
 
 ## Code Structure
 <details><summary><strong>Expand Code Map</strong></summary>
