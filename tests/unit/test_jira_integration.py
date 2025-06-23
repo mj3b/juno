@@ -3,6 +3,7 @@ import sys
 from types import SimpleNamespace
 import pytest
 pytest.importorskip("requests")
+pytest.importorskip("flask_sqlalchemy")
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../../src'))
 from juno.infrastructure.jira_integration.connector import JiraAPIConnector
