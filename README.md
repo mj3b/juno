@@ -8,7 +8,7 @@
 
 **JUNO: AI-driven analytics for Jira.** This repository hosts the agentic platform that augments Jira with natural language queries and data-driven insights. Built on Enterprise GPT, JUNO translates Jira activity into actionable reports covering defects, velocity trends, and project health. Ask questions in plain English to obtain rigorous answers backed by your issue tracker.
 
-**Optimized for Atlassian Cloud**: JUNO is designed for secure, high-performance deployments. It leverages Atlassian's APIs and cloud-native practices to integrate seamlessly with enterprise environments.
+**Optimized for Jira Cloud**: JUNO is designed for secure, high-performance deployments. It leverages Jira Cloud's APIs and cloud-native practices to integrate seamlessly with enterprise environments.
 <div style="background-color:#fff5b1;border:1px solid #ffe58f;border-radius:6px;padding:12px;margin-top:8px;margin-bottom:8px"><b>Important Notes:</b> JUNO leverages advanced generative AI. Review the <a href="./docs/architecture/technical-specifications.md">technical specifications</a> and <a href="./docs/deployment/enterprise-implementation.md">enterprise implementation guide</a> before deploying in production.</div>
 
 For full documentation and deployment guides, see the [docs directory](./docs/).

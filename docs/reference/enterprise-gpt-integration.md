@@ -54,7 +54,7 @@ This guide provides enterprise-grade patterns for integrating OpenAI's GPT model
 
 ### Overview
 
-Cloud Jira provides optimal infrastructure for Enterprise GPT integrations with JUNO, offering enhanced API performance, automatic updates, and enterprise-grade security that complements OpenAI's capabilities. This section provides specific guidance for implementing GPT integrations with Atlassian Cloud.
+Cloud Jira provides optimal infrastructure for Enterprise GPT integrations with JUNO, offering enhanced API performance, automatic updates, and enterprise-grade security that complements OpenAI's capabilities. This section provides specific guidance for implementing GPT integrations with Jira Cloud.
 
 ### Cloud Jira Advantages for GPT Integration
 
@@ -289,7 +289,7 @@ class CloudJiraDataPipeline:
         
         return template.format(
             data=enhanced_data,
-            data_source="Atlassian Cloud",
+            data_source="Jira Cloud",
             processing_timestamp=datetime.utcnow().isoformat(),
             data_count=len(enhanced_data)
         )
@@ -1843,7 +1843,7 @@ class CloudJiraGPTOptimizer:
         
         # Cloud Jira provides richer metadata
         cloud_enhancements = {
-            'data_source': 'Atlassian Cloud',
+            'data_source': 'Jira Cloud',
             'api_version': '3',
             'enhanced_fields': True,
             'real_time_data': True,
@@ -2254,7 +2254,7 @@ class CloudMigrationManager:
             {prompt_template}
             
             Cloud Enhancements:
-            - Enhanced field data available from Atlassian Cloud
+            - Enhanced field data available from Jira Cloud
             - Real-time webhook data for immediate processing
             - Global team distribution considerations
             - Automatic platform updates ensure latest features
@@ -2276,5 +2276,5 @@ class CloudMigrationManager:
         }
 ```
 
-This comprehensive cloud Jira integration section provides engineers with specific guidance for implementing Enterprise GPT integrations with Atlassian Cloud, including configuration examples, performance optimizations, security considerations, and migration strategies that leverage cloud-native capabilities for optimal JUNO deployment.
+This comprehensive cloud Jira integration section provides engineers with specific guidance for implementing Enterprise GPT integrations with Jira Cloud, including configuration examples, performance optimizations, security considerations, and migration strategies that leverage cloud-native capabilities for optimal JUNO deployment.
 

@@ -17,7 +17,7 @@ infrastructure/
 ### Jira Integration (`jira_integration/`)
 - **connector.py**: Jira Cloud API client
 - **extractor.py**: Data extraction and transformation
-- **Cloud Optimization**: Enhanced for Atlassian Cloud performance
+- **Cloud Optimization**: Enhanced for Jira Cloud performance
 
 ### OpenAI Integration (`openai_integration/`)
 - **connector.py**: Enterprise GPT connector
